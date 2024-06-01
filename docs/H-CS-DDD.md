@@ -120,9 +120,9 @@ SELECT name, cost, cost * 1.2 AS [inc VAT]
     ORDER BY name ASC;
 ```
 
-## Aggregate functions {#functions}
+## Aggregate functions
 
-Aggregate functions can be used with the `GROUP BY` [clause](#group).
+Aggregate functions can be used with the `GROUP BY` clause.
 
 ### Minimum / Maximum
 
@@ -161,9 +161,9 @@ SELECT COUNT(*)
     WHERE species = "Rabbit";
 ```
 
-## GROUP BY {#group}
+## GROUP BY
 
-`GROUP BY` places results of a query into logical groups and removes duplicates.  [Aggregate functions](#functions) can be used with each group.
+`GROUP BY` places results of a query into logical groups and removes duplicates.  Aggregate functions can be used with each group.
 
 The following example will return the `species` field from every record.  Values will be repeated if they are repeated in the table.
 
@@ -260,3 +260,6 @@ SELECT pet.pet_id, pet.name, species, SUM(cost * 1.2) as [inc VAT]
     GROUP BY pet.pet_id
     ORDER BY [inc VAT] DESC;
 ```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEzMDA0NzYzNzddfQ==
+-->
