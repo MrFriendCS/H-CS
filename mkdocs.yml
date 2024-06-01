@@ -1,0 +1,6 @@
+site_name: Higher CS
+
+theme:
+  name: readthedocs
+
+navigation_depth: 4
