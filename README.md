@@ -1,1 +1,1 @@
-[Read the Docs](h-cs.rtfd.io "Read the Docs")
+[Read the Docs](https://h-cs.rtfd.io "Read the Docs")
