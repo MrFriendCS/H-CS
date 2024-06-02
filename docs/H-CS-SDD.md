@@ -502,7 +502,7 @@ else:
 
 ### Find minimum (or maximum) - array
 
-Assign the value in the first element as the minimum. or maximum, value.  Loop from the ___second___ element to the end of array.
+Assign the value in the ___first___ element as the minimum, or maximum.  Loop from the ___second___ element to the end of the array.
 
 ``` python
 heights = [1.78, 1.63, 1.89, 1.59]
@@ -518,7 +518,7 @@ print("Minimum: " + str(minimum))
 
 ### Count occurrences - array
 
-Loop from the ___first___ element to the end of array.
+Loop from the ___first___ element to the end of the array.
 
 ``` python
 names = ["Alan", "Beth", "Carl", "Dina"]
@@ -531,6 +531,6 @@ for index in range(len(names)):
 print("Found " + str(count) + " occurence(s)")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NzY3MTQ5MiwxOTMxOTA0MzQsMTY4ND
+eyJoaXN0b3J5IjpbMTQzMDMzMzYxMSwxOTMxOTA0MzQsMTY4ND
 k4MzI3NF19
 -->
