@@ -6,7 +6,7 @@ All the code examples use Python.
 
 These notes are focused on Higher Computing Science so some terms are used differently.  Any reference to an `array` will actually use a `list`.
 
-## Example Data
+### Example Data
 
 The data used in the examples can be represented in a table:
 
@@ -25,8 +25,6 @@ Beth,23,1.63
 Carl,22,1.89
 Dina,21,1.59
 ```
-
-## Data types and structures
 
 ### Parallel 1D arrays
 
@@ -508,3 +506,6 @@ for index in range(len(names)):
 
 print("Found " + str(count) + " occurence(s)")
 ```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEwMzY4MDI2NDVdfQ==
+-->
