@@ -70,6 +70,7 @@ An attribute value from a record can retrieved.
 
 ``` python
 name = person2.name
+
 print(name)
 ```
 
@@ -77,9 +78,11 @@ An attribute value in a record can updated.
 
 ``` python
 age = person2.age
+
 age = age + 1
 
 person2.age = age
+
 print(person2)
 ```
 
@@ -112,7 +115,9 @@ A procedure is a type of sub-routine that ***does not*** return a value.  It mus
 
 ``` python
 def square(number):
+
     squared = number ** 2
+    
     print(squared)
 ```
 
@@ -128,7 +133,9 @@ A function is another type of sub-routine that ***does*** return a value.  It mu
 
 ``` python
 def toThePowerOf(number, power):
+
     value = number ** power
+    
     return value
 ```
 
@@ -136,6 +143,7 @@ A function can be called from the main program, or from another sub-routine.
 
 ``` python
 answer = toThePowerOf(2, 5)
+
 print(answer)
 ```
 
@@ -521,6 +529,6 @@ for index in range(len(names)):
 print("Found " + str(count) + " occurence(s)")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMzMyMDU5MCwxOTMxOTA0MzQsMTY4ND
+eyJoaXN0b3J5IjpbLTg0MzEwMjg3MCwxOTMxOTA0MzQsMTY4ND
 k4MzI3NF19
 -->
