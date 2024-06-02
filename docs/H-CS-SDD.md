@@ -83,7 +83,7 @@ person2.age = age
 print(person2)
 ```
 
-### Arrays of records
+### Array of records
 
 Using default values.
 
@@ -505,5 +505,5 @@ for index in range(len(names)):
 print("Found " + str(count) + " occurence(s)")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0ODAwODkwNSwxNjg0OTgzMjc0XX0=
+eyJoaXN0b3J5IjpbMTQyNTE0NTMzMiwxNjg0OTgzMjc0XX0=
 -->
