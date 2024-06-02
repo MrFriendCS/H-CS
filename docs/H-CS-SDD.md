@@ -199,8 +199,8 @@ print(mySubstring)
 It is possible to use a negative value for the `start` parameter, with `-1` being the last element.
 
 ```
-Index: 0  1  2  3  4  5  6  7  -3  -2  -1
-Value: H  e  l  l  o     W  o  r  l  d
+Index: -11  -10  -9  -8  -7  -6  -5  -4  -3  -2  -1
+Value:   H    e   l   l   o       W   o   r   l   d
 ```
 
 ``` python
@@ -510,5 +510,5 @@ for index in range(len(names)):
 print("Found " + str(count) + " occurence(s)")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzQxNDEwNjQsMTY4NDk4MzI3NF19
+eyJoaXN0b3J5IjpbMTkzMTkwNDM0LDE2ODQ5ODMyNzRdfQ==
 -->
