@@ -36,7 +36,7 @@ ages = [0] * 4
 heights = [0.0] * 4
 ```
 
-### Records
+## Records
 
 The code to produce a record needs to be imported before it can be used.
 
@@ -505,5 +505,5 @@ for index in range(len(names)):
 print("Found " + str(count) + " occurence(s)")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NDk4MzI3NF19
+eyJoaXN0b3J5IjpbLTY0ODAwODkwNSwxNjg0OTgzMjc0XX0=
 -->
