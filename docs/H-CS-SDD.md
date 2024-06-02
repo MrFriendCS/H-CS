@@ -26,7 +26,7 @@ Carl,22,1.89
 Dina,21,1.59
 ```
 
-### Parallel 1D arrays
+## Parallel 1D arrays
 
 Parallel arrays have the same number of elements in each array.
 
@@ -91,9 +91,7 @@ Using default values.
 people = [person()] * 4
 ```
 
-## Computational constructs
-
-### Sub-routines
+## Sub-routines
 
 When a sub-routine is defined it can have zero, one, or more parameters.  These are known as formal parameters.  The formal parameters will 'catch' values that are passed to the sub-routine.
 
@@ -108,7 +106,7 @@ When a sub-routine is called it can have parameters passed to it.  These are kno
 subroutineName(actualParameter)
 ```
 
-#### Procedures
+### Procedures
 
 A procedure is a type of sub-routine that ***does not*** return a value.  It must be defined before it can be used.
 
@@ -124,7 +122,7 @@ A procedure can be called from the main program, or from another sub-routine.
 square(2)
 ```
 
-#### Functions
+### Functions
 
 A function is another type of sub-routine that ***does*** return a value.  It must be defined before it can be used.
 
@@ -141,7 +139,7 @@ answer = toThePowerOf(2, 5)
 print(answer)
 ```
 
-### Substrings
+## Substrings
 
 Python does not have pre-defined functions for creating substrings.  Strings can be treated as an array of characters.  Python starts counting from zero.
 
@@ -180,7 +178,7 @@ print(mySubstring)
 
 If the first or the last character is included in the substring then the `start` or `stop` parameter can be omitted.
 
-#### Left substring
+### Left substring
 
 ``` python
 myString = "Hello world"
@@ -189,7 +187,7 @@ mySubstring = myString[ :4]
 print(mySubstring)
 ```
 
-#### Right substring
+### Right substring
 
 ``` python
 myString = "Hello world"
@@ -207,7 +205,7 @@ mySubstring = myString[-5: ]
 print(mySubstring)
 ```
 
-#### Mid substring
+### Mid substring
 
 ``` python
 myString = "Hello world"
@@ -216,9 +214,9 @@ mySubstring = myString[3:8]
 print(mySubstring)
 ```
 
-### Character to ASCII and vice versa
+## Character to ASCII and vice versa
 
-#### Character to ASCII
+### Character to ASCII
 
 ``` python
 myCharacter = "A"
@@ -226,7 +224,7 @@ myASCII = ord(myCharacter)
 print(myASCII)
 ```
 
-#### ASCII to character
+### ASCII to character
 
 ``` python
 myASCII = 97
@@ -234,7 +232,7 @@ myCharacter = chr(myASCII)
 print(myCharacter)
 ```
 
-### Floating-point numbers to integers
+## Floating-point numbers to integers
 
 This removes the decimal part of the value.  It does not round.
 
@@ -244,7 +242,7 @@ myInt = int(myFloat)
 print(myInt)
 ```
 
-### Modulus
+## Modulus
 
 The modulus is the remainder when doing division.
 
@@ -507,5 +505,5 @@ for index in range(len(names)):
 print("Found " + str(count) + " occurence(s)")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzY4MDI2NDVdfQ==
+eyJoaXN0b3J5IjpbMTY4NDk4MzI3NF19
 -->
