@@ -50,10 +50,10 @@ Four records from each table used in the examples are shown below.
 
 Wildcards use the `LIKE` keyword, and are used with `WHERE`.  There are two wildcards:
 
-| Symbol | Name | Meaning|
-| :--: | -- | -- |
-| % | Percent | Zero, one, or more characters |
-| _ | Underscore | A single character |
+| Symbol | Name       | Meaning |
+| :----: | ----       | ------- |
+| %      | Percent    | Zero, one, or more characters |
+| _      | Underscore | A single character |
 
 Zero, one, or more characters, after the first character.
 
@@ -262,5 +262,5 @@ SELECT pet.pet_id, pet.name, species, SUM(cost * 1.2) as [inc VAT]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMTI3MDU0OV19
+eyJoaXN0b3J5IjpbOTMzOTQ3MzAwLDIxMTEyNzA1NDldfQ==
 -->
