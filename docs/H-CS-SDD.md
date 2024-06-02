@@ -12,10 +12,10 @@ The data used in the examples can be represented in a table:
 
 | Name | Age | Height |
 | ---- | --- | ------ |
-| Alan | 24 | 1.78 |
-| Beth | 23 | 1.63 |
-| Carl | 22 | 1.89 |
-| Dina | 21 | 1.59 |
+| Alan | 24  | 1.78 |
+| Beth | 23  | 1.63 |
+| Carl | 22  | 1.89 |
+| Dina | 21  | 1.59 |
 
 It can also be represented as comma separated values, e.g. `people.csv`:
 
@@ -184,6 +184,7 @@ If the first or the last character is included in the substring then the `start`
 myString = "Hello world"
 
 mySubstring = myString[ :4]
+
 print(mySubstring)
 ```
 
@@ -193,6 +194,7 @@ print(mySubstring)
 myString = "Hello world"
 
 mySubstring = myString[6: ]
+
 print(mySubstring)
 ```
 
@@ -207,6 +209,7 @@ Value:   H    e   l   l   o       W   o   r   l   d
 myString = "Hello world"
 
 mySubstring = myString[-5: ]
+
 print(mySubstring)
 ```
 
@@ -216,6 +219,7 @@ print(mySubstring)
 myString = "Hello world"
 
 mySubstring = myString[3:8]
+
 print(mySubstring)
 ```
 
@@ -225,7 +229,9 @@ print(mySubstring)
 
 ``` python
 myCharacter = "A"
+
 myASCII = ord(myCharacter)
+
 print(myASCII)
 ```
 
@@ -233,7 +239,9 @@ print(myASCII)
 
 ``` python
 myASCII = 97
+
 myCharacter = chr(myASCII)
+
 print(myCharacter)
 ```
 
@@ -243,7 +251,9 @@ This removes the decimal part of the value.  It does not round.
 
 ``` python
 myFloat = 4.95
+
 myInt = int(myFloat)
+
 print(myInt)
 ```
 
@@ -255,6 +265,7 @@ The modulus is the remainder when doing division.
 
 ``` python
 myModulus = 13 % 5
+
 print(myModulus)
 ```
 
@@ -510,5 +521,6 @@ for index in range(len(names)):
 print("Found " + str(count) + " occurence(s)")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMTkwNDM0LDE2ODQ5ODMyNzRdfQ==
+eyJoaXN0b3J5IjpbMTUwMzMyMDU5MCwxOTMxOTA0MzQsMTY4ND
+k4MzI3NF19
 -->
