@@ -149,6 +149,8 @@ print(answer)
 
 #### Return multiple values
 
+Functions can return a tuple that contains multiple values.  These values can be assigned to individual variables.
+
 ``` python
 def myData():
     
@@ -550,6 +552,6 @@ for index in range(len(names)):
 print("Found " + str(count) + " occurence(s)")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNDM5ODA2OSwxNDMwMzMzNjExLDE5Mz
-E5MDQzNCwxNjg0OTgzMjc0XX0=
+eyJoaXN0b3J5IjpbLTE1NzkzNjc4OTYsMTQzMDMzMzYxMSwxOT
+MxOTA0MzQsMTY4NDk4MzI3NF19
 -->
