@@ -147,6 +147,14 @@ answer = toThePowerOf(2, 5)
 print(answer)
 ```
 
+#### Return multiple values
+
+``` python
+def myNumbers():
+    
+    return value
+```
+
 ## Substrings
 
 Python does not have pre-defined functions for creating substrings.  Strings can be treated as an array of characters.  Python starts counting from zero.
@@ -531,6 +539,6 @@ for index in range(len(names)):
 print("Found " + str(count) + " occurence(s)")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMDMzMzYxMSwxOTMxOTA0MzQsMTY4ND
-k4MzI3NF19
+eyJoaXN0b3J5IjpbLTE4MDA1OTI4MiwxNDMwMzMzNjExLDE5Mz
+E5MDQzNCwxNjg0OTgzMjc0XX0=
 -->
