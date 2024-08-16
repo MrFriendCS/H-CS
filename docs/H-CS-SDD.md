@@ -150,15 +150,18 @@ print(answer)
 #### Return multiple values
 
 ``` python
-def myValues():
+def myDat():
     
-    return 21, "Hello"
+    return 21, "Tom"
 ```
 
 ``` python
-print(myValues())
+print(myData())
 
-age, text = myValues()
+age, name = myValues()
+
+print(age)
+print(name)
 ```
 
 ## Substrings
@@ -545,6 +548,6 @@ for index in range(len(names)):
 print("Found " + str(count) + " occurence(s)")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzODQzNjA5LDE0MzAzMzM2MTEsMTkzMT
-kwNDM0LDE2ODQ5ODMyNzRdfQ==
+eyJoaXN0b3J5IjpbLTc0MjQxMjM1MCwxNDMwMzMzNjExLDE5Mz
+E5MDQzNCwxNjg0OTgzMjc0XX0=
 -->
