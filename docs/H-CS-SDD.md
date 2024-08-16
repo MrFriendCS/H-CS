@@ -150,15 +150,17 @@ print(answer)
 #### Return multiple values
 
 ``` python
-def myDat():
+def myData():
     
+    # Returns a tuple
     return 21, "Tom"
 ```
 
 ``` python
 print(myData())
 
-age, name = myValues()
+# Split tuple
+age, name = myData()
 
 print(age)
 print(name)
@@ -548,6 +550,6 @@ for index in range(len(names)):
 print("Found " + str(count) + " occurence(s)")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MjQxMjM1MCwxNDMwMzMzNjExLDE5Mz
+eyJoaXN0b3J5IjpbMTMwNDM5ODA2OSwxNDMwMzMzNjExLDE5Mz
 E5MDQzNCwxNjg0OTgzMjc0XX0=
 -->
