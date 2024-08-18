@@ -149,7 +149,7 @@ print(answer)
 
 #### Return multiple values
 
-Functions can return a tuple [not part of Higher] that contains multiple values.  These values can be assigned to individual variables.
+Functions can return a tuple [term not part of Higher] that contains multiple values.  These values can be assigned to individual variables when returned.
 
 ``` python
 def myData():
@@ -161,7 +161,7 @@ def myData():
 ``` python
 print(myData())
 
-# Split tuple
+# Assign to individual variables
 age, name = myData()
 
 print(age)
@@ -552,6 +552,7 @@ for index in range(len(names)):
 print("Found " + str(count) + " occurence(s)")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNTg0OTg3NiwtMTU3OTM2Nzg5NiwxND
-MwMzMzNjExLDE5MzE5MDQzNCwxNjg0OTgzMjc0XX0=
+eyJoaXN0b3J5IjpbLTEyOTY5NzAwMzksMjAzNTg0OTg3NiwtMT
+U3OTM2Nzg5NiwxNDMwMzMzNjExLDE5MzE5MDQzNCwxNjg0OTgz
+Mjc0XX0=
 -->
