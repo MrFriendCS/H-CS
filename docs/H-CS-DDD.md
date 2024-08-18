@@ -2,7 +2,7 @@
 
 ## Notes
 
-All the code examples use SQLite.  They will work with [Replit](https://replit.com/) and [DB Browser for SQLite](https://sqlitebrowser.org/).
+All the code examples use SQLite.  They will work with [DB Browser for SQLite](https://sqlitebrowser.org/).
 
 These notes are focused on Higher Computing Science so some terms are used differently.
 
@@ -259,5 +259,6 @@ SELECT pet.pet_id, pet.name, species, SUM(cost * 1.2) as [inc VAT]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MzMwNzkyMiwyMTExMjcwNTQ5XX0=
+eyJoaXN0b3J5IjpbLTE5NTI3NTYyNTEsMTc5MzMwNzkyMiwyMT
+ExMjcwNTQ5XX0=
 -->
