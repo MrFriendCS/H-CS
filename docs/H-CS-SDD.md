@@ -74,14 +74,10 @@ name = person2.name
 print(name)
 ```
 
-An attribute value in a record can updated.
+An attribute value can be updated.
 
 ``` python
-age = person2.age
-
-age = age + 1
-
-person2.age = age
+person2.age = person2.age + 1
 
 print(person2)
 ```
@@ -552,7 +548,7 @@ for index in range(len(names)):
 print("Found " + str(count) + " occurence(s)")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTY5NzAwMzksMjAzNTg0OTg3NiwtMT
-U3OTM2Nzg5NiwxNDMwMzMzNjExLDE5MzE5MDQzNCwxNjg0OTgz
-Mjc0XX0=
+eyJoaXN0b3J5IjpbLTE2MjI2NDIyMzcsLTEyOTY5NzAwMzksMj
+AzNTg0OTg3NiwtMTU3OTM2Nzg5NiwxNDMwMzMzNjExLDE5MzE5
+MDQzNCwxNjg0OTgzMjc0XX0=
 -->
