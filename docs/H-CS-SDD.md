@@ -4,7 +4,7 @@
 
 All the code examples use Python.
 
-These notes are focused on Higher Computing Science so some terms are used differently.  Any reference to an `array` will actually use a `list`.
+These notes are focused on Higher Computing Science so some terms are used differently.  Any reference to an `array` will actually use a `list`.  Any reference to a `procedure` will actually be a `function` that does not explicitly return a value. 
 
 ### Example Data
 
@@ -155,6 +155,7 @@ def myData():
 ```
 
 ``` python
+#
 print(myData())
 
 # Assign to individual variables
@@ -548,7 +549,7 @@ for index in range(len(names)):
 print("Found " + str(count) + " occurence(s)")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjI2NDIyMzcsLTEyOTY5NzAwMzksMj
-AzNTg0OTg3NiwtMTU3OTM2Nzg5NiwxNDMwMzMzNjExLDE5MzE5
-MDQzNCwxNjg0OTgzMjc0XX0=
+eyJoaXN0b3J5IjpbNDIwMzc3ODk5LC0xMjk2OTcwMDM5LDIwMz
+U4NDk4NzYsLTE1NzkzNjc4OTYsMTQzMDMzMzYxMSwxOTMxOTA0
+MzQsMTY4NDk4MzI3NF19
 -->
