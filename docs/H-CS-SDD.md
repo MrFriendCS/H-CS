@@ -155,7 +155,7 @@ def myData():
 ```
 
 ``` python
-#
+# Display returned values
 print(myData())
 
 # Assign to individual variables
@@ -549,7 +549,7 @@ for index in range(len(names)):
 print("Found " + str(count) + " occurence(s)")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIwMzc3ODk5LC0xMjk2OTcwMDM5LDIwMz
+eyJoaXN0b3J5IjpbNDg4MjUzNTI2LC0xMjk2OTcwMDM5LDIwMz
 U4NDk4NzYsLTE1NzkzNjc4OTYsMTQzMDMzMzYxMSwxOTMxOTA0
 MzQsMTY4NDk4MzI3NF19
 -->
