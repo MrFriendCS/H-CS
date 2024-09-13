@@ -28,6 +28,50 @@ Dina,21,1.59
 
 ## Predefine functions
 
+### Character to ASCII
+
+``` python
+myCharacter = "A"
+
+myASCII = ord(myCharacter)
+
+print(myASCII)
+```
+
+### ASCII to character
+
+``` python
+myASCII = 97
+
+myCharacter = chr(myASCII)
+
+print(myCharacter)
+```
+
+### Floating-point numbers to integers
+
+This removes the decimal part of the value.  It does not round.
+
+``` python
+myFloat = 13
+
+myInt = int(myFloat)
+
+print(myInt)
+```
+
+### Modulus
+
+The modulus is the remainder when doing division.
+
+13 &#xf7; 5 = 2 remainder 3
+
+``` python
+myModulus = 13 % 5
+
+print(myModulus)
+```
+
 ## Parallel 1D arrays
 
 Parallel arrays have the same number of elements in each array.
@@ -249,52 +293,6 @@ myString = "Hello world"
 mySubstring = myString[3:8]
 
 print(mySubstring)
-```
-
-## Character to ASCII and vice versa
-
-### Character to ASCII
-
-``` python
-myCharacter = "A"
-
-myASCII = ord(myCharacter)
-
-print(myASCII)
-```
-
-### ASCII to character
-
-``` python
-myASCII = 97
-
-myCharacter = chr(myASCII)
-
-print(myCharacter)
-```
-
-## Floating-point numbers to integers
-
-This removes the decimal part of the value.  It does not round.
-
-``` python
-myFloat = 4.95
-
-myInt = int(myFloat)
-
-print(myInt)
-```
-
-## Modulus
-
-The modulus is the remainder when doing division.
-
-13 &#xf7; 5 = 2 remainder 3
-
-``` python
-myModulus = 13 % 5
-
-print(myModulus)
 ```
 
 ## File handling
@@ -551,7 +549,7 @@ for index in range(len(names)):
 print("Found " + str(count) + " occurence(s)")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk0MDAzNTIsNDg4MjUzNTI2LC0xMjk2OT
-cwMDM5LDIwMzU4NDk4NzYsLTE1NzkzNjc4OTYsMTQzMDMzMzYx
-MSwxOTMxOTA0MzQsMTY4NDk4MzI3NF19
+eyJoaXN0b3J5IjpbLTE3MjkzOTkxNDIsNDg4MjUzNTI2LC0xMj
+k2OTcwMDM5LDIwMzU4NDk4NzYsLTE1NzkzNjc4OTYsMTQzMDMz
+MzYxMSwxOTMxOTA0MzQsMTY4NDk4MzI3NF19
 -->
