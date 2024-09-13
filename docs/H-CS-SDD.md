@@ -4,7 +4,7 @@
 
 All the code examples use Python.
 
-These notes are focused on Higher Computing Science so some terms are used differently.  Any reference to an `array` will actually use a `list`.  Any reference to a `procedure` will actually be a `function` that does not explicitly return a value. 
+These notes are focused on Higher Computing Science so some terms are used differently.  Any reference to an `array` will actually use a `list`.  Any reference to a `procedure` will be a `function` that does not explicitly return a value. 
 
 ### Example Data
 
@@ -25,6 +25,8 @@ Beth,23,1.63
 Carl,22,1.89
 Dina,21,1.59
 ```
+
+## Predefine functions
 
 ## Parallel 1D arrays
 
@@ -549,7 +551,7 @@ for index in range(len(names)):
 print("Found " + str(count) + " occurence(s)")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg4MjUzNTI2LC0xMjk2OTcwMDM5LDIwMz
-U4NDk4NzYsLTE1NzkzNjc4OTYsMTQzMDMzMzYxMSwxOTMxOTA0
-MzQsMTY4NDk4MzI3NF19
+eyJoaXN0b3J5IjpbMzk0MDAzNTIsNDg4MjUzNTI2LC0xMjk2OT
+cwMDM5LDIwMzU4NDk4NzYsLTE1NzkzNjc4OTYsMTQzMDMzMzYx
+MSwxOTMxOTA0MzQsMTY4NDk4MzI3NF19
 -->
