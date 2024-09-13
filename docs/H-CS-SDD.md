@@ -53,7 +53,7 @@ print(myCharacter)
 This removes the decimal part of the value.  It does not round.
 
 ``` python
-myFloat = 13
+myFloat = 13 / 5
 
 myInt = int(myFloat)
 
@@ -549,7 +549,7 @@ for index in range(len(names)):
 print("Found " + str(count) + " occurence(s)")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjkzOTkxNDIsNDg4MjUzNTI2LC0xMj
-k2OTcwMDM5LDIwMzU4NDk4NzYsLTE1NzkzNjc4OTYsMTQzMDMz
-MzYxMSwxOTMxOTA0MzQsMTY4NDk4MzI3NF19
+eyJoaXN0b3J5IjpbLTg1MDYyOTM3OCw0ODgyNTM1MjYsLTEyOT
+Y5NzAwMzksMjAzNTg0OTg3NiwtMTU3OTM2Nzg5NiwxNDMwMzMz
+NjExLDE5MzE5MDQzNCwxNjg0OTgzMjc0XX0=
 -->
