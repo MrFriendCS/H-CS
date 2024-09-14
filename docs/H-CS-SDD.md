@@ -220,9 +220,7 @@ print("Hello World"[0:4])
 
 ``` python
 myString = "Hello World"
-
 mySubstring = myString[6:11]
-
 print(mySubstring)
 ```
 
@@ -616,7 +614,7 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MzY5NzE1Niw4MjQ5MjExMDgsMjAwOD
+eyJoaXN0b3J5IjpbMTU4Mzk2NTQ3Miw4MjQ5MjExMDgsMjAwOD
 QyOTcwMCwxOTA0NTgxOTU3LDE2MTA5NjgwODcsLTg1MDYyOTM3
 OCw0ODgyNTM1MjYsLTEyOTY5NzAwMzksMjAzNTg0OTg3NiwtMT
 U3OTM2Nzg5NiwxNDMwMzMzNjExLDE5MzE5MDQzNCwxNjg0OTgz
