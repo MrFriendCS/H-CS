@@ -78,7 +78,7 @@ Functions can return a tuple [term not part of Higher] that contains multiple va
 
 ``` python
 def myData():
-    """Return 
+    """Return an integer and a string."""
     
     # Returns a tuple
     return 21, "Tom"
@@ -87,7 +87,9 @@ def myData():
 ``` python
 # Display returned values
 print(myData())
+```
 
+```
 # Assign to individual variables
 age, name = myData()
 
@@ -567,7 +569,7 @@ for index in range(len(names)):
 print("Found " + str(count) + " occurence(s)")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MzQzMjgyNiwxOTA0NTgxOTU3LDE2MT
+eyJoaXN0b3J5IjpbMTIyMzY3NzQyMCwxOTA0NTgxOTU3LDE2MT
 A5NjgwODcsLTg1MDYyOTM3OCw0ODgyNTM1MjYsLTEyOTY5NzAw
 MzksMjAzNTg0OTg3NiwtMTU3OTM2Nzg5NiwxNDMwMzMzNjExLD
 E5MzE5MDQzNCwxNjg0OTgzMjc0XX0=
