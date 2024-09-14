@@ -11,14 +11,14 @@ These notes are focused on Higher Computing Science so some terms are used diffe
 When a sub-routine is defined it can have zero, one, or more parameters.  These are known as formal parameters.  The formal parameters will 'catch' values that are passed to the sub-routine.
 
 ``` python
-def subroutineName(formalParameter):
+def subroutineName(formalParameter1, formalParameter2, ...):
     <sub-routine code>
 ```
 
 When a sub-routine is called it can have parameters passed to it.  These are known as actual parameters.
 
 ``` python
-subroutineName(actualParameter)
+subroutineName(actualParameter1, actualParameter2, ...)
 ```
 
 ### Procedures
@@ -553,8 +553,8 @@ for index in range(len(names)):
 print("Found " + str(count) + " occurence(s)")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMDk2ODA4NywtODUwNjI5Mzc4LDQ4OD
-I1MzUyNiwtMTI5Njk3MDAzOSwyMDM1ODQ5ODc2LC0xNTc5MzY3
-ODk2LDE0MzAzMzM2MTEsMTkzMTkwNDM0LDE2ODQ5ODMyNzRdfQ
-==
+eyJoaXN0b3J5IjpbLTE4MDU2NDY5MjAsMTYxMDk2ODA4NywtOD
+UwNjI5Mzc4LDQ4ODI1MzUyNiwtMTI5Njk3MDAzOSwyMDM1ODQ5
+ODc2LC0xNTc5MzY3ODk2LDE0MzAzMzM2MTEsMTkzMTkwNDM0LD
+E2ODQ5ODMyNzRdfQ==
 -->
