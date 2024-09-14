@@ -164,12 +164,14 @@ Value: H  e  l  l  o     W  o  r  l  d
 ### Individual character
 
 ``` python
+print(""Hello world"[5])
+```
+
+``` python
 myString = "Hello world"
 
-myCharacter = myString[0]
-print(myCharacter)
+myCharacter = myString[1]
 
-myCharacter = myString[6]
 print(myCharacter)
 ```
 
@@ -584,7 +586,7 @@ for index in range(len(names)):
 print("Found " + str(count) + " occurence(s)")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5ODM5NTQyMSw4MjQ5MjExMDgsMjAwOD
+eyJoaXN0b3J5IjpbMTI3NzIyNTUzMSw4MjQ5MjExMDgsMjAwOD
 QyOTcwMCwxOTA0NTgxOTU3LDE2MTA5NjgwODcsLTg1MDYyOTM3
 OCw0ODgyNTM1MjYsLTEyOTY5NzAwMzksMjAzNTg0OTg3NiwtMT
 U3OTM2Nzg5NiwxNDMwMzMzNjExLDE5MzE5MDQzNCwxNjg0OTgz
