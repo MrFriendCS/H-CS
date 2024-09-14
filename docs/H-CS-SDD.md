@@ -206,13 +206,14 @@ print("Hello World"[0:4])
 myString = "Hello World"
 
 mySubstring = myString[6:11]
+
 print(mySubstring)
 ```
 
-If the first or the last character is included in the substring then the `start` or `stop` parameter can be omitted.
-
 
 ### Left substring
+
+If the first character is included in the substring then the `start` parameter can be omitted.
 
 ``` python
 myString = "Hello World"
@@ -224,6 +225,8 @@ print(mySubstring)
 
 
 ### Right substring
+
+If the last character is included in the substring then the `start` or `stop` parameter can be omitted.
 
 ``` python
 myString = "Hello World"
@@ -610,9 +613,9 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU5NDg0MzgzLDgyNDkyMTEwOCwyMDA4ND
-I5NzAwLDE5MDQ1ODE5NTcsMTYxMDk2ODA4NywtODUwNjI5Mzc4
-LDQ4ODI1MzUyNiwtMTI5Njk3MDAzOSwyMDM1ODQ5ODc2LC0xNT
-c5MzY3ODk2LDE0MzAzMzM2MTEsMTkzMTkwNDM0LDE2ODQ5ODMy
-NzRdfQ==
+eyJoaXN0b3J5IjpbMTQzMjEwNTY4Nyw4MjQ5MjExMDgsMjAwOD
+QyOTcwMCwxOTA0NTgxOTU3LDE2MTA5NjgwODcsLTg1MDYyOTM3
+OCw0ODgyNTM1MjYsLTEyOTY5NzAwMzksMjAzNTg0OTg3NiwtMT
+U3OTM2Nzg5NiwxNDMwMzMzNjExLDE5MzE5MDQzNCwxNjg0OTgz
+Mjc0XX0=
 -->
