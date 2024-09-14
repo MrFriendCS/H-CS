@@ -164,11 +164,11 @@ Value: H  e  l  l  o     W  o  r  l  d
 ### Individual character
 
 ``` python
-print(""Hello world"[5])
+print("Hello World"[6])
 ```
 
 ``` python
-myString = "Hello world"
+myString = "Hello World"
 
 myCharacter = myString[1]
 
@@ -188,7 +188,7 @@ string[start : stop]
 * The number of characters selected can be calculated using `stop`-`start`
 
 ``` python
-myString = "Hello world"
+myString = "Hello World"
 
 mySubstring = myString[0:4]
 print(mySubstring)
@@ -202,7 +202,7 @@ If the first or the last character is included in the substring then the `start`
 ### Left substring
 
 ``` python
-myString = "Hello world"
+myString = "Hello World"
 
 mySubstring = myString[ :4]
 
@@ -212,7 +212,7 @@ print(mySubstring)
 ### Right substring
 
 ``` python
-myString = "Hello world"
+myString = "Hello World"
 
 mySubstring = myString[6: ]
 
@@ -586,7 +586,7 @@ for index in range(len(names)):
 print("Found " + str(count) + " occurence(s)")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NzIyNTUzMSw4MjQ5MjExMDgsMjAwOD
+eyJoaXN0b3J5IjpbLTkzMDcxMTEzNCw4MjQ5MjExMDgsMjAwOD
 QyOTcwMCwxOTA0NTgxOTU3LDE2MTA5NjgwODcsLTg1MDYyOTM3
 OCw0ODgyNTM1MjYsLTEyOTY5NzAwMzksMjAzNTg0OTg3NiwtMT
 U3OTM2Nzg5NiwxNDMwMzMzNjExLDE5MzE5MDQzNCwxNjg0OTgz
