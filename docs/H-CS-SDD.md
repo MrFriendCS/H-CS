@@ -589,10 +589,15 @@ Assign the value in the ___first___ element as the minimum, or maximum.  Loop fr
 ``` python
 heights = [1.78, 1.63, 1.89, 1.59]
 
+# Assign first element as minimum
 minimum = heights[0]
 
 for index in range(1, len(heights)):
+
+    # Compare current value with minimim
     if heights[index] < minimum:
+    
+        # Update minimum value
         minimum = heights[index]
 
 print("Minimum: " + str(minimum))
@@ -615,7 +620,7 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NzI2NzQxOCwxODQ3ODUwODUzLC05Nj
+eyJoaXN0b3J5IjpbMjExMjE3ODk2MywxODQ3ODUwODUzLC05Nj
 A5MjA3NjMsLTgzMjA4NjUzOSwtMzQ0ODA5MjUwLDgyNDkyMTEw
 OCwyMDA4NDI5NzAwLDE5MDQ1ODE5NTcsMTYxMDk2ODA4NywtOD
 UwNjI5Mzc4LDQ4ODI1MzUyNiwtMTI5Njk3MDAzOSwyMDM1ODQ5
