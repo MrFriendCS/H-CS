@@ -223,25 +223,8 @@ heights = [0.0] * 4
 
 ## Records
 
-### Example Data
 
-The data used in the examples can be represented in a table:
 
-| Name | Age | Height |
-| ---- | --- | ------ |
-| Alan | 24  | 1.78 |
-| Beth | 23  | 1.63 |
-| Carl | 22  | 1.89 |
-| Dina | 21  | 1.59 |
-
-It can also be represented as comma separated values, e.g. `people.csv`:
-
-```
-Alan,24,1.78
-Beth,23,1.63
-Carl,22,1.89
-Dina,21,1.59
-```
 
 
 The code to produce a record needs to be imported before it can be used.
@@ -301,6 +284,26 @@ people = [person()] * 4
 Reading and writing a csv or txt file can be achieved using the same code, just change the file extension.
 
 **Note:** Anything read from a file is a string.  If the value represents another data type then it must be cast to that data type.
+
+### Example Data
+
+The data used in the examples can be represented in a table:
+
+| Name | Age | Height |
+| ---- | --- | ------ |
+| Alan | 24  | 1.78 |
+| Beth | 23  | 1.63 |
+| Carl | 22  | 1.89 |
+| Dina | 21  | 1.59 |
+
+It can also be represented as comma separated values, e.g. `people.csv`.
+
+```
+Alan,24,1.78
+Beth,23,1.63
+Carl,22,1.89
+Dina,21,1.59
+```
 
 ### Reading parallel arrays from a file
 
@@ -550,7 +553,7 @@ for index in range(len(names)):
 print("Found " + str(count) + " occurence(s)")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNjQwODIzNywtODUwNjI5Mzc4LDQ4OD
+eyJoaXN0b3J5IjpbMTYxMDk2ODA4NywtODUwNjI5Mzc4LDQ4OD
 I1MzUyNiwtMTI5Njk3MDAzOSwyMDM1ODQ5ODc2LC0xNTc5MzY3
 ODk2LDE0MzAzMzM2MTEsMTkzMTkwNDM0LDE2ODQ5ODMyNzRdfQ
 ==
