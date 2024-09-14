@@ -233,9 +233,7 @@ If the first character is included in the substring then the `start` parameter c
 
 ``` python
 myString = "Hello World"
-
 mySubstring = myString[ :4]
-
 print(mySubstring)
 ```
 
@@ -251,6 +249,8 @@ mySubstring = myString[6: ]
 
 print(mySubstring)
 ```
+
+Using negative index values can be easier.
 
 ``` python
 myString = "Hello World"
@@ -622,9 +622,9 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzU4MzkxODAsODI0OTIxMTA4LDIwMD
-g0Mjk3MDAsMTkwNDU4MTk1NywxNjEwOTY4MDg3LC04NTA2Mjkz
-NzgsNDg4MjUzNTI2LC0xMjk2OTcwMDM5LDIwMzU4NDk4NzYsLT
-E1NzkzNjc4OTYsMTQzMDMzMzYxMSwxOTMxOTA0MzQsMTY4NDk4
-MzI3NF19
+eyJoaXN0b3J5IjpbMjU5MzU2OTIzLDgyNDkyMTEwOCwyMDA4ND
+I5NzAwLDE5MDQ1ODE5NTcsMTYxMDk2ODA4NywtODUwNjI5Mzc4
+LDQ4ODI1MzUyNiwtMTI5Njk3MDAzOSwyMDM1ODQ5ODc2LC0xNT
+c5MzY3ODk2LDE0MzAzMzM2MTEsMTkzMTkwNDM0LDE2ODQ5ODMy
+NzRdfQ==
 -->
