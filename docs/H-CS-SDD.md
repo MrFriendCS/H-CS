@@ -1,10 +1,12 @@
 # Software Design and Development
 
+
 ## Notes
 
 All the code examples use Python.
 
 These notes are focused on Higher Computing Science so some terms are used differently.  Any reference to an `array` will actually use a `list`.  Any reference to a `procedure` will be a `function` that does not explicitly return a value. 
+
 
 ## Sub-routines
 
@@ -227,7 +229,7 @@ Value:   H    e   l   l   o       W   o   r   l   d
 ```
 
 ``` python
-myString = "Hello world"
+myString = "Hello World"
 
 mySubstring = myString[-5: ]
 
@@ -237,12 +239,13 @@ print(mySubstring)
 ### Mid substring
 
 ``` python
-myString = "Hello world"
+myString = "Hello World"
 
 mySubstring = myString[3:8]
 
 print(mySubstring)
 ```
+
 
 ## Parallel 1D arrays
 
@@ -254,11 +257,8 @@ ages = [0] * 4
 heights = [0.0] * 4
 ```
 
+
 ## Records
-
-
-
-
 
 The code to produce a record needs to be imported before it can be used.
 
@@ -586,9 +586,9 @@ for index in range(len(names)):
 print("Found " + str(count) + " occurence(s)")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMDcxMTEzNCw4MjQ5MjExMDgsMjAwOD
-QyOTcwMCwxOTA0NTgxOTU3LDE2MTA5NjgwODcsLTg1MDYyOTM3
-OCw0ODgyNTM1MjYsLTEyOTY5NzAwMzksMjAzNTg0OTg3NiwtMT
-U3OTM2Nzg5NiwxNDMwMzMzNjExLDE5MzE5MDQzNCwxNjg0OTgz
-Mjc0XX0=
+eyJoaXN0b3J5IjpbLTEzNjc2MDQwNjIsODI0OTIxMTA4LDIwMD
+g0Mjk3MDAsMTkwNDU4MTk1NywxNjEwOTY4MDg3LC04NTA2Mjkz
+NzgsNDg4MjUzNTI2LC0xMjk2OTcwMDM5LDIwMzU4NDk4NzYsLT
+E1NzkzNjc4OTYsMTQzMDMzMzYxMSwxOTMxOTA0MzQsMTY4NDk4
+MzI3NF19
 -->
