@@ -511,7 +511,9 @@ file.close()
 
 ### Writing parallel arrays to a file
 
-**Note:** Only strings can be written to a file, anything else must be cast to a string.
+**Notes:**
+* Only strings can be written to a file, anything else must be cast to a string.
+* The example will create a `csv` file.
 
 Open the file that will hold the data, in write mode.  If the file exists it will be overwritten, otherwise it will be created.
 
@@ -519,7 +521,7 @@ Open the file that will hold the data, in write mode.  If the file exists it wil
 file = open("newPeople.csv", "w")
 ```
 
-Loop for each element in the arrays.
+Loop for each element in the arrays to be written to the file.
 
 ``` python
 for index in range(len(names)):
@@ -636,7 +638,7 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzODU3Mjg4OSwxODQ3ODUwODUzLC05Nj
+eyJoaXN0b3J5IjpbMTUzMTU3MDQ4NywxODQ3ODUwODUzLC05Nj
 A5MjA3NjMsLTgzMjA4NjUzOSwtMzQ0ODA5MjUwLDgyNDkyMTEw
 OCwyMDA4NDI5NzAwLDE5MDQ1ODE5NTcsMTYxMDk2ODA4NywtOD
 UwNjI5Mzc4LDQ4ODI1MzUyNiwtMTI5Njk3MDAzOSwyMDM1ODQ5
