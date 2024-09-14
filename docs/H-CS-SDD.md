@@ -67,7 +67,7 @@ print(answer)
 #### Returned value used
 
 ``` python
-answer = 128 - toThePowerOf(2, 5)
+answer = 64 - toThePowerOf(2, 5)
 
 print(answer)
 ```
@@ -78,6 +78,7 @@ Functions can return a tuple [term not part of Higher] that contains multiple va
 
 ``` python
 def myData():
+    """Return 
     
     # Returns a tuple
     return 21, "Tom"
@@ -566,8 +567,8 @@ for index in range(len(names)):
 print("Found " + str(count) + " occurence(s)")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE0NzM2NTY5LDE5MDQ1ODE5NTcsMTYxMD
-k2ODA4NywtODUwNjI5Mzc4LDQ4ODI1MzUyNiwtMTI5Njk3MDAz
-OSwyMDM1ODQ5ODc2LC0xNTc5MzY3ODk2LDE0MzAzMzM2MTEsMT
-kzMTkwNDM0LDE2ODQ5ODMyNzRdfQ==
+eyJoaXN0b3J5IjpbMjA3MzQzMjgyNiwxOTA0NTgxOTU3LDE2MT
+A5NjgwODcsLTg1MDYyOTM3OCw0ODgyNTM1MjYsLTEyOTY5NzAw
+MzksMjAzNTg0OTg3NiwtMTU3OTM2Nzg5NiwxNDMwMzMzNjExLD
+E5MzE5MDQzNCwxNjg0OTgzMjc0XX0=
 -->
