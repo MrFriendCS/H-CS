@@ -165,9 +165,11 @@ print(myModulus)
 
 Python does not have pre-defined functions for creating substrings.  Strings can be treated as an array of characters.  Python starts counting from zero.
 
+### Index values
+
 #### Positive index
 
-It is possible to use positive index values, with `0` being the first element.
+Positive index values, with `0` being the first element.
 ```
 Index: 0  1  2  3  4  5  6  7  8  9  10
 Value: H  e  l  l  o     W  o  r  l  d
@@ -175,7 +177,7 @@ Value: H  e  l  l  o     W  o  r  l  d
 
 #### Negative index
 
-It is possible to use a negative index values, with `-1` being the last element.
+Negative index values, with `-1` being the last element.
 
 ```
 Index: -11  -10  -9  -8  -7  -6  -5  -4  -3  -2  -1
@@ -613,9 +615,9 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMjA4NjUzOSwtMzQ0ODA5MjUwLDgyND
-kyMTEwOCwyMDA4NDI5NzAwLDE5MDQ1ODE5NTcsMTYxMDk2ODA4
-NywtODUwNjI5Mzc4LDQ4ODI1MzUyNiwtMTI5Njk3MDAzOSwyMD
-M1ODQ5ODc2LC0xNTc5MzY3ODk2LDE0MzAzMzM2MTEsMTkzMTkw
-NDM0LDE2ODQ5ODMyNzRdfQ==
+eyJoaXN0b3J5IjpbLTk2MDkyMDc2MywtODMyMDg2NTM5LC0zND
+Q4MDkyNTAsODI0OTIxMTA4LDIwMDg0Mjk3MDAsMTkwNDU4MTk1
+NywxNjEwOTY4MDg3LC04NTA2MjkzNzgsNDg4MjUzNTI2LC0xMj
+k2OTcwMDM5LDIwMzU4NDk4NzYsLTE1NzkzNjc4OTYsMTQzMDMz
+MzYxMSwxOTMxOTA0MzQsMTY4NDk4MzI3NF19
 -->
