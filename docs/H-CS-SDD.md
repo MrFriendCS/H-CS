@@ -64,7 +64,7 @@ print(myInt)
 
 The modulus is the remainder when doing division.
 
-13 &#xf7; 5 = 2 remainder 3
+13 &divide; 5 = 2 remainder 3
 
 ``` python
 myModulus = 13 % 5
@@ -549,7 +549,8 @@ for index in range(len(names)):
 print("Found " + str(count) + " occurence(s)")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MDYyOTM3OCw0ODgyNTM1MjYsLTEyOT
-Y5NzAwMzksMjAzNTg0OTg3NiwtMTU3OTM2Nzg5NiwxNDMwMzMz
-NjExLDE5MzE5MDQzNCwxNjg0OTgzMjc0XX0=
+eyJoaXN0b3J5IjpbLTIwOTcxMTc5MDksLTg1MDYyOTM3OCw0OD
+gyNTM1MjYsLTEyOTY5NzAwMzksMjAzNTg0OTg3NiwtMTU3OTM2
+Nzg5NiwxNDMwMzMzNjExLDE5MzE5MDQzNCwxNjg0OTgzMjc0XX
+0=
 -->
