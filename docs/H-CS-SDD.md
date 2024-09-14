@@ -181,7 +181,9 @@ To extract more than a single character a second parameter is used.
 string[start : stop]
 ```
 
-**Note:** The `stop` value is always one more than the last element to be included.
+**Notes:**
+* The `stop` value is always one more than the last element to be included.
+* The number of characters selected can be calculated using `stop`-`start`
 
 ``` python
 myString = "Hello world"
@@ -582,8 +584,9 @@ for index in range(len(names)):
 print("Found " + str(count) + " occurence(s)")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI0OTIxMTA4LDIwMDg0Mjk3MDAsMTkwND
-U4MTk1NywxNjEwOTY4MDg3LC04NTA2MjkzNzgsNDg4MjUzNTI2
-LC0xMjk2OTcwMDM5LDIwMzU4NDk4NzYsLTE1NzkzNjc4OTYsMT
-QzMDMzMzYxMSwxOTMxOTA0MzQsMTY4NDk4MzI3NF19
+eyJoaXN0b3J5IjpbLTM5ODM5NTQyMSw4MjQ5MjExMDgsMjAwOD
+QyOTcwMCwxOTA0NTgxOTU3LDE2MTA5NjgwODcsLTg1MDYyOTM3
+OCw0ODgyNTM1MjYsLTEyOTY5NzAwMzksMjAzNTg0OTg3NiwtMT
+U3OTM2Nzg5NiwxNDMwMzMzNjExLDE5MzE5MDQzNCwxNjg0OTgz
+Mjc0XX0=
 -->
