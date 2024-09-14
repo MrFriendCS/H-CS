@@ -14,6 +14,7 @@ When a sub-routine is defined it can have zero, one, or more parameters.  These 
 ``` python
 def subroutineName(formalParameter1, formalParameter2, ...):
 	"""docstring"""
+	
     <sub-routine code>
 ```
 
@@ -84,7 +85,7 @@ Functions can return a tuple [term not part of Higher] that contains multiple va
 def myData():
     """Return an integer and a string."""
     
-    # Returns a tuple
+    # Return a tuple
     return 21, "Tom"
 ```
 
@@ -681,11 +682,11 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDYwNjI5ODQsMTYxMjI3MDMzMiw3Mz
-k0ODMyNjMsNjk1NDI1NTk5LC0xMzE0NTc3MzgzLDE5NDQ5ODI2
-MzgsMTg0Nzg1MDg1MywtOTYwOTIwNzYzLC04MzIwODY1MzksLT
-M0NDgwOTI1MCw4MjQ5MjExMDgsMjAwODQyOTcwMCwxOTA0NTgx
-OTU3LDE2MTA5NjgwODcsLTg1MDYyOTM3OCw0ODgyNTM1MjYsLT
-EyOTY5NzAwMzksMjAzNTg0OTg3NiwtMTU3OTM2Nzg5NiwxNDMw
-MzMzNjExXX0=
+eyJoaXN0b3J5IjpbLTMxNDY3MjIxNywxNjEyMjcwMzMyLDczOT
+Q4MzI2Myw2OTU0MjU1OTksLTEzMTQ1NzczODMsMTk0NDk4MjYz
+OCwxODQ3ODUwODUzLC05NjA5MjA3NjMsLTgzMjA4NjUzOSwtMz
+Q0ODA5MjUwLDgyNDkyMTEwOCwyMDA4NDI5NzAwLDE5MDQ1ODE5
+NTcsMTYxMDk2ODA4NywtODUwNjI5Mzc4LDQ4ODI1MzUyNiwtMT
+I5Njk3MDAzOSwyMDM1ODQ5ODc2LC0xNTc5MzY3ODk2LDE0MzAz
+MzM2MTFdfQ==
 -->
