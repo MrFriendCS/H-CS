@@ -29,8 +29,7 @@ A procedure is a type of sub-routine that ***does not*** return a value.  It mus
 ``` python
 def square(number):
     """Return the square of number."""
-    #
-
+    
     squared = number ** 2
     
     print(squared)
@@ -48,6 +47,7 @@ A function is another type of sub-routine that ***does*** return a value.  It mu
 
 ``` python
 def toThePowerOf(number, power):
+    """Return a number raised to a power."""
 
     value = number ** power
     
@@ -556,7 +556,7 @@ for index in range(len(names)):
 print("Found " + str(count) + " occurence(s)")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNDAyNzU1MiwxNjEwOTY4MDg3LC04NT
+eyJoaXN0b3J5IjpbLTY5NDM4OTE5MiwxNjEwOTY4MDg3LC04NT
 A2MjkzNzgsNDg4MjUzNTI2LC0xMjk2OTcwMDM5LDIwMzU4NDk4
 NzYsLTE1NzkzNjc4OTYsMTQzMDMzMzYxMSwxOTMxOTA0MzQsMT
 Y4NDk4MzI3NF19
