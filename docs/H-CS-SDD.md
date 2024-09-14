@@ -6,24 +6,79 @@ All the code examples use Python.
 
 These notes are focused on Higher Computing Science so some terms are used differently.  Any reference to an `array` will actually use a `list`.  Any reference to a `procedure` will be a `function` that does not explicitly return a value. 
 
-### Example Data
+## Sub-routines
 
-The data used in the examples can be represented in a table:
+When a sub-routine is defined it can have zero, one, or more parameters.  These are known as formal parameters.  The formal parameters will 'catch' values that are passed to the sub-routine.
 
-| Name | Age | Height |
-| ---- | --- | ------ |
-| Alan | 24  | 1.78 |
-| Beth | 23  | 1.63 |
-| Carl | 22  | 1.89 |
-| Dina | 21  | 1.59 |
-
-It can also be represented as comma separated values, e.g. `people.csv`:
-
+``` python
+def subroutineName(formalParameter):
+    <sub-routine code>
 ```
-Alan,24,1.78
-Beth,23,1.63
-Carl,22,1.89
-Dina,21,1.59
+
+When a sub-routine is called it can have parameters passed to it.  These are known as actual parameters.
+
+``` python
+subroutineName(actualParameter)
+```
+
+### Procedures
+
+A procedure is a type of sub-routine that ***does not*** return a value.  It must be defined before it can be used.
+
+``` python
+def square(number):
+
+    squared = number ** 2
+    
+    print(squared)
+```
+
+A procedure can be called from the main program, or from another sub-routine.
+
+``` python
+square(2)
+```
+
+### Functions
+
+A function is another type of sub-routine that ***does*** return a value.  It must be defined before it can be used.
+
+``` python
+def toThePowerOf(number, power):
+
+    value = number ** power
+    
+    return value
+```
+
+A function can be called from the main program, or from another sub-routine.
+
+``` python
+answer = toThePowerOf(2, 5)
+
+print(answer)
+```
+
+#### Return multiple values
+
+Functions can return a tuple [term not part of Higher] that contains multiple values.  These values can be assigned to individual variables when returned.
+
+``` python
+def myData():
+    
+    # Returns a tuple
+    return 21, "Tom"
+```
+
+``` python
+# Display returned values
+print(myData())
+
+# Assign to individual variables
+age, name = myData()
+
+print(age)
+print(name)
 ```
 
 ## Predefine functions
@@ -167,6 +222,27 @@ heights = [0.0] * 4
 
 ## Records
 
+### Example Data
+
+The data used in the examples can be represented in a table:
+
+| Name | Age | Height |
+| ---- | --- | ------ |
+| Alan | 24  | 1.78 |
+| Beth | 23  | 1.63 |
+| Carl | 22  | 1.89 |
+| Dina | 21  | 1.59 |
+
+It can also be represented as comma separated values, e.g. `people.csv`:
+
+```
+Alan,24,1.78
+Beth,23,1.63
+Carl,22,1.89
+Dina,21,1.59
+```
+
+
 The code to produce a record needs to be imported before it can be used.
 
 A record is defined with attributes, which can have default values.
@@ -217,85 +293,6 @@ Using default values.
 
 ``` python
 people = [person()] * 4
-```
-
-## Sub-routines
-
-When a sub-routine is defined it can have zero, one, or more parameters.  These are known as formal parameters.  The formal parameters will 'catch' values that are passed to the sub-routine.
-
-``` python
-def subroutineName(formalParameter):
-    <sub-routine code>
-```
-
-When a sub-routine is called it can have parameters passed to it.  These are known as actual parameters.
-
-``` python
-subroutineName(actualParameter)
-```
-
-### Procedures
-
-A procedure is a type of sub-routine that ***does not*** return a value.  It must be defined before it can be used.
-
-``` python
-def square(number):
-
-    squared = number ** 2
-    
-    print(squared)
-```
-
-A procedure can be called from the main program, or from another sub-routine.
-
-``` python
-square(2)
-```
-
-### Functions
-
-A function is another type of sub-routine that ***does*** return a value.  It must be defined before it can be used.
-
-``` python
-def toThePowerOf(number, power):
-
-    value = number ** power
-    
-    return value
-```
-
-A function can be called from the main program, or from another sub-routine.
-
-``` python
-answer = toThePowerOf(2, 5)
-
-print(answer)
-```
-
-#### Return multiple values
-
-Functions can return a tuple [term not part of Higher] that contains multiple values.  These values can be assigned to individual variables when returned.
-
-``` python
-def myData():
-    
-    # Returns a tuple
-    return 21, "Tom"
-```
-
-``` python
-# Display returned values
-print(myData())
-
-# Assign to individual variables
-age, name = myData()
-
-print(age)
-print(name)
-```
-
-
-
 ```
 
 ## File handling
@@ -552,7 +549,7 @@ for index in range(len(names)):
 print("Found " + str(count) + " occurence(s)")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMzkxOTgxMywtODUwNjI5Mzc4LDQ4OD
+eyJoaXN0b3J5IjpbMTU2MjU4Mzg4NywtODUwNjI5Mzc4LDQ4OD
 I1MzUyNiwtMTI5Njk3MDAzOSwyMDM1ODQ5ODc2LC0xNTc5MzY3
 ODk2LDE0MzAzMzM2MTEsMTkzMTkwNDM0LDE2ODQ5ODMyNzRdfQ
 ==
