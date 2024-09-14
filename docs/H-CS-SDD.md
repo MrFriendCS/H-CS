@@ -56,7 +56,7 @@ def toThePowerOf(number, power):
 
 A function can be called from the main program, or from another sub-routine.  To use the value returned by the function it can be assigned to a variable or used as the a value in another operation.
 
-#### Returned value assigned
+__Returned value assigned__
 
 ``` python
 answer = toThePowerOf(2, 5)
@@ -64,7 +64,7 @@ answer = toThePowerOf(2, 5)
 print(answer)
 ```
 
-#### Returned value used
+__Returned value used__
 
 ``` python
 answer = 64 - toThePowerOf(2, 5)
@@ -74,7 +74,7 @@ print(answer)
 
 #### Return multiple values
 
-Functions can return a tuple [term not part of Higher] that contains multiple values.  These values can be assigned to individual variables when returned.
+Functions can return a tuple [term not part of Higher] that contains multiple values, similar to an array.  These values can be assigned to individual variables when returned.
 
 ``` python
 def myData():
@@ -99,7 +99,7 @@ print(myTuple[1])
 ```
 
 ```
-# Assign to individual variables
+# Assign to variables
 age, name = myData()
 
 print(age)
@@ -578,7 +578,7 @@ for index in range(len(names)):
 print("Found " + str(count) + " occurence(s)")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMDg4MTU1NywxOTA0NTgxOTU3LDE2MT
+eyJoaXN0b3J5IjpbMjAwODQyOTcwMCwxOTA0NTgxOTU3LDE2MT
 A5NjgwODcsLTg1MDYyOTM3OCw0ODgyNTM1MjYsLTEyOTY5NzAw
 MzksMjAzNTg0OTg3NiwtMTU3OTM2Nzg5NiwxNDMwMzMzNjExLD
 E5MzE5MDQzNCwxNjg0OTgzMjc0XX0=
