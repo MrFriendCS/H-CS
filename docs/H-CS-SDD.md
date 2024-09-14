@@ -513,7 +513,7 @@ file.close()
 
 **Note:** Only strings can be written to a file, anything else must be cast to a string.
 
-Open the file that will hold the data, in write mode.  If the file does not exist it will be created, but if it does exist it will be overwritten.
+Open the file that will hold the data, in write mode.  If the file exists it will be overwritten, otherwise it will be created.
 
 ``` python
 file = open("newPeople.csv", "w")
@@ -636,7 +636,7 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMzg3NDQ1NSwxODQ3ODUwODUzLC05Nj
+eyJoaXN0b3J5IjpbMTgzODU3Mjg4OSwxODQ3ODUwODUzLC05Nj
 A5MjA3NjMsLTgzMjA4NjUzOSwtMzQ0ODA5MjUwLDgyNDkyMTEw
 OCwyMDA4NDI5NzAwLDE5MDQ1ODE5NTcsMTYxMDk2ODA4NywtOD
 UwNjI5Mzc4LDQ4ODI1MzUyNiwtMTI5Njk3MDAzOSwyMDM1ODQ5
