@@ -17,7 +17,7 @@ def subroutineName(formalParameter1, formalParameter2, ...):
     <sub-routine code>
 ```
 
-When a sub-routine is called it can have parameters passed to it.  These are known as actual parameters.
+When a sub-routine is called it can have parameters passed to it.  These are known as actual parameters.  They must match the formal parameters in order, number, and data types.
 
 ``` python
 subroutineName(actualParameter1, actualParameter2, ...)
@@ -681,11 +681,11 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMjI3MDMzMiw3Mzk0ODMyNjMsNjk1ND
-I1NTk5LC0xMzE0NTc3MzgzLDE5NDQ5ODI2MzgsMTg0Nzg1MDg1
-MywtOTYwOTIwNzYzLC04MzIwODY1MzksLTM0NDgwOTI1MCw4Mj
-Q5MjExMDgsMjAwODQyOTcwMCwxOTA0NTgxOTU3LDE2MTA5Njgw
-ODcsLTg1MDYyOTM3OCw0ODgyNTM1MjYsLTEyOTY5NzAwMzksMj
-AzNTg0OTg3NiwtMTU3OTM2Nzg5NiwxNDMwMzMzNjExLDE5MzE5
-MDQzNF19
+eyJoaXN0b3J5IjpbLTEzNDYwNjI5ODQsMTYxMjI3MDMzMiw3Mz
+k0ODMyNjMsNjk1NDI1NTk5LC0xMzE0NTc3MzgzLDE5NDQ5ODI2
+MzgsMTg0Nzg1MDg1MywtOTYwOTIwNzYzLC04MzIwODY1MzksLT
+M0NDgwOTI1MCw4MjQ5MjExMDgsMjAwODQyOTcwMCwxOTA0NTgx
+OTU3LDE2MTA5NjgwODcsLTg1MDYyOTM3OCw0ODgyNTM1MjYsLT
+EyOTY5NzAwMzksMjAzNTg0OTg3NiwtMTU3OTM2Nzg5NiwxNDMw
+MzMzNjExXX0=
 -->
