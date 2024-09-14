@@ -328,7 +328,7 @@ print(person2)
 
 ### Array of records
 
-Initialising an array of records is Using default values.
+Initialising an array of records uses a loop to ensure that each element has an individual record.  If a loop is not used, each elemen
 
 ``` python
 # Create an array of 4 records
@@ -686,11 +686,11 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NDkzOTI0NiwtOTgzMDE3OTc5LDk1OT
-IxODA2MiwxNjEyMjcwMzMyLDczOTQ4MzI2Myw2OTU0MjU1OTks
-LTEzMTQ1NzczODMsMTk0NDk4MjYzOCwxODQ3ODUwODUzLC05Nj
-A5MjA3NjMsLTgzMjA4NjUzOSwtMzQ0ODA5MjUwLDgyNDkyMTEw
-OCwyMDA4NDI5NzAwLDE5MDQ1ODE5NTcsMTYxMDk2ODA4NywtOD
-UwNjI5Mzc4LDQ4ODI1MzUyNiwtMTI5Njk3MDAzOSwyMDM1ODQ5
-ODc2XX0=
+eyJoaXN0b3J5IjpbMTQ1MTU4NjAzLC05ODMwMTc5NzksOTU5Mj
+E4MDYyLDE2MTIyNzAzMzIsNzM5NDgzMjYzLDY5NTQyNTU5OSwt
+MTMxNDU3NzM4MywxOTQ0OTgyNjM4LDE4NDc4NTA4NTMsLTk2MD
+kyMDc2MywtODMyMDg2NTM5LC0zNDQ4MDkyNTAsODI0OTIxMTA4
+LDIwMDg0Mjk3MDAsMTkwNDU4MTk1NywxNjEwOTY4MDg3LC04NT
+A2MjkzNzgsNDg4MjUzNTI2LC0xMjk2OTcwMDM5LDIwMzU4NDk4
+NzZdfQ==
 -->
