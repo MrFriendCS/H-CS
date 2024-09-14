@@ -28,7 +28,7 @@ A procedure is a type of sub-routine that ***does not*** return a value.  It mus
 
 ``` python
 def square(number):
-    """Return the square of number."""
+    """Display the square of number."""
     
     squared = number ** 2
     
@@ -54,7 +54,7 @@ def toThePowerOf(number, power):
     return value
 ```
 
-A function can be called from the main program, or from another sub-routine.  To use the value returned by the function it can be assigned to a variable, or used as the a value in another function.
+A function can be called from the main program, or from another sub-routine.  To use the value returned by the function it can be assigned to a variable or used as the a value in another function.
 
 #### Returned value assigned
 
@@ -564,8 +564,8 @@ for index in range(len(names)):
 print("Found " + str(count) + " occurence(s)")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNDU4MTk1NywxNjEwOTY4MDg3LC04NT
-A2MjkzNzgsNDg4MjUzNTI2LC0xMjk2OTcwMDM5LDIwMzU4NDk4
-NzYsLTE1NzkzNjc4OTYsMTQzMDMzMzYxMSwxOTMxOTA0MzQsMT
-Y4NDk4MzI3NF19
+eyJoaXN0b3J5IjpbODkyNjg3MjMxLDE5MDQ1ODE5NTcsMTYxMD
+k2ODA4NywtODUwNjI5Mzc4LDQ4ODI1MzUyNiwtMTI5Njk3MDAz
+OSwyMDM1ODQ5ODc2LC0xNTc5MzY3ODk2LDE0MzAzMzM2MTEsMT
+kzMTkwNDM0LDE2ODQ5ODMyNzRdfQ==
 -->
