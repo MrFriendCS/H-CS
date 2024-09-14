@@ -329,12 +329,13 @@ print(person2)
 Using default values.
 
 ``` python
+# Create an array of record
 people = [person()] * 4
 ```
 
 ```
-# Update first record
-people[0] = person("Beth",  23,  1.63)
+# Update name in first record
+people[0].name = "Beth"
 ```
 
 ``` python
@@ -677,10 +678,10 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NzA0NzQ2NCwxODQ3ODUwODUzLC05Nj
-A5MjA3NjMsLTgzMjA4NjUzOSwtMzQ0ODA5MjUwLDgyNDkyMTEw
-OCwyMDA4NDI5NzAwLDE5MDQ1ODE5NTcsMTYxMDk2ODA4NywtOD
-UwNjI5Mzc4LDQ4ODI1MzUyNiwtMTI5Njk3MDAzOSwyMDM1ODQ5
-ODc2LC0xNTc5MzY3ODk2LDE0MzAzMzM2MTEsMTkzMTkwNDM0LD
-E2ODQ5ODMyNzRdfQ==
+eyJoaXN0b3J5IjpbNzY1NDAzNTM5LDE4NDc4NTA4NTMsLTk2MD
+kyMDc2MywtODMyMDg2NTM5LC0zNDQ4MDkyNTAsODI0OTIxMTA4
+LDIwMDg0Mjk3MDAsMTkwNDU4MTk1NywxNjEwOTY4MDg3LC04NT
+A2MjkzNzgsNDg4MjUzNTI2LC0xMjk2OTcwMDM5LDIwMzU4NDk4
+NzYsLTE1NzkzNjc4OTYsMTQzMDMzMzYxMSwxOTMxOTA0MzQsMT
+Y4NDk4MzI3NF19
 -->
