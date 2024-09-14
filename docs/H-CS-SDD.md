@@ -349,7 +349,7 @@ print(people)
 print(people[1])
 
 # Display age in second record
-print(people[1].a)
+print(people[1].age)
 
 # Display first 2 characters of name in second record
 print(people[1].name[ :2])
@@ -681,7 +681,7 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI4OTMyOTU3LC0xMzE0NTc3MzgzLDE5ND
+eyJoaXN0b3J5IjpbNjk1NDI1NTk5LC0xMzE0NTc3MzgzLDE5ND
 Q5ODI2MzgsMTg0Nzg1MDg1MywtOTYwOTIwNzYzLC04MzIwODY1
 MzksLTM0NDgwOTI1MCw4MjQ5MjExMDgsMjAwODQyOTcwMCwxOT
 A0NTgxOTU3LDE2MTA5NjgwODcsLTg1MDYyOTM3OCw0ODgyNTM1
