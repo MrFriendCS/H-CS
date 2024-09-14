@@ -508,6 +508,26 @@ Close the file.
 file.close()
 ```
 
+### Unknown file length
+
+If the size of the required array(s) is unknown then it is possible to to find out how many lines are in the file.
+
+``` python
+count = 0
+
+file = open("people.csv", "r")
+line = file.readline()
+
+while line != "":
+    count = count + 1
+    line = file.readline()
+
+file.close()
+
+# Display result
+print("Rows: " + str(count)")
+```
+
 
 ### Writing parallel arrays to a file
 
@@ -638,7 +658,7 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMTU3MDQ4NywxODQ3ODUwODUzLC05Nj
+eyJoaXN0b3J5IjpbLTQzOTMxOTMyMiwxODQ3ODUwODUzLC05Nj
 A5MjA3NjMsLTgzMjA4NjUzOSwtMzQ0ODA5MjUwLDgyNDkyMTEw
 OCwyMDA4NDI5NzAwLDE5MDQ1ODE5NTcsMTYxMDk2ODA4NywtOD
 UwNjI5Mzc4LDQ4ODI1MzUyNiwtMTI5Njk3MDAzOSwyMDM1ODQ5
