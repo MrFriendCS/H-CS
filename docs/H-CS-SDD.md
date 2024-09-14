@@ -329,8 +329,8 @@ print(person2)
 Using default values.
 
 ``` python
-# Create an array of record
-people = [person()] * 4
+# Create an array of records
+people = [person()  * 4]
 ```
 
 ```
@@ -681,10 +681,10 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NDk4MjYzOCwxODQ3ODUwODUzLC05Nj
-A5MjA3NjMsLTgzMjA4NjUzOSwtMzQ0ODA5MjUwLDgyNDkyMTEw
-OCwyMDA4NDI5NzAwLDE5MDQ1ODE5NTcsMTYxMDk2ODA4NywtOD
-UwNjI5Mzc4LDQ4ODI1MzUyNiwtMTI5Njk3MDAzOSwyMDM1ODQ5
-ODc2LC0xNTc5MzY3ODk2LDE0MzAzMzM2MTEsMTkzMTkwNDM0LD
-E2ODQ5ODMyNzRdfQ==
+eyJoaXN0b3J5IjpbLTE3ODU5NzUzMDMsMTk0NDk4MjYzOCwxOD
+Q3ODUwODUzLC05NjA5MjA3NjMsLTgzMjA4NjUzOSwtMzQ0ODA5
+MjUwLDgyNDkyMTEwOCwyMDA4NDI5NzAwLDE5MDQ1ODE5NTcsMT
+YxMDk2ODA4NywtODUwNjI5Mzc4LDQ4ODI1MzUyNiwtMTI5Njk3
+MDAzOSwyMDM1ODQ5ODc2LC0xNTc5MzY3ODk2LDE0MzAzMzM2MT
+EsMTkzMTkwNDM0LDE2ODQ5ODMyNzRdfQ==
 -->
