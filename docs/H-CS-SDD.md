@@ -287,7 +287,7 @@ A record is defined with attributes, which can have default values.
 from dataclasses import dataclass
 
 @dataclass
-class person:
+class Person:
     name: str = ""
     age: int = 0
     height: float = 0.0
@@ -296,9 +296,9 @@ class person:
 Individual records can be created, either with default values, or with specified values.
 
 ``` python
-person1 = person()
+person1 = Person()
 
-person2 = person("Beth", 23, 1.63)
+person2 = Person("Beth", 23, 1.63)
 ```
 
 Attribute values can be accessed using the form:
@@ -330,7 +330,7 @@ Using default values.
 
 ``` python
 # Create an array of records
-people = [person() for index in range(4)]
+people = [Person() for index in range(4)]
 ```
 
 ```
@@ -681,10 +681,11 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk1NDI1NTk5LC0xMzE0NTc3MzgzLDE5ND
-Q5ODI2MzgsMTg0Nzg1MDg1MywtOTYwOTIwNzYzLC04MzIwODY1
-MzksLTM0NDgwOTI1MCw4MjQ5MjExMDgsMjAwODQyOTcwMCwxOT
-A0NTgxOTU3LDE2MTA5NjgwODcsLTg1MDYyOTM3OCw0ODgyNTM1
-MjYsLTEyOTY5NzAwMzksMjAzNTg0OTg3NiwtMTU3OTM2Nzg5Ni
-wxNDMwMzMzNjExLDE5MzE5MDQzNCwxNjg0OTgzMjc0XX0=
+eyJoaXN0b3J5IjpbNzM5NDgzMjYzLDY5NTQyNTU5OSwtMTMxND
+U3NzM4MywxOTQ0OTgyNjM4LDE4NDc4NTA4NTMsLTk2MDkyMDc2
+MywtODMyMDg2NTM5LC0zNDQ4MDkyNTAsODI0OTIxMTA4LDIwMD
+g0Mjk3MDAsMTkwNDU4MTk1NywxNjEwOTY4MDg3LC04NTA2Mjkz
+NzgsNDg4MjUzNTI2LC0xMjk2OTcwMDM5LDIwMzU4NDk4NzYsLT
+E1NzkzNjc4OTYsMTQzMDMzMzYxMSwxOTMxOTA0MzQsMTY4NDk4
+MzI3NF19
 -->
