@@ -13,7 +13,7 @@ When a sub-routine is defined it can have zero, one, or more parameters.  These 
 
 ``` python
 def subroutineName(formalParameter1, formalParameter2, ...):
-	"""docstring""
+	"""docstring"""
     <sub-routine code>
 ```
 
@@ -609,9 +609,9 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTg3MzMzMzIsODI0OTIxMTA4LDIwMD
-g0Mjk3MDAsMTkwNDU4MTk1NywxNjEwOTY4MDg3LC04NTA2Mjkz
-NzgsNDg4MjUzNTI2LC0xMjk2OTcwMDM5LDIwMzU4NDk4NzYsLT
-E1NzkzNjc4OTYsMTQzMDMzMzYxMSwxOTMxOTA0MzQsMTY4NDk4
-MzI3NF19
+eyJoaXN0b3J5IjpbODM0NDcyMTc4LDgyNDkyMTEwOCwyMDA4ND
+I5NzAwLDE5MDQ1ODE5NTcsMTYxMDk2ODA4NywtODUwNjI5Mzc4
+LDQ4ODI1MzUyNiwtMTI5Njk3MDAzOSwyMDM1ODQ5ODc2LC0xNT
+c5MzY3ODk2LDE0MzAzMzM2MTEsMTkzMTkwNDM0LDE2ODQ5ODMy
+NzRdfQ==
 -->
