@@ -328,7 +328,7 @@ print(person2)
 
 ### Array of records
 
-Initialising an array of records uses a loop to ensure that each element has an individual record.  If a loop is not used, each elemen
+Initialising an array of records uses a loop to ensure that each element has an individual record.  If a loop is not used, each element has a copy of the same record, and that can cause problems.
 
 ``` python
 # Create an array of 4 records
@@ -686,11 +686,11 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MTU4NjAzLC05ODMwMTc5NzksOTU5Mj
-E4MDYyLDE2MTIyNzAzMzIsNzM5NDgzMjYzLDY5NTQyNTU5OSwt
-MTMxNDU3NzM4MywxOTQ0OTgyNjM4LDE4NDc4NTA4NTMsLTk2MD
-kyMDc2MywtODMyMDg2NTM5LC0zNDQ4MDkyNTAsODI0OTIxMTA4
-LDIwMDg0Mjk3MDAsMTkwNDU4MTk1NywxNjEwOTY4MDg3LC04NT
-A2MjkzNzgsNDg4MjUzNTI2LC0xMjk2OTcwMDM5LDIwMzU4NDk4
-NzZdfQ==
+eyJoaXN0b3J5IjpbLTE4MzM2MjE5NjMsLTk4MzAxNzk3OSw5NT
+kyMTgwNjIsMTYxMjI3MDMzMiw3Mzk0ODMyNjMsNjk1NDI1NTk5
+LC0xMzE0NTc3MzgzLDE5NDQ5ODI2MzgsMTg0Nzg1MDg1MywtOT
+YwOTIwNzYzLC04MzIwODY1MzksLTM0NDgwOTI1MCw4MjQ5MjEx
+MDgsMjAwODQyOTcwMCwxOTA0NTgxOTU3LDE2MTA5NjgwODcsLT
+g1MDYyOTM3OCw0ODgyNTM1MjYsLTEyOTY5NzAwMzksMjAzNTg0
+OTg3Nl19
 -->
