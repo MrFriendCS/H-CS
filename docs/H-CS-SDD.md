@@ -581,27 +581,6 @@ file.close()
 ```
 
 
-### Count number of lines in a file
-
-If the size of the required array(s) is unknown then it is possible to to find out how many lines are in the file.
-
-``` python
-count = 0
-
-file = open("people.csv", "r")
-line = file.readline()
-
-while line != "":
-    count = count + 1
-    line = file.readline()
-
-file.close()
-
-# Display result
-print("Rows: " + str(count)")
-```
-
-
 ## Standard algorithms
 
 **Note:** The standard algorithms are shown working with a single array but they could equally work with parallel arrays or an array of records.
@@ -680,11 +659,11 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MTQ0MTkwNiwyMDkyNjM3NzE3LC0xOD
-MzNjIxOTYzLC05ODMwMTc5NzksOTU5MjE4MDYyLDE2MTIyNzAz
-MzIsNzM5NDgzMjYzLDY5NTQyNTU5OSwtMTMxNDU3NzM4MywxOT
-Q0OTgyNjM4LDE4NDc4NTA4NTMsLTk2MDkyMDc2MywtODMyMDg2
-NTM5LC0zNDQ4MDkyNTAsODI0OTIxMTA4LDIwMDg0Mjk3MDAsMT
-kwNDU4MTk1NywxNjEwOTY4MDg3LC04NTA2MjkzNzgsNDg4MjUz
-NTI2XX0=
+eyJoaXN0b3J5IjpbLTY5OTQ5OTg4NSwyMTQxNDQxOTA2LDIwOT
+I2Mzc3MTcsLTE4MzM2MjE5NjMsLTk4MzAxNzk3OSw5NTkyMTgw
+NjIsMTYxMjI3MDMzMiw3Mzk0ODMyNjMsNjk1NDI1NTk5LC0xMz
+E0NTc3MzgzLDE5NDQ5ODI2MzgsMTg0Nzg1MDg1MywtOTYwOTIw
+NzYzLC04MzIwODY1MzksLTM0NDgwOTI1MCw4MjQ5MjExMDgsMj
+AwODQyOTcwMCwxOTA0NTgxOTU3LDE2MTA5NjgwODcsLTg1MDYy
+OTM3OF19
 -->
