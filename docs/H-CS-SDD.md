@@ -569,7 +569,7 @@ names = ["Alan", "Beth", "Carl", "Dina"]
 found = False
 index = 0
 
-while not(found) and index < len(names):
+while not found and index < len(names):
     if names[index] == "Carl":
         found = True
     else:
@@ -615,10 +615,10 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0Nzg1MDg1MywtOTYwOTIwNzYzLC04Mz
-IwODY1MzksLTM0NDgwOTI1MCw4MjQ5MjExMDgsMjAwODQyOTcw
-MCwxOTA0NTgxOTU3LDE2MTA5NjgwODcsLTg1MDYyOTM3OCw0OD
-gyNTM1MjYsLTEyOTY5NzAwMzksMjAzNTg0OTg3NiwtMTU3OTM2
-Nzg5NiwxNDMwMzMzNjExLDE5MzE5MDQzNCwxNjg0OTgzMjc0XX
-0=
+eyJoaXN0b3J5IjpbLTU0NzI2NzQxOCwxODQ3ODUwODUzLC05Nj
+A5MjA3NjMsLTgzMjA4NjUzOSwtMzQ0ODA5MjUwLDgyNDkyMTEw
+OCwyMDA4NDI5NzAwLDE5MDQ1ODE5NTcsMTYxMDk2ODA4NywtOD
+UwNjI5Mzc4LDQ4ODI1MzUyNiwtMTI5Njk3MDAzOSwyMDM1ODQ5
+ODc2LC0xNTc5MzY3ODk2LDE0MzAzMzM2MTEsMTkzMTkwNDM0LD
+E2ODQ5ODMyNzRdfQ==
 -->
