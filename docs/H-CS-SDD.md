@@ -85,8 +85,17 @@ def myData():
 ```
 
 ``` python
-# Display returned values
+# Display returned tuple
 print(myData())
+```
+
+```
+# Assign to a tuple
+myTuple = myData()
+
+# Access individual values
+print(myTuple[0])
+print(myTuple[1])
 ```
 
 ```
@@ -569,7 +578,7 @@ for index in range(len(names)):
 print("Found " + str(count) + " occurence(s)")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMzY3NzQyMCwxOTA0NTgxOTU3LDE2MT
+eyJoaXN0b3J5IjpbMTIwMDg4MTU1NywxOTA0NTgxOTU3LDE2MT
 A5NjgwODcsLTg1MDYyOTM3OCw0ODgyNTM1MjYsLTEyOTY5NzAw
 MzksMjAzNTg0OTg3NiwtMTU3OTM2Nzg5NiwxNDMwMzMzNjExLD
 E5MzE5MDQzNCwxNjg0OTgzMjc0XX0=
