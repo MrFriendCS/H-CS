@@ -348,7 +348,7 @@ The data used in the examples can be represented in a table:
 | Carl | 22  | 1.89 |
 | Dina | 21  | 1.59 |
 
-It can also be represented as a comma separated values, e.g. `people.csv`.
+It can also be represented as a text file, e.g. `people.csv` or `people.txt`.
 
 ```
 Alan,24,1.78
@@ -613,7 +613,7 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0Nzk5OTcyNSw4MjQ5MjExMDgsMjAwOD
+eyJoaXN0b3J5IjpbLTM0NDgwOTI1MCw4MjQ5MjExMDgsMjAwOD
 QyOTcwMCwxOTA0NTgxOTU3LDE2MTA5NjgwODcsLTg1MDYyOTM3
 OCw0ODgyNTM1MjYsLTEyOTY5NzAwMzksMjAzNTg0OTg3NiwtMT
 U3OTM2Nzg5NiwxNDMwMzMzNjExLDE5MzE5MDQzNCwxNjg0OTgz
