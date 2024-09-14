@@ -334,24 +334,24 @@ people = [person() for index in range(4)]
 ```
 
 ```
+# Update name in first record
+people[0].name = "Alan"
+
 # Update second record
 people[1] = person("Beth",  23,  1.63)
-
-# Update name in third record
-people[2].name = "Carl"
 ```
 
 ``` python
 # Display array of records
 print(people)
 
-# Display third record
-print(people[2])
+# Display second record
+print(people[1])
 
-# Display name in second record
-print(people[1].name)
+# Display age in second record
+print(people[1].a)
 
-# Display first 2 character of name in second record
+# Display first 2 characters of name in second record
 print(people[1].name[ :2])
 ```
 
@@ -681,10 +681,10 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTQ1NzczODMsMTk0NDk4MjYzOCwxOD
-Q3ODUwODUzLC05NjA5MjA3NjMsLTgzMjA4NjUzOSwtMzQ0ODA5
-MjUwLDgyNDkyMTEwOCwyMDA4NDI5NzAwLDE5MDQ1ODE5NTcsMT
-YxMDk2ODA4NywtODUwNjI5Mzc4LDQ4ODI1MzUyNiwtMTI5Njk3
-MDAzOSwyMDM1ODQ5ODc2LC0xNTc5MzY3ODk2LDE0MzAzMzM2MT
-EsMTkzMTkwNDM0LDE2ODQ5ODMyNzRdfQ==
+eyJoaXN0b3J5IjpbMjI4OTMyOTU3LC0xMzE0NTc3MzgzLDE5ND
+Q5ODI2MzgsMTg0Nzg1MDg1MywtOTYwOTIwNzYzLC04MzIwODY1
+MzksLTM0NDgwOTI1MCw4MjQ5MjExMDgsMjAwODQyOTcwMCwxOT
+A0NTgxOTU3LDE2MTA5NjgwODcsLTg1MDYyOTM3OCw0ODgyNTM1
+MjYsLTEyOTY5NzAwMzksMjAzNTg0OTg3NiwtMTU3OTM2Nzg5Ni
+wxNDMwMzMzNjExLDE5MzE5MDQzNCwxNjg0OTgzMjc0XX0=
 -->
