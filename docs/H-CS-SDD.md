@@ -569,12 +569,17 @@ names = ["Alan", "Beth", "Carl", "Dina"]
 found = False
 index = 0
 
+# Repeat for each value, or until vafound
 while not found and index < len(names):
+
+    # Compare current value with target value
     if names[index] == "Carl":
         found = True
     else:
+        # Increment index
         index = index + 1
 
+# Display result
 if found:
     print("Found at index " + str(index))
 else:
@@ -620,7 +625,7 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMjE3ODk2MywxODQ3ODUwODUzLC05Nj
+eyJoaXN0b3J5IjpbMTIzMjEzMDYyMCwxODQ3ODUwODUzLC05Nj
 A5MjA3NjMsLTgzMjA4NjUzOSwtMzQ0ODA5MjUwLDgyNDkyMTEw
 OCwyMDA4NDI5NzAwLDE5MDQ1ODE5NTcsMTYxMDk2ODA4NywtOD
 UwNjI5Mzc4LDQ4ODI1MzUyNiwtMTI5Njk3MDAzOSwyMDM1ODQ5
