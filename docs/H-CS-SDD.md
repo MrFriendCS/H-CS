@@ -199,10 +199,11 @@ string[start : stop]
 * The number of characters selected can be calculated using `stop`-`start`
 
 ``` python
-myString = "Hello World"
+print("Hello World"[0:4])
+```
 
-mySubstring = myString[0:4]
-print(mySubstring)
+``` python
+myString = "Hello World"
 
 mySubstring = myString[6:11]
 print(mySubstring)
@@ -609,9 +610,9 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTc0MDgzMzUsODI0OTIxMTA4LDIwMD
-g0Mjk3MDAsMTkwNDU4MTk1NywxNjEwOTY4MDg3LC04NTA2Mjkz
-NzgsNDg4MjUzNTI2LC0xMjk2OTcwMDM5LDIwMzU4NDk4NzYsLT
-E1NzkzNjc4OTYsMTQzMDMzMzYxMSwxOTMxOTA0MzQsMTY4NDk4
-MzI3NF19
+eyJoaXN0b3J5IjpbNTU5NDg0MzgzLDgyNDkyMTEwOCwyMDA4ND
+I5NzAwLDE5MDQ1ODE5NTcsMTYxMDk2ODA4NywtODUwNjI5Mzc4
+LDQ4ODI1MzUyNiwtMTI5Njk3MDAzOSwyMDM1ODQ5ODc2LC0xNT
+c5MzY3ODk2LDE0MzAzMzM2MTEsMTkzMTkwNDM0LDE2ODQ5ODMy
+NzRdfQ==
 -->
