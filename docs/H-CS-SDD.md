@@ -334,22 +334,25 @@ people = [person()] * 4
 ```
 
 ```
-# Update name in first record
-people[0].name = "Beth"
+# Update secondrecord
+people[1] = person("Beth",  23,  1.63)
+
+# Update name in third record
+people[2].name = "Carl"
 ```
 
 ``` python
 # Display array of records
 print(people)
 
-# Display first record
-print(people[0])
+# Display second record
+print(people[1])
 
-# Display name in first record
-print(people[0].name)
+# Display name in second record
+print(people[1].name)
 
 # Display first 2 character of name in first record
-print(people[0].name[ :2])
+print(people[1].name[ :2])
 ```
 
 
@@ -678,7 +681,7 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY1NDAzNTM5LDE4NDc4NTA4NTMsLTk2MD
+eyJoaXN0b3J5IjpbODQyMTk3NDcwLDE4NDc4NTA4NTMsLTk2MD
 kyMDc2MywtODMyMDg2NTM5LC0zNDQ4MDkyNTAsODI0OTIxMTA4
 LDIwMDg0Mjk3MDAsMTkwNDU4MTk1NywxNjEwOTY4MDg3LC04NT
 A2MjkzNzgsNDg4MjUzNTI2LC0xMjk2OTcwMDM5LDIwMzU4NDk4
