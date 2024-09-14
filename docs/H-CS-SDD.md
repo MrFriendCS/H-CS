@@ -54,7 +54,7 @@ def toThePowerOf(number, power):
     return value
 ```
 
-A function can be called from the main program, or from another sub-routine.  To use the value returned by the function it can be assigned to a variable or used as the a value in another function.
+A function can be called from the main program, or from another sub-routine.  To use the value returned by the function it can be assigned to a variable or used as the a value in another operation.
 
 #### Returned value assigned
 
@@ -64,10 +64,12 @@ answer = toThePowerOf(2, 5)
 print(answer)
 ```
 
-#### Returned value not assigned
+#### Returned value used
 
 ``` python
-print(toThePowerOf(2, 5))
+answer = 128 - toThePowerOf(2, 5)
+
+print(answer)
 ```
 
 #### Return multiple values
@@ -564,7 +566,7 @@ for index in range(len(names)):
 print("Found " + str(count) + " occurence(s)")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkyNjg3MjMxLDE5MDQ1ODE5NTcsMTYxMD
+eyJoaXN0b3J5IjpbMzE0NzM2NTY5LDE5MDQ1ODE5NTcsMTYxMD
 k2ODA4NywtODUwNjI5Mzc4LDQ4ODI1MzUyNiwtMTI5Njk3MDAz
 OSwyMDM1ODQ5ODc2LC0xNTc5MzY3ODk2LDE0MzAzMzM2MTEsMT
 kzMTkwNDM0LDE2ODQ5ODMyNzRdfQ==
