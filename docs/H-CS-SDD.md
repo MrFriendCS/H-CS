@@ -98,7 +98,7 @@ print(myData())
 # Assign to a tuple
 myTuple = myData()
 
-# Access values
+# Display values
 print(myTuple[0])
 print(myTuple[1])
 ```
@@ -107,6 +107,7 @@ print(myTuple[1])
 # Assign to variables
 age, name = myData()
 
+# Display values
 print(age)
 print(name)
 ```
@@ -685,11 +686,11 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU5MjE4MDYyLDE2MTIyNzAzMzIsNzM5ND
-gzMjYzLDY5NTQyNTU5OSwtMTMxNDU3NzM4MywxOTQ0OTgyNjM4
-LDE4NDc4NTA4NTMsLTk2MDkyMDc2MywtODMyMDg2NTM5LC0zND
-Q4MDkyNTAsODI0OTIxMTA4LDIwMDg0Mjk3MDAsMTkwNDU4MTk1
-NywxNjEwOTY4MDg3LC04NTA2MjkzNzgsNDg4MjUzNTI2LC0xMj
-k2OTcwMDM5LDIwMzU4NDk4NzYsLTE1NzkzNjc4OTYsMTQzMDMz
-MzYxMV19
+eyJoaXN0b3J5IjpbLTk4MzAxNzk3OSw5NTkyMTgwNjIsMTYxMj
+I3MDMzMiw3Mzk0ODMyNjMsNjk1NDI1NTk5LC0xMzE0NTc3Mzgz
+LDE5NDQ5ODI2MzgsMTg0Nzg1MDg1MywtOTYwOTIwNzYzLC04Mz
+IwODY1MzksLTM0NDgwOTI1MCw4MjQ5MjExMDgsMjAwODQyOTcw
+MCwxOTA0NTgxOTU3LDE2MTA5NjgwODcsLTg1MDYyOTM3OCw0OD
+gyNTM1MjYsLTEyOTY5NzAwMzksMjAzNTg0OTg3NiwtMTU3OTM2
+Nzg5Nl19
 -->
