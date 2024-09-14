@@ -625,7 +625,7 @@ while not found and index < len(names):
 
     # Compare current value with target value
     if names[index] == "Carl":
-	    # Set fla
+	    # Set flag to true
         found = True
     else:
         # Increment index
@@ -685,11 +685,11 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwOTk3MDA0NCwxNjEyMjcwMzMyLDczOT
-Q4MzI2Myw2OTU0MjU1OTksLTEzMTQ1NzczODMsMTk0NDk4MjYz
-OCwxODQ3ODUwODUzLC05NjA5MjA3NjMsLTgzMjA4NjUzOSwtMz
-Q0ODA5MjUwLDgyNDkyMTEwOCwyMDA4NDI5NzAwLDE5MDQ1ODE5
-NTcsMTYxMDk2ODA4NywtODUwNjI5Mzc4LDQ4ODI1MzUyNiwtMT
-I5Njk3MDAzOSwyMDM1ODQ5ODc2LC0xNTc5MzY3ODk2LDE0MzAz
-MzM2MTFdfQ==
+eyJoaXN0b3J5IjpbOTU5MjE4MDYyLDE2MTIyNzAzMzIsNzM5ND
+gzMjYzLDY5NTQyNTU5OSwtMTMxNDU3NzM4MywxOTQ0OTgyNjM4
+LDE4NDc4NTA4NTMsLTk2MDkyMDc2MywtODMyMDg2NTM5LC0zND
+Q4MDkyNTAsODI0OTIxMTA4LDIwMDg0Mjk3MDAsMTkwNDU4MTk1
+NywxNjEwOTY4MDg3LC04NTA2MjkzNzgsNDg4MjUzNTI2LC0xMj
+k2OTcwMDM5LDIwMzU4NDk4NzYsLTE1NzkzNjc4OTYsMTQzMDMz
+MzYxMV19
 -->
