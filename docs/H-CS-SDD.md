@@ -609,7 +609,7 @@ print("Rows: " + str(count)")
 
 ## Standard algorithms
 
-**Note:** The standard algor
+**Note:** The standard algorithms are shown working with a single array but they could equally work with parallel arrays or an array of records.
 
 ### Linear search - array
 
@@ -625,6 +625,7 @@ while not found and index < len(names):
 
     # Compare current value with target value
     if names[index] == "Carl":
+	    # Set fla
         found = True
     else:
         # Increment index
@@ -684,7 +685,7 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExODM1OTg0MCwxNjEyMjcwMzMyLDczOT
+eyJoaXN0b3J5IjpbMTgwOTk3MDA0NCwxNjEyMjcwMzMyLDczOT
 Q4MzI2Myw2OTU0MjU1OTksLTEzMTQ1NzczODMsMTk0NDk4MjYz
 OCwxODQ3ODUwODUzLC05NjA5MjA3NjMsLTgzMjA4NjUzOSwtMz
 Q0ODA5MjUwLDgyNDkyMTEwOCwyMDA4NDI5NzAwLDE5MDQ1ODE5
