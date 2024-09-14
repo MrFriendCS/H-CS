@@ -161,6 +161,8 @@ Index: 0  1  2  3  4  5  6  7  8  9  10
 Value: H  e  l  l  o     W  o  r  l  d
 ```
 
+### Individual character
+
 ``` python
 myString = "Hello world"
 
@@ -170,6 +172,8 @@ print(myCharacter)
 myCharacter = myString[6]
 print(myCharacter)
 ```
+
+### Multiple characters
 
 To extract more than a single character a second parameter is used.
 
@@ -578,8 +582,8 @@ for index in range(len(names)):
 print("Found " + str(count) + " occurence(s)")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwODQyOTcwMCwxOTA0NTgxOTU3LDE2MT
-A5NjgwODcsLTg1MDYyOTM3OCw0ODgyNTM1MjYsLTEyOTY5NzAw
-MzksMjAzNTg0OTg3NiwtMTU3OTM2Nzg5NiwxNDMwMzMzNjExLD
-E5MzE5MDQzNCwxNjg0OTgzMjc0XX0=
+eyJoaXN0b3J5IjpbODI0OTIxMTA4LDIwMDg0Mjk3MDAsMTkwND
+U4MTk1NywxNjEwOTY4MDg3LC04NTA2MjkzNzgsNDg4MjUzNTI2
+LC0xMjk2OTcwMDM5LDIwMzU4NDk4NzYsLTE1NzkzNjc4OTYsMT
+QzMDMzMzYxMSwxOTMxOTA0MzQsMTY4NDk4MzI3NF19
 -->
