@@ -12,6 +12,7 @@ When a sub-routine is defined it can have zero, one, or more parameters.  These 
 
 ``` python
 def subroutineName(formalParameter1, formalParameter2, ...):
+	"""docstring""
     <sub-routine code>
 ```
 
@@ -27,6 +28,7 @@ A procedure is a type of sub-routine that ***does not*** return a value.  It mus
 
 ``` python
 def square(number):
+    """Re
 
     squared = number ** 2
     
@@ -553,8 +555,8 @@ for index in range(len(names)):
 print("Found " + str(count) + " occurence(s)")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDU2NDY5MjAsMTYxMDk2ODA4NywtOD
-UwNjI5Mzc4LDQ4ODI1MzUyNiwtMTI5Njk3MDAzOSwyMDM1ODQ5
-ODc2LC0xNTc5MzY3ODk2LDE0MzAzMzM2MTEsMTkzMTkwNDM0LD
-E2ODQ5ODMyNzRdfQ==
+eyJoaXN0b3J5IjpbLTkzNzA0MTM4LDE2MTA5NjgwODcsLTg1MD
+YyOTM3OCw0ODgyNTM1MjYsLTEyOTY5NzAwMzksMjAzNTg0OTg3
+NiwtMTU3OTM2Nzg5NiwxNDMwMzMzNjExLDE5MzE5MDQzNCwxNj
+g0OTgzMjc0XX0=
 -->
