@@ -501,18 +501,12 @@ Split the content of the variable `line` at the commas and assign the elements t
     tempData = line.split(",")
 ```
 
-Retrieve the individual attributes from `tempData`, remove leading and trailing spaces, and cast appropriately.
+Retrieve the individual attributes from `tempData`, remove leading and trailing spaces, cast appropriately, and assign to the current record.
 
 ``` python
-    name = tempData[0].strip()
-    age = int(tempData[1].strip())
-    height = float(tempData[2].strip())
-```
-
-Assign a new record to appropriate element in the array.
-
-``` python
-    people[index] = person(name, age, height)
+    people[index].name = tempData[0].strip()
+    people[index].age = int(tempData[1].strip())
+    people[index].height = float(tempData[2].strip())
 ```
 
 Read the next line of the file.
@@ -686,7 +680,7 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4ODM4NTAwMSwyMDkyNjM3NzE3LC0xOD
+eyJoaXN0b3J5IjpbMjE0MTQ0MTkwNiwyMDkyNjM3NzE3LC0xOD
 MzNjIxOTYzLC05ODMwMTc5NzksOTU5MjE4MDYyLDE2MTIyNzAz
 MzIsNzM5NDgzMjYzLDY5NTQyNTU5OSwtMTMxNDU3NzM4MywxOT
 Q0OTgyNjM4LDE4NDc4NTA4NTMsLTk2MDkyMDc2MywtODMyMDg2
