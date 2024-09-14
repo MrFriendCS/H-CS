@@ -209,6 +209,7 @@ myString = "Hello world"
 mySubstring = myString[3:8]
 
 print(mySubstring)
+```
 
 ## Parallel 1D arrays
 
@@ -549,7 +550,7 @@ for index in range(len(names)):
 print("Found " + str(count) + " occurence(s)")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MjU4Mzg4NywtODUwNjI5Mzc4LDQ4OD
+eyJoaXN0b3J5IjpbMTQzNjQwODIzNywtODUwNjI5Mzc4LDQ4OD
 I1MzUyNiwtMTI5Njk3MDAzOSwyMDM1ODQ5ODc2LC0xNTc5MzY3
 ODk2LDE0MzAzMzM2MTEsMTkzMTkwNDM0LDE2ODQ5ODMyNzRdfQ
 ==
