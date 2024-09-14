@@ -345,8 +345,8 @@ people[2].name = "Carl"
 # Display array of records
 print(people)
 
-# Display second record
-print(people[1])
+# Display third record
+print(people[2])
 
 # Display name in second record
 print(people[1].name)
@@ -681,10 +681,10 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ3NTY3ODc1LDE5NDQ5ODI2MzgsMTg0Nz
-g1MDg1MywtOTYwOTIwNzYzLC04MzIwODY1MzksLTM0NDgwOTI1
-MCw4MjQ5MjExMDgsMjAwODQyOTcwMCwxOTA0NTgxOTU3LDE2MT
-A5NjgwODcsLTg1MDYyOTM3OCw0ODgyNTM1MjYsLTEyOTY5NzAw
-MzksMjAzNTg0OTg3NiwtMTU3OTM2Nzg5NiwxNDMwMzMzNjExLD
-E5MzE5MDQzNCwxNjg0OTgzMjc0XX0=
+eyJoaXN0b3J5IjpbLTEzMTQ1NzczODMsMTk0NDk4MjYzOCwxOD
+Q3ODUwODUzLC05NjA5MjA3NjMsLTgzMjA4NjUzOSwtMzQ0ODA5
+MjUwLDgyNDkyMTEwOCwyMDA4NDI5NzAwLDE5MDQ1ODE5NTcsMT
+YxMDk2ODA4NywtODUwNjI5Mzc4LDQ4ODI1MzUyNiwtMTI5Njk3
+MDAzOSwyMDM1ODQ5ODc2LC0xNTc5MzY3ODk2LDE0MzAzMzM2MT
+EsMTkzMTkwNDM0LDE2ODQ5ODMyNzRdfQ==
 -->
