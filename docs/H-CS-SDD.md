@@ -333,7 +333,7 @@ Using default values.
 people = [Person() for index in range(4)]
 ```
 
-``` pyth
+``` python
 # Update name in first record
 people[0].name = "Alan"
 
@@ -681,7 +681,7 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NDkyNDIwMiw3Mzk0ODMyNjMsNjk1ND
+eyJoaXN0b3J5IjpbMTIwOTY5Mzk5NSw3Mzk0ODMyNjMsNjk1ND
 I1NTk5LC0xMzE0NTc3MzgzLDE5NDQ5ODI2MzgsMTg0Nzg1MDg1
 MywtOTYwOTIwNzYzLC04MzIwODY1MzksLTM0NDgwOTI1MCw4Mj
 Q5MjExMDgsMjAwODQyOTcwMCwxOTA0NTgxOTU3LDE2MTA5Njgw
