@@ -211,7 +211,7 @@ string[start : stop]
 ```
 
 **Notes:**
-* The `stop` value is always one more than the last element to be included.
+* The `stop` value is always one more than the last character to be included.
 * The number of characters selected can be calculated using `stop`-`start`
 
 ``` python
@@ -622,7 +622,7 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU5MzU2OTIzLDgyNDkyMTEwOCwyMDA4ND
+eyJoaXN0b3J5IjpbODc5NDEzNjcyLDgyNDkyMTEwOCwyMDA4ND
 I5NzAwLDE5MDQ1ODE5NTcsMTYxMDk2ODA4NywtODUwNjI5Mzc4
 LDQ4ODI1MzUyNiwtMTI5Njk3MDAzOSwyMDM1ODQ5ODc2LC0xNT
 c5MzY3ODk2LDE0MzAzMzM2MTEsMTkzMTkwNDM0LDE2ODQ5ODMy
