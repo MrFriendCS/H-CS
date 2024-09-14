@@ -555,6 +555,9 @@ while line != "":
     line = file.readline()
 
 file.close()
+
+# Display result
+print("Rows: " + str(count)")
 ```
 
 
@@ -633,7 +636,7 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTY2MDI4MiwxODQ3ODUwODUzLC05Nj
+eyJoaXN0b3J5IjpbMjAwMzg3NDQ1NSwxODQ3ODUwODUzLC05Nj
 A5MjA3NjMsLTgzMjA4NjUzOSwtMzQ0ODA5MjUwLDgyNDkyMTEw
 OCwyMDA4NDI5NzAwLDE5MDQ1ODE5NTcsMTYxMDk2ODA4NywtOD
 UwNjI5Mzc4LDQ4ODI1MzUyNiwtMTI5Njk3MDAzOSwyMDM1ODQ5
