@@ -328,10 +328,10 @@ print(person2)
 
 ### Array of records
 
-Using default values.
+Initialising an array of records is Using default values.
 
 ``` python
-# Create an array of records
+# Create an array of 4 records
 people = [Person() for index in range(4)]
 ```
 
@@ -686,11 +686,11 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MzAxNzk3OSw5NTkyMTgwNjIsMTYxMj
-I3MDMzMiw3Mzk0ODMyNjMsNjk1NDI1NTk5LC0xMzE0NTc3Mzgz
-LDE5NDQ5ODI2MzgsMTg0Nzg1MDg1MywtOTYwOTIwNzYzLC04Mz
-IwODY1MzksLTM0NDgwOTI1MCw4MjQ5MjExMDgsMjAwODQyOTcw
-MCwxOTA0NTgxOTU3LDE2MTA5NjgwODcsLTg1MDYyOTM3OCw0OD
-gyNTM1MjYsLTEyOTY5NzAwMzksMjAzNTg0OTg3NiwtMTU3OTM2
-Nzg5Nl19
+eyJoaXN0b3J5IjpbMTY5NDkzOTI0NiwtOTgzMDE3OTc5LDk1OT
+IxODA2MiwxNjEyMjcwMzMyLDczOTQ4MzI2Myw2OTU0MjU1OTks
+LTEzMTQ1NzczODMsMTk0NDk4MjYzOCwxODQ3ODUwODUzLC05Nj
+A5MjA3NjMsLTgzMjA4NjUzOSwtMzQ0ODA5MjUwLDgyNDkyMTEw
+OCwyMDA4NDI5NzAwLDE5MDQ1ODE5NTcsMTYxMDk2ODA4NywtOD
+UwNjI5Mzc4LDQ4ODI1MzUyNiwtMTI5Njk3MDAzOSwyMDM1ODQ5
+ODc2XX0=
 -->
