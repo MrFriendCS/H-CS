@@ -339,7 +339,12 @@ print(people)
 # Display first record
 print(people[0])
 
+# Display name in first record
+print(people[0].name)
 
+# Display first 2 character of name in first record
+print(people[0].name[ :2])
+```
 
 
 ## File handling
@@ -667,10 +672,10 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzOTk5MTYwOSwxODQ3ODUwODUzLC05Nj
-A5MjA3NjMsLTgzMjA4NjUzOSwtMzQ0ODA5MjUwLDgyNDkyMTEw
-OCwyMDA4NDI5NzAwLDE5MDQ1ODE5NTcsMTYxMDk2ODA4NywtOD
-UwNjI5Mzc4LDQ4ODI1MzUyNiwtMTI5Njk3MDAzOSwyMDM1ODQ5
-ODc2LC0xNTc5MzY3ODk2LDE0MzAzMzM2MTEsMTkzMTkwNDM0LD
-E2ODQ5ODMyNzRdfQ==
+eyJoaXN0b3J5IjpbNjkyNjM4MjMzLDE4NDc4NTA4NTMsLTk2MD
+kyMDc2MywtODMyMDg2NTM5LC0zNDQ4MDkyNTAsODI0OTIxMTA4
+LDIwMDg0Mjk3MDAsMTkwNDU4MTk1NywxNjEwOTY4MDg3LC04NT
+A2MjkzNzgsNDg4MjUzNTI2LC0xMjk2OTcwMDM5LDIwMzU4NDk4
+NzYsLTE1NzkzNjc4OTYsMTQzMDMzMzYxMSwxOTMxOTA0MzQsMT
+Y4NDk4MzI3NF19
 -->
