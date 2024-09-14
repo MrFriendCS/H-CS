@@ -340,7 +340,7 @@ people = [Person() for index in range(4)]
 people[0].name = "Alan"
 
 # Update second record
-people[1] = person("Beth",  23,  1.63)
+people[1] = Person("Beth",  23,  1.63)
 ```
 
 ``` python
@@ -686,11 +686,11 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzM2MjE5NjMsLTk4MzAxNzk3OSw5NT
-kyMTgwNjIsMTYxMjI3MDMzMiw3Mzk0ODMyNjMsNjk1NDI1NTk5
-LC0xMzE0NTc3MzgzLDE5NDQ5ODI2MzgsMTg0Nzg1MDg1MywtOT
-YwOTIwNzYzLC04MzIwODY1MzksLTM0NDgwOTI1MCw4MjQ5MjEx
-MDgsMjAwODQyOTcwMCwxOTA0NTgxOTU3LDE2MTA5NjgwODcsLT
-g1MDYyOTM3OCw0ODgyNTM1MjYsLTEyOTY5NzAwMzksMjAzNTg0
-OTg3Nl19
+eyJoaXN0b3J5IjpbMjA5MjYzNzcxNywtMTgzMzYyMTk2MywtOT
+gzMDE3OTc5LDk1OTIxODA2MiwxNjEyMjcwMzMyLDczOTQ4MzI2
+Myw2OTU0MjU1OTksLTEzMTQ1NzczODMsMTk0NDk4MjYzOCwxOD
+Q3ODUwODUzLC05NjA5MjA3NjMsLTgzMjA4NjUzOSwtMzQ0ODA5
+MjUwLDgyNDkyMTEwOCwyMDA4NDI5NzAwLDE5MDQ1ODE5NTcsMT
+YxMDk2ODA4NywtODUwNjI5Mzc4LDQ4ODI1MzUyNiwtMTI5Njk3
+MDAzOV19
 -->
