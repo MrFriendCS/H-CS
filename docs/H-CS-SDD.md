@@ -1,6 +1,5 @@
 # Software Design and Development
 
-
 ## Notes
 
 All the code examples use Python.
@@ -24,6 +23,7 @@ When a sub-routine is called it can have parameters passed to it.  These are kno
 subroutineName(actualParameter1, actualParameter2, ...)
 ```
 
+
 ### Procedures
 
 A procedure is a type of sub-routine that ***does not*** return a value.  It must be defined before it can be used.
@@ -42,6 +42,7 @@ A procedure can be called from the main program, or from another sub-routine.
 ``` python
 square(2)
 ```
+
 
 ### Functions
 
@@ -73,6 +74,7 @@ answer = 64 - toThePowerOf(2, 5)
 
 print(answer)
 ```
+
 
 #### Return multiple values
 
@@ -108,6 +110,7 @@ print(age)
 print(name)
 ```
 
+
 ## Predefine functions
 
 ### Character to ASCII
@@ -120,6 +123,7 @@ myASCII = ord(myCharacter)
 print(myASCII)
 ```
 
+
 ### ASCII to character
 
 ``` python
@@ -129,6 +133,7 @@ myCharacter = chr(myASCII)
 
 print(myCharacter)
 ```
+
 
 ### Floating-point numbers to integers
 
@@ -142,6 +147,7 @@ myInt = int(myFloat)
 print(myInt)
 ```
 
+
 ### Modulus
 
 The modulus is the remainder when doing division.
@@ -154,6 +160,7 @@ myModulus = 13 % 5
 print(myModulus)
 ```
 
+
 ## Substrings
 
 Python does not have pre-defined functions for creating substrings.  Strings can be treated as an array of characters.  Python starts counting from zero.
@@ -162,6 +169,7 @@ Python does not have pre-defined functions for creating substrings.  Strings can
 Index: 0  1  2  3  4  5  6  7  8  9  10
 Value: H  e  l  l  o     W  o  r  l  d
 ```
+
 
 ### Individual character
 
@@ -176,6 +184,7 @@ myCharacter = myString[1]
 
 print(myCharacter)
 ```
+
 
 ### Multiple characters
 
@@ -201,6 +210,7 @@ print(mySubstring)
 
 If the first or the last character is included in the substring then the `start` or `stop` parameter can be omitted.
 
+
 ### Left substring
 
 ``` python
@@ -210,6 +220,7 @@ mySubstring = myString[ :4]
 
 print(mySubstring)
 ```
+
 
 ### Right substring
 
@@ -235,6 +246,7 @@ mySubstring = myString[-5: ]
 
 print(mySubstring)
 ```
+
 
 ### Mid substring
 
@@ -304,6 +316,7 @@ person2.age = person2.age + 1
 print(person2)
 ```
 
+
 ### Array of records
 
 Using default values.
@@ -312,11 +325,13 @@ Using default values.
 people = [person()] * 4
 ```
 
+
 ## File handling
 
 Reading and writing a csv or txt file can be achieved using the same code, just change the file extension.
 
 **Note:** Anything read from a file is a string.  If the value represents another data type then it must be cast to that data type.
+
 
 ### Example Data
 
@@ -337,6 +352,7 @@ Beth,23,1.63
 Carl,22,1.89
 Dina,21,1.59
 ```
+
 
 ### Reading parallel arrays from a file
 
@@ -407,6 +423,7 @@ Close the file.
 ``` python
 file.close()
 ```
+
 
 ### Reading an array of records from a file
 
@@ -485,6 +502,7 @@ Close the file.
 file.close()
 ```
 
+
 ### Writing parallel arrays to a file
 
 **Note:** Only strings can be written to a file, anything else must be cast to a string.
@@ -515,6 +533,7 @@ Close the file.
 file.close()
 ```
 
+
 ### Count number of lines in a file
 
 If the size of the required array(s) is unknown then it is possible to to find out how many lines are in the file.
@@ -531,6 +550,7 @@ while line != "":
 
 file.close()
 ```
+
 
 ## Standard algorithms
 
@@ -555,6 +575,7 @@ else:
     print("Not found")
 ```
 
+
 ### Find minimum (or maximum) - array
 
 Assign the value in the ___first___ element as the minimum, or maximum.  Loop from the ___second___ element to the end of the array.
@@ -571,6 +592,7 @@ for index in range(1, len(heights)):
 print("Minimum: " + str(minimum))
 ```
 
+
 ### Count occurrences - array
 
 Loop from the ___first___ element to the end of the array.
@@ -585,8 +607,9 @@ for index in range(len(names)):
 
 print("Found " + str(count) + " occurence(s)")
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjc2MDQwNjIsODI0OTIxMTA4LDIwMD
+eyJoaXN0b3J5IjpbLTE3NTg3MzMzMzIsODI0OTIxMTA4LDIwMD
 g0Mjk3MDAsMTkwNDU4MTk1NywxNjEwOTY4MDg3LC04NTA2Mjkz
 NzgsNDg4MjUzNTI2LC0xMjk2OTcwMDM5LDIwMzU4NDk4NzYsLT
 E1NzkzNjc4OTYsMTQzMDMzMzYxMSwxOTMxOTA0MzQsMTY4NDk4
