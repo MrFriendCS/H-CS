@@ -609,6 +609,8 @@ print("Rows: " + str(count)")
 
 ## Standard algorithms
 
+**Note:** The standard algor
+
 ### Linear search - array
 
 Finds the first occurrence and then ___stops___ searching.
@@ -682,7 +684,7 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNDY3MjIxNywxNjEyMjcwMzMyLDczOT
+eyJoaXN0b3J5IjpbMjExODM1OTg0MCwxNjEyMjcwMzMyLDczOT
 Q4MzI2Myw2OTU0MjU1OTksLTEzMTQ1NzczODMsMTk0NDk4MjYz
 OCwxODQ3ODUwODUzLC05NjA5MjA3NjMsLTgzMjA4NjUzOSwtMz
 Q0ODA5MjUwLDgyNDkyMTEwOCwyMDA4NDI5NzAwLDE5MDQ1ODE5
