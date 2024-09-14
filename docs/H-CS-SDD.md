@@ -463,7 +463,7 @@ file.close()
 Declare an array of records large enough to hold the data.
 
 ``` python
-people = [person()] * 4
+people = [Person() for index in range(4)]
 ```
 
 Declare all other variables.
@@ -686,11 +686,11 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MjYzNzcxNywtMTgzMzYyMTk2MywtOT
-gzMDE3OTc5LDk1OTIxODA2MiwxNjEyMjcwMzMyLDczOTQ4MzI2
-Myw2OTU0MjU1OTksLTEzMTQ1NzczODMsMTk0NDk4MjYzOCwxOD
-Q3ODUwODUzLC05NjA5MjA3NjMsLTgzMjA4NjUzOSwtMzQ0ODA5
-MjUwLDgyNDkyMTEwOCwyMDA4NDI5NzAwLDE5MDQ1ODE5NTcsMT
-YxMDk2ODA4NywtODUwNjI5Mzc4LDQ4ODI1MzUyNiwtMTI5Njk3
-MDAzOV19
+eyJoaXN0b3J5IjpbMTg4ODM4NTAwMSwyMDkyNjM3NzE3LC0xOD
+MzNjIxOTYzLC05ODMwMTc5NzksOTU5MjE4MDYyLDE2MTIyNzAz
+MzIsNzM5NDgzMjYzLDY5NTQyNTU5OSwtMTMxNDU3NzM4MywxOT
+Q0OTgyNjM4LDE4NDc4NTA4NTMsLTk2MDkyMDc2MywtODMyMDg2
+NTM5LC0zNDQ4MDkyNTAsODI0OTIxMTA4LDIwMDg0Mjk3MDAsMT
+kwNDU4MTk1NywxNjEwOTY4MDg3LC04NTA2MjkzNzgsNDg4MjUz
+NTI2XX0=
 -->
