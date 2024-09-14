@@ -597,6 +597,7 @@ heights = [1.78, 1.63, 1.89, 1.59]
 # Assign first element as minimum
 minimum = heights[0]
 
+# Repeat for remaining values
 for index in range(1, len(heights)):
 
     # Compare current value with minimim
@@ -605,6 +606,7 @@ for index in range(1, len(heights)):
         # Update minimum value
         minimum = heights[index]
 
+# Display result
 print("Minimum: " + str(minimum))
 ```
 
@@ -622,16 +624,19 @@ for index in range(len(names)):
 
     # Compare current value with target value
     if names[index] == "Carl":
+        
+        # Increment count
         count = count + 1
 
+# Display result
 print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NjMyNTg4NywxODQ3ODUwODUzLC05Nj
-A5MjA3NjMsLTgzMjA4NjUzOSwtMzQ0ODA5MjUwLDgyNDkyMTEw
-OCwyMDA4NDI5NzAwLDE5MDQ1ODE5NTcsMTYxMDk2ODA4NywtOD
-UwNjI5Mzc4LDQ4ODI1MzUyNiwtMTI5Njk3MDAzOSwyMDM1ODQ5
-ODc2LC0xNTc5MzY3ODk2LDE0MzAzMzM2MTEsMTkzMTkwNDM0LD
-E2ODQ5ODMyNzRdfQ==
+eyJoaXN0b3J5IjpbLTExNTUzMzUyMjMsMTg0Nzg1MDg1MywtOT
+YwOTIwNzYzLC04MzIwODY1MzksLTM0NDgwOTI1MCw4MjQ5MjEx
+MDgsMjAwODQyOTcwMCwxOTA0NTgxOTU3LDE2MTA5NjgwODcsLT
+g1MDYyOTM3OCw0ODgyNTM1MjYsLTEyOTY5NzAwMzksMjAzNTg0
+OTg3NiwtMTU3OTM2Nzg5NiwxNDMwMzMzNjExLDE5MzE5MDQzNC
+wxNjg0OTgzMjc0XX0=
 -->
