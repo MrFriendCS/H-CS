@@ -72,6 +72,89 @@ myModulus = 13 % 5
 print(myModulus)
 ```
 
+## Substrings
+
+Python does not have pre-defined functions for creating substrings.  Strings can be treated as an array of characters.  Python starts counting from zero.
+
+```
+Index: 0  1  2  3  4  5  6  7  8  9  10
+Value: H  e  l  l  o     W  o  r  l  d
+```
+
+``` python
+myString = "Hello world"
+
+myCharacter = myString[0]
+print(myCharacter)
+
+myCharacter = myString[6]
+print(myCharacter)
+```
+
+To extract more than a single character a second parameter is used.
+
+```
+string[start : stop]
+```
+
+**Note:** The `stop` value is always one more than the last element to be included.
+
+``` python
+myString = "Hello world"
+
+mySubstring = myString[0:4]
+print(mySubstring)
+
+mySubstring = myString[6:11]
+print(mySubstring)
+```
+
+If the first or the last character is included in the substring then the `start` or `stop` parameter can be omitted.
+
+### Left substring
+
+``` python
+myString = "Hello world"
+
+mySubstring = myString[ :4]
+
+print(mySubstring)
+```
+
+### Right substring
+
+``` python
+myString = "Hello world"
+
+mySubstring = myString[6: ]
+
+print(mySubstring)
+```
+
+It is possible to use a negative value for the `start` parameter, with `-1` being the last element.
+
+```
+Index: -11  -10  -9  -8  -7  -6  -5  -4  -3  -2  -1
+Value:   H    e   l   l   o       W   o   r   l   d
+```
+
+``` python
+myString = "Hello world"
+
+mySubstring = myString[-5: ]
+
+print(mySubstring)
+```
+
+### Mid substring
+
+``` python
+myString = "Hello world"
+
+mySubstring = myString[3:8]
+
+print(mySubstring)
+
 ## Parallel 1D arrays
 
 Parallel arrays have the same number of elements in each array.
@@ -211,88 +294,8 @@ print(age)
 print(name)
 ```
 
-## Substrings
 
-Python does not have pre-defined functions for creating substrings.  Strings can be treated as an array of characters.  Python starts counting from zero.
 
-```
-Index: 0  1  2  3  4  5  6  7  8  9  10
-Value: H  e  l  l  o     W  o  r  l  d
-```
-
-``` python
-myString = "Hello world"
-
-myCharacter = myString[0]
-print(myCharacter)
-
-myCharacter = myString[6]
-print(myCharacter)
-```
-
-To extract more than a single character a second parameter is used.
-
-```
-string[start : stop]
-```
-
-**Note:** The `stop` value is always one more than the last element to be included.
-
-``` python
-myString = "Hello world"
-
-mySubstring = myString[0:4]
-print(mySubstring)
-
-mySubstring = myString[6:11]
-print(mySubstring)
-```
-
-If the first or the last character is included in the substring then the `start` or `stop` parameter can be omitted.
-
-### Left substring
-
-``` python
-myString = "Hello world"
-
-mySubstring = myString[ :4]
-
-print(mySubstring)
-```
-
-### Right substring
-
-``` python
-myString = "Hello world"
-
-mySubstring = myString[6: ]
-
-print(mySubstring)
-```
-
-It is possible to use a negative value for the `start` parameter, with `-1` being the last element.
-
-```
-Index: -11  -10  -9  -8  -7  -6  -5  -4  -3  -2  -1
-Value:   H    e   l   l   o       W   o   r   l   d
-```
-
-``` python
-myString = "Hello world"
-
-mySubstring = myString[-5: ]
-
-print(mySubstring)
-```
-
-### Mid substring
-
-``` python
-myString = "Hello world"
-
-mySubstring = myString[3:8]
-
-print(mySubstring)
 ```
 
 ## File handling
@@ -549,8 +552,8 @@ for index in range(len(names)):
 print("Found " + str(count) + " occurence(s)")
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTcxMTc5MDksLTg1MDYyOTM3OCw0OD
-gyNTM1MjYsLTEyOTY5NzAwMzksMjAzNTg0OTg3NiwtMTU3OTM2
-Nzg5NiwxNDMwMzMzNjExLDE5MzE5MDQzNCwxNjg0OTgzMjc0XX
-0=
+eyJoaXN0b3J5IjpbMTQxMzkxOTgxMywtODUwNjI5Mzc4LDQ4OD
+I1MzUyNiwtMTI5Njk3MDAzOSwyMDM1ODQ5ODc2LC0xNTc5MzY3
+ODk2LDE0MzAzMzM2MTEsMTkzMTkwNDM0LDE2ODQ5ODMyNzRdfQ
+==
 -->
