@@ -4,7 +4,7 @@
 
 All the code examples use Python.
 
-These notes are focused on Higher Computing Science so some terms are used differently.  Any reference to an `array` will actually use a `list`.  Any reference to a `procedure` will be a `function` that does not explicitly return a value. 
+These notes are focused on Higher Computing Science so some terms are used differently.  Any reference to an `array` will actually use a `list`.  Any reference to a `procedure` will be a `function` that does not explicitly return a value.   Any reference to a `record` is a Class using the `@dataclass` decorator. 
 
 
 ## Sub-routines
@@ -681,7 +681,7 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwOTY5Mzk5NSw3Mzk0ODMyNjMsNjk1ND
+eyJoaXN0b3J5IjpbMTYxMjI3MDMzMiw3Mzk0ODMyNjMsNjk1ND
 I1NTk5LC0xMzE0NTc3MzgzLDE5NDQ5ODI2MzgsMTg0Nzg1MDg1
 MywtOTYwOTIwNzYzLC04MzIwODY1MzksLTM0NDgwOTI1MCw4Mj
 Q5MjExMDgsMjAwODQyOTcwMCwxOTA0NTgxOTU3LDE2MTA5Njgw
