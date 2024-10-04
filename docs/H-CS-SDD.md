@@ -438,13 +438,13 @@ Start / continue the conditional loop if the variable `line` is not empty.
 while line != "":
 ```
 
-Split the content of the variable `line` at the commas.  Assign the elements to `tempArray`.
+Split the content of the variable `line` at the commas.  Assign the elements to `data`.
 
 ``` python
     data = line.split(",")
 ```
 
-Remove leading and trailing spaces from `tempData`, cast appropriately, and assign to parallel arrays.
+Remove leading and trailing spaces from `data`, cast appropriately, and assign to parallel arrays.
 
 ``` python
     names[index] = data[0].strip()
@@ -484,7 +484,7 @@ people = [Person() for index in range(4)]
 Declare all other variables.
 
 ``` python
-tempData = [""] * 3
+data = [""] * 3
 line = ""
 index = 0
 ```
@@ -507,18 +507,18 @@ Start / continue the conditional loop if the variable `line` is not empty.
 while line != "":
 ```
 
-Split the content of the variable `line` at the commas and assign the elements to `tempArray`.
+Split the content of the variable `line` at the commas and assign the elements to `data`.
 
 ``` python
-    tempData = line.split(",")
+    data = line.split(",")
 ```
 
-Retrieve the individual attributes from `tempData`, remove leading and trailing spaces, cast appropriately, and assign to the current record.
+Retrieve the individual attributes from `data`, remove leading and trailing spaces, cast appropriately, and assign to the current record.
 
 ``` python
-    people[index].name = tempData[0].strip()
-    people[index].age = int(tempData[1].strip())
-    people[index].height = float(tempData[2].strip())
+    people[index].name = data[0].strip()
+    people[index].age = int(data[1].strip())
+    people[index].height = float(data[2].strip())
 ```
 
 Read the next line of the file.
@@ -671,11 +671,11 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzgzMzcxOTMsNDI1NDY4OTc5LC0yMD
-U0NTgzMTAxLDIxNDE0NDE5MDYsMjA5MjYzNzcxNywtMTgzMzYy
-MTk2MywtOTgzMDE3OTc5LDk1OTIxODA2MiwxNjEyMjcwMzMyLD
-czOTQ4MzI2Myw2OTU0MjU1OTksLTEzMTQ1NzczODMsMTk0NDk4
-MjYzOCwxODQ3ODUwODUzLC05NjA5MjA3NjMsLTgzMjA4NjUzOS
-wtMzQ0ODA5MjUwLDgyNDkyMTEwOCwyMDA4NDI5NzAwLDE5MDQ1
-ODE5NTddfQ==
+eyJoaXN0b3J5IjpbMTE0NTYyMzk1OSw0MjU0Njg5NzksLTIwNT
+Q1ODMxMDEsMjE0MTQ0MTkwNiwyMDkyNjM3NzE3LC0xODMzNjIx
+OTYzLC05ODMwMTc5NzksOTU5MjE4MDYyLDE2MTIyNzAzMzIsNz
+M5NDgzMjYzLDY5NTQyNTU5OSwtMTMxNDU3NzM4MywxOTQ0OTgy
+NjM4LDE4NDc4NTA4NTMsLTk2MDkyMDc2MywtODMyMDg2NTM5LC
+0zNDQ4MDkyNTAsODI0OTIxMTA4LDIwMDg0Mjk3MDAsMTkwNDU4
+MTk1N119
 -->
