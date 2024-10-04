@@ -360,7 +360,13 @@ print(people[1].name[ :2])
 
 #### Traverse an array of records
 
-```
+``` python
+for index in range(len(people)):
+
+    #
+    
+    # Display and and age
+    print(people[index].name
 
 
 ## File handling
@@ -661,7 +667,7 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NzUyNzIzMSwtMjA1NDU4MzEwMSwyMT
+eyJoaXN0b3J5IjpbMTEzODE3MjU4MCwtMjA1NDU4MzEwMSwyMT
 QxNDQxOTA2LDIwOTI2Mzc3MTcsLTE4MzM2MjE5NjMsLTk4MzAx
 Nzk3OSw5NTkyMTgwNjIsMTYxMjI3MDMzMiw3Mzk0ODMyNjMsNj
 k1NDI1NTk5LC0xMzE0NTc3MzgzLDE5NDQ5ODI2MzgsMTg0Nzg1
