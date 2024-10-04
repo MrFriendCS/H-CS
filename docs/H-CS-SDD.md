@@ -415,7 +415,7 @@ heights = [0.0] * 4
 Declare other variables
 
 ``` python
-tempData = [""] * 3
+data = [""] * 3
 line = ""
 index = 0
 ```
@@ -441,15 +441,15 @@ while line != "":
 Split the content of the variable `line` at the commas.  Assign the elements to `tempArray`.
 
 ``` python
-    tempData = line.split(",")
+    data = line.split(",")
 ```
 
 Remove leading and trailing spaces from `tempData`, cast appropriately, and assign to parallel arrays.
 
 ``` python
-    names[index] = tempData[0].strip()
-    ages[index] = int(tempData[1].strip())
-    heights[index] = float(tempData[2].strip())
+    names[index] = data[0].strip()
+    ages[index] = int(data[1].strip())
+    heights[index] = float(data[2].strip())
 ```
 
 Read the next line of the file.
@@ -671,11 +671,11 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI1NDY4OTc5LC0yMDU0NTgzMTAxLDIxND
-E0NDE5MDYsMjA5MjYzNzcxNywtMTgzMzYyMTk2MywtOTgzMDE3
-OTc5LDk1OTIxODA2MiwxNjEyMjcwMzMyLDczOTQ4MzI2Myw2OT
-U0MjU1OTksLTEzMTQ1NzczODMsMTk0NDk4MjYzOCwxODQ3ODUw
-ODUzLC05NjA5MjA3NjMsLTgzMjA4NjUzOSwtMzQ0ODA5MjUwLD
-gyNDkyMTEwOCwyMDA4NDI5NzAwLDE5MDQ1ODE5NTcsMTYxMDk2
-ODA4N119
+eyJoaXN0b3J5IjpbLTE0MzgzMzcxOTMsNDI1NDY4OTc5LC0yMD
+U0NTgzMTAxLDIxNDE0NDE5MDYsMjA5MjYzNzcxNywtMTgzMzYy
+MTk2MywtOTgzMDE3OTc5LDk1OTIxODA2MiwxNjEyMjcwMzMyLD
+czOTQ4MzI2Myw2OTU0MjU1OTksLTEzMTQ1NzczODMsMTk0NDk4
+MjYzOCwxODQ3ODUwODUzLC05NjA5MjA3NjMsLTgzMjA4NjUzOS
+wtMzQ0ODA5MjUwLDgyNDkyMTEwOCwyMDA4NDI5NzAwLDE5MDQ1
+ODE5NTddfQ==
 -->
