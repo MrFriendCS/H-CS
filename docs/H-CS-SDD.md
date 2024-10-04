@@ -539,6 +539,7 @@ Close the file.
 file.close()
 ```
 
+
 ### Count number of lines in a file
 
 If the size of the required array(s) is unknown then it is possible to to find out how many lines are in the file.
@@ -671,7 +672,7 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NTYyMzk1OSw0MjU0Njg5NzksLTIwNT
+eyJoaXN0b3J5IjpbLTYyNDUwMjE2Nyw0MjU0Njg5NzksLTIwNT
 Q1ODMxMDEsMjE0MTQ0MTkwNiwyMDkyNjM3NzE3LC0xODMzNjIx
 OTYzLC05ODMwMTc5NzksOTU5MjE4MDYyLDE2MTIyNzAzMzIsNz
 M5NDgzMjYzLDY5NTQyNTU5OSwtMTMxNDU3NzM4MywxOTQ0OTgy
