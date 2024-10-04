@@ -290,6 +290,7 @@ from dataclasses import dataclass
 
 @dataclass
 class Person:
+    """A record to represent a person."""
     name: str = ""
     age: int = 0
     height: float = 0.0
@@ -656,11 +657,11 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTQ1ODMxMDEsMjE0MTQ0MTkwNiwyMD
-kyNjM3NzE3LC0xODMzNjIxOTYzLC05ODMwMTc5NzksOTU5MjE4
-MDYyLDE2MTIyNzAzMzIsNzM5NDgzMjYzLDY5NTQyNTU5OSwtMT
-MxNDU3NzM4MywxOTQ0OTgyNjM4LDE4NDc4NTA4NTMsLTk2MDky
-MDc2MywtODMyMDg2NTM5LC0zNDQ4MDkyNTAsODI0OTIxMTA4LD
-IwMDg0Mjk3MDAsMTkwNDU4MTk1NywxNjEwOTY4MDg3LC04NTA2
-MjkzNzhdfQ==
+eyJoaXN0b3J5IjpbLTEwMTAwNDczNjYsLTIwNTQ1ODMxMDEsMj
+E0MTQ0MTkwNiwyMDkyNjM3NzE3LC0xODMzNjIxOTYzLC05ODMw
+MTc5NzksOTU5MjE4MDYyLDE2MTIyNzAzMzIsNzM5NDgzMjYzLD
+Y5NTQyNTU5OSwtMTMxNDU3NzM4MywxOTQ0OTgyNjM4LDE4NDc4
+NTA4NTMsLTk2MDkyMDc2MywtODMyMDg2NTM5LC0zNDQ4MDkyNT
+AsODI0OTIxMTA4LDIwMDg0Mjk3MDAsMTkwNDU4MTk1NywxNjEw
+OTY4MDg3XX0=
 -->
