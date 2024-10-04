@@ -33,6 +33,7 @@ A procedure is a type of sub-routine that ***does not*** return a value.  It mus
 def square(number):
     """Display the square of number."""
     
+    # Calculate result
     squared = number ** 2
     
     print(squared)
@@ -52,7 +53,8 @@ A function is another type of sub-routine that ***does*** return a value.  It mu
 ``` python
 def toThePowerOf(number, power):
     """Return a number raised to a power."""
-
+    
+    # Calculate result
     value = number ** power
     
     return value
@@ -669,11 +671,11 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMTE2ODE1MywtMjA1NDU4MzEwMSwyMT
-QxNDQxOTA2LDIwOTI2Mzc3MTcsLTE4MzM2MjE5NjMsLTk4MzAx
-Nzk3OSw5NTkyMTgwNjIsMTYxMjI3MDMzMiw3Mzk0ODMyNjMsNj
-k1NDI1NTk5LC0xMzE0NTc3MzgzLDE5NDQ5ODI2MzgsMTg0Nzg1
-MDg1MywtOTYwOTIwNzYzLC04MzIwODY1MzksLTM0NDgwOTI1MC
-w4MjQ5MjExMDgsMjAwODQyOTcwMCwxOTA0NTgxOTU3LDE2MTA5
-NjgwODddfQ==
+eyJoaXN0b3J5IjpbNDI1NDY4OTc5LC0yMDU0NTgzMTAxLDIxND
+E0NDE5MDYsMjA5MjYzNzcxNywtMTgzMzYyMTk2MywtOTgzMDE3
+OTc5LDk1OTIxODA2MiwxNjEyMjcwMzMyLDczOTQ4MzI2Myw2OT
+U0MjU1OTksLTEzMTQ1NzczODMsMTk0NDk4MjYzOCwxODQ3ODUw
+ODUzLC05NjA5MjA3NjMsLTgzMjA4NjUzOSwtMzQ0ODA5MjUwLD
+gyNDkyMTEwOCwyMDA4NDI5NzAwLDE5MDQ1ODE5NTcsMTYxMDk2
+ODA4N119
 -->
