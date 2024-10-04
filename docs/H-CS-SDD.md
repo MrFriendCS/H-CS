@@ -358,6 +358,10 @@ print(people[1].age)
 print(people[1].name[ :2])
 ```
 
+#### Traverse an array of records
+
+```
+
 
 ## File handling
 
@@ -365,7 +369,7 @@ Reading and writing a csv or txt file can be achieved using the same code, just 
 
 **Note:** Anything read from a file is a string.  If the value represents another data type then it must be cast to that data type.
 
-### Example Data
+### Example data
 
 The data used in the examples can be represented in a table:
 
@@ -657,11 +661,11 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTAwNDczNjYsLTIwNTQ1ODMxMDEsMj
-E0MTQ0MTkwNiwyMDkyNjM3NzE3LC0xODMzNjIxOTYzLC05ODMw
-MTc5NzksOTU5MjE4MDYyLDE2MTIyNzAzMzIsNzM5NDgzMjYzLD
-Y5NTQyNTU5OSwtMTMxNDU3NzM4MywxOTQ0OTgyNjM4LDE4NDc4
-NTA4NTMsLTk2MDkyMDc2MywtODMyMDg2NTM5LC0zNDQ4MDkyNT
-AsODI0OTIxMTA4LDIwMDg0Mjk3MDAsMTkwNDU4MTk1NywxNjEw
-OTY4MDg3XX0=
+eyJoaXN0b3J5IjpbMTY2NzUyNzIzMSwtMjA1NDU4MzEwMSwyMT
+QxNDQxOTA2LDIwOTI2Mzc3MTcsLTE4MzM2MjE5NjMsLTk4MzAx
+Nzk3OSw5NTkyMTgwNjIsMTYxMjI3MDMzMiw3Mzk0ODMyNjMsNj
+k1NDI1NTk5LC0xMzE0NTc3MzgzLDE5NDQ5ODI2MzgsMTg0Nzg1
+MDg1MywtOTYwOTIwNzYzLC04MzIwODY1MzksLTM0NDgwOTI1MC
+w4MjQ5MjExMDgsMjAwODQyOTcwMCwxOTA0NTgxOTU3LDE2MTA5
+NjgwODddfQ==
 -->
