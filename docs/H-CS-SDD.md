@@ -405,6 +405,8 @@ Dina,21,1.59
 
 If the number of lines to be read from a file is known then a fixed loop can be used, otherwise a conditional loop can be used.  Alternatively, the unknown number of lines can be counted, and then a fixed loop used.
 
+File are opened in read mode (`r`).
+
 #### Fixed loop
 
 ``` python
@@ -555,7 +557,7 @@ file.close()
 * Only strings can be written to a file, anything else must be cast to a string.
 * The example will create a `csv` file.
 
-Open the file that will hold the data, in write mode.  If the file exists it will be overwritten, otherwise it will be created.
+File are opened in write mode (`w`).  If the file exists it will be overwritten, otherwise it will be created.
 
 ``` python
 # Make a connection to the file
@@ -653,11 +655,11 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMTUwNTQwOCwtMzg1MzM1NzEsMTk3Nz
-A4MjkwOCwtNjI0NTAyMTY3LDQyNTQ2ODk3OSwtMjA1NDU4MzEw
-MSwyMTQxNDQxOTA2LDIwOTI2Mzc3MTcsLTE4MzM2MjE5NjMsLT
-k4MzAxNzk3OSw5NTkyMTgwNjIsMTYxMjI3MDMzMiw3Mzk0ODMy
-NjMsNjk1NDI1NTk5LC0xMzE0NTc3MzgzLDE5NDQ5ODI2MzgsMT
-g0Nzg1MDg1MywtOTYwOTIwNzYzLC04MzIwODY1MzksLTM0NDgw
-OTI1MF19
+eyJoaXN0b3J5IjpbLTE5Mzc3MjEzNTEsLTM4NTMzNTcxLDE5Nz
+cwODI5MDgsLTYyNDUwMjE2Nyw0MjU0Njg5NzksLTIwNTQ1ODMx
+MDEsMjE0MTQ0MTkwNiwyMDkyNjM3NzE3LC0xODMzNjIxOTYzLC
+05ODMwMTc5NzksOTU5MjE4MDYyLDE2MTIyNzAzMzIsNzM5NDgz
+MjYzLDY5NTQyNTU5OSwtMTMxNDU3NzM4MywxOTQ0OTgyNjM4LD
+E4NDc4NTA4NTMsLTk2MDkyMDc2MywtODMyMDg2NTM5LC0zNDQ4
+MDkyNTBdfQ==
 -->
