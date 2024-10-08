@@ -497,9 +497,9 @@ for index in range(4):
     # Split the line at the commas
     data = line.split(",")
 
-    # Assign to data structures
-    # Remove non-printing characters
-    # Cast as appropriate    
+    # 1. Remove non-printing characters
+    # 2. Cast as appropriate
+    # 3. Assign to data structures
     names[index] = data[0].strip()
     ages[index] = int(data[1].strip())
     heights[index] = float(data[2].strip()
@@ -535,9 +535,9 @@ for index in range(4):
     # Split the line at the commas
     data = line.split(",")
 
-    # Assign to data structures
-    # Remove non-printing characters
-    # Cast as appropriate
+    # 1. Remove non-printing characters
+    # 2. Cast as appropriate
+    # 3. Assign to data structure
     people[index].name = data[0].strip()
     people[index].age = int(data[1].strip())
     people[index].height = float(data[2].strip())
@@ -651,11 +651,11 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NzA4MjkwOCwtNjI0NTAyMTY3LDQyNT
-Q2ODk3OSwtMjA1NDU4MzEwMSwyMTQxNDQxOTA2LDIwOTI2Mzc3
-MTcsLTE4MzM2MjE5NjMsLTk4MzAxNzk3OSw5NTkyMTgwNjIsMT
-YxMjI3MDMzMiw3Mzk0ODMyNjMsNjk1NDI1NTk5LC0xMzE0NTc3
-MzgzLDE5NDQ5ODI2MzgsMTg0Nzg1MDg1MywtOTYwOTIwNzYzLC
-04MzIwODY1MzksLTM0NDgwOTI1MCw4MjQ5MjExMDgsMjAwODQy
-OTcwMF19
+eyJoaXN0b3J5IjpbMTU1ODg4NjIwOSwxOTc3MDgyOTA4LC02Mj
+Q1MDIxNjcsNDI1NDY4OTc5LC0yMDU0NTgzMTAxLDIxNDE0NDE5
+MDYsMjA5MjYzNzcxNywtMTgzMzYyMTk2MywtOTgzMDE3OTc5LD
+k1OTIxODA2MiwxNjEyMjcwMzMyLDczOTQ4MzI2Myw2OTU0MjU1
+OTksLTEzMTQ1NzczODMsMTk0NDk4MjYzOCwxODQ3ODUwODUzLC
+05NjA5MjA3NjMsLTgzMjA4NjUzOSwtMzQ0ODA5MjUwLDgyNDky
+MTEwOF19
 -->
