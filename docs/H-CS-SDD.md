@@ -288,6 +288,7 @@ The code to produce a record needs to be imported before it can be used.
 A record is defined with attributes, which can have default values.
 
 ``` python
+# Get extra code
 from dataclasses import dataclass
 
 @dataclass
@@ -369,7 +370,7 @@ for index in range(len(people)):
     name = people[index].name
     age = people[index].age
     
-    # Display and and age
+    # Display name and age
     print(name + " is " + str(age) + " years old.")
 ```
 
@@ -651,11 +652,11 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1ODg4NjIwOSwxOTc3MDgyOTA4LC02Mj
-Q1MDIxNjcsNDI1NDY4OTc5LC0yMDU0NTgzMTAxLDIxNDE0NDE5
-MDYsMjA5MjYzNzcxNywtMTgzMzYyMTk2MywtOTgzMDE3OTc5LD
-k1OTIxODA2MiwxNjEyMjcwMzMyLDczOTQ4MzI2Myw2OTU0MjU1
-OTksLTEzMTQ1NzczODMsMTk0NDk4MjYzOCwxODQ3ODUwODUzLC
-05NjA5MjA3NjMsLTgzMjA4NjUzOSwtMzQ0ODA5MjUwLDgyNDky
-MTEwOF19
+eyJoaXN0b3J5IjpbLTM4NTMzNTcxLDE5NzcwODI5MDgsLTYyND
+UwMjE2Nyw0MjU0Njg5NzksLTIwNTQ1ODMxMDEsMjE0MTQ0MTkw
+NiwyMDkyNjM3NzE3LC0xODMzNjIxOTYzLC05ODMwMTc5NzksOT
+U5MjE4MDYyLDE2MTIyNzAzMzIsNzM5NDgzMjYzLDY5NTQyNTU5
+OSwtMTMxNDU3NzM4MywxOTQ0OTgyNjM4LDE4NDc4NTA4NTMsLT
+k2MDkyMDc2MywtODMyMDg2NTM5LC0zNDQ4MDkyNTAsODI0OTIx
+MTA4XX0=
 -->
