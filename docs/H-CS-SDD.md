@@ -527,45 +527,29 @@ line = ""
 file = open("people.csv" ,"r" )
 
 # Loop for each line in the file
-line = file.readline()
-```
+for index in range(4):
 
-Start / continue the conditional loop if the variable `line` is not empty.
-
-``` python
-while line != "":
-```
-
-Split the content of the variable `line` at the commas and assign the elements to `data`.
-
-``` python
+    # Read a line from the file
+    line = file.readline()
+    
+    # Split the line at the commas
     data = line.split(",")
-```
 
-Retrieve the individual attributes from `data`, remove leading and trailing spaces, cast appropriately, and assign to the current record.
+    # Assign to data structures
+    # Remove non-printing characters
+    # Cast as appropriate
+    people[index].name = data[0].strip()
+    people[index].age = int(data[1].strip())
+    people[index].height = float(data[2].strip())
+
+# Close the connection
+file.close()
+```
 
 ``` python
     people[index].name = data[0].strip()
     people[index].age = int(data[1].strip())
     people[index].height = float(data[2].strip())
-```
-
-Read the next line of the file.
-
-``` python
-    line = file.readline()
-```
-
-Increase the index of where the next record will be stored.
-
-``` python
-    index = index + 1
-```
-
-Close the file.
-
-``` python
-file.close()
 ```
 
 
@@ -681,11 +665,11 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIyMjQ2MDE2LC02MjQ1MDIxNjcsNDI1ND
-Y4OTc5LC0yMDU0NTgzMTAxLDIxNDE0NDE5MDYsMjA5MjYzNzcx
-NywtMTgzMzYyMTk2MywtOTgzMDE3OTc5LDk1OTIxODA2MiwxNj
-EyMjcwMzMyLDczOTQ4MzI2Myw2OTU0MjU1OTksLTEzMTQ1Nzcz
-ODMsMTk0NDk4MjYzOCwxODQ3ODUwODUzLC05NjA5MjA3NjMsLT
-gzMjA4NjUzOSwtMzQ0ODA5MjUwLDgyNDkyMTEwOCwyMDA4NDI5
-NzAwXX0=
+eyJoaXN0b3J5IjpbMTIxODAxOTcxMiwtNjI0NTAyMTY3LDQyNT
+Q2ODk3OSwtMjA1NDU4MzEwMSwyMTQxNDQxOTA2LDIwOTI2Mzc3
+MTcsLTE4MzM2MjE5NjMsLTk4MzAxNzk3OSw5NTkyMTgwNjIsMT
+YxMjI3MDMzMiw3Mzk0ODMyNjMsNjk1NDI1NTk5LC0xMzE0NTc3
+MzgzLDE5NDQ5ODI2MzgsMTg0Nzg1MDg1MywtOTYwOTIwNzYzLC
+04MzIwODY1MzksLTM0NDgwOTI1MCw4MjQ5MjExMDgsMjAwODQy
+OTcwMF19
 -->
