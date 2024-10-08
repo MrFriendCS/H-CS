@@ -489,6 +489,7 @@ index = 0
 # Make a connection to the file
 file = open("people.csv" ,"r")
 
+# Loop for each line in the file
 for index in range(4):
 
     # Read a line from the file
@@ -502,18 +503,9 @@ for index in range(4):
     # Cast as appropriate    
     names[index] = data[0].strip()
     ages[index] = int(data[1].strip())
-    heights[index] = float(data[2].strip()()
-```
+    heights[index] = float(data[2].strip()
 
-Increase the index of where the next element will be stored, and back to `while` statement.
-
-``` python
-    index = index + 1
-```
-
-Close the file.
-
-``` python
+# Close the connection
 file.close()
 ```
 
@@ -699,11 +691,11 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNjA1NTYwMSwtNjI0NTAyMTY3LDQyNT
-Q2ODk3OSwtMjA1NDU4MzEwMSwyMTQxNDQxOTA2LDIwOTI2Mzc3
-MTcsLTE4MzM2MjE5NjMsLTk4MzAxNzk3OSw5NTkyMTgwNjIsMT
-YxMjI3MDMzMiw3Mzk0ODMyNjMsNjk1NDI1NTk5LC0xMzE0NTc3
-MzgzLDE5NDQ5ODI2MzgsMTg0Nzg1MDg1MywtOTYwOTIwNzYzLC
-04MzIwODY1MzksLTM0NDgwOTI1MCw4MjQ5MjExMDgsMjAwODQy
-OTcwMF19
+eyJoaXN0b3J5IjpbOTQyODM4ODg1LC02MjQ1MDIxNjcsNDI1ND
+Y4OTc5LC0yMDU0NTgzMTAxLDIxNDE0NDE5MDYsMjA5MjYzNzcx
+NywtMTgzMzYyMTk2MywtOTgzMDE3OTc5LDk1OTIxODA2MiwxNj
+EyMjcwMzMyLDczOTQ4MzI2Myw2OTU0MjU1OTksLTEzMTQ1Nzcz
+ODMsMTk0NDk4MjYzOCwxODQ3ODUwODUzLC05NjA5MjA3NjMsLT
+gzMjA4NjUzOSwtMzQ0ODA5MjUwLDgyNDkyMTEwOCwyMDA4NDI5
+NzAwXX0=
 -->
