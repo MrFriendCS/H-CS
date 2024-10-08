@@ -484,7 +484,6 @@ heights = [0.0] * 4
 # Initialise variables
 data = [""] * 3
 line = ""
-index = 0
 
 # Make a connection to the file
 file = open("people.csv" ,"r")
@@ -517,26 +516,17 @@ file.close()
 Declare an array of records large enough to hold the data.
 
 ``` python
+# Initialise data structure
 people = [Person() for index in range(4)]
-```
 
-Declare all other variables.
-
-``` python
+# Initialise variables
 data = [""] * 3
 line = ""
-index = 0
-```
 
-Open the file that holds the data, in read only mode.
-
-``` python
+# Make a connection to the file
 file = open("people.csv" ,"r" )
-```
 
-Read the first line of the file.
-
-``` python
+# Loop for each line in the file
 line = file.readline()
 ```
 
@@ -691,7 +681,7 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQyODM4ODg1LC02MjQ1MDIxNjcsNDI1ND
+eyJoaXN0b3J5IjpbNjIyMjQ2MDE2LC02MjQ1MDIxNjcsNDI1ND
 Y4OTc5LC0yMDU0NTgzMTAxLDIxNDE0NDE5MDYsMjA5MjYzNzcx
 NywtMTgzMzYyMTk2MywtOTgzMDE3OTc5LDk1OTIxODA2MiwxNj
 EyMjcwMzMyLDczOTQ4MzI2Myw2OTU0MjU1OTksLTEzMTQ1Nzcz
