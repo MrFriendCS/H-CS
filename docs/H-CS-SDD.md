@@ -400,6 +400,15 @@ Dina,21,1.59
 ```
 
 
+### Reading from a file
+
+If the number of records to be read from a file is known then a fixed loop can be used
+
+#### Fixed loop
+
+
+#### Conditional loop
+
 ### Reading parallel arrays from a file
 
 **Note:** An assumption is that the maximum array size is known, and the file contains that number of rows or fewer.
@@ -672,11 +681,11 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNDUwMjE2Nyw0MjU0Njg5NzksLTIwNT
-Q1ODMxMDEsMjE0MTQ0MTkwNiwyMDkyNjM3NzE3LC0xODMzNjIx
-OTYzLC05ODMwMTc5NzksOTU5MjE4MDYyLDE2MTIyNzAzMzIsNz
-M5NDgzMjYzLDY5NTQyNTU5OSwtMTMxNDU3NzM4MywxOTQ0OTgy
-NjM4LDE4NDc4NTA4NTMsLTk2MDkyMDc2MywtODMyMDg2NTM5LC
-0zNDQ4MDkyNTAsODI0OTIxMTA4LDIwMDg0Mjk3MDAsMTkwNDU4
-MTk1N119
+eyJoaXN0b3J5IjpbMTczMzU2MzU2MSwtNjI0NTAyMTY3LDQyNT
+Q2ODk3OSwtMjA1NDU4MzEwMSwyMTQxNDQxOTA2LDIwOTI2Mzc3
+MTcsLTE4MzM2MjE5NjMsLTk4MzAxNzk3OSw5NTkyMTgwNjIsMT
+YxMjI3MDMzMiw3Mzk0ODMyNjMsNjk1NDI1NTk5LC0xMzE0NTc3
+MzgzLDE5NDQ5ODI2MzgsMTg0Nzg1MDg1MywtOTYwOTIwNzYzLC
+04MzIwODY1MzksLTM0NDgwOTI1MCw4MjQ5MjExMDgsMjAwODQy
+OTcwMF19
 -->
