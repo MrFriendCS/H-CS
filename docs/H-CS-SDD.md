@@ -408,7 +408,17 @@ If the number of lines to be read from a file is known then a fixed loop can be 
 
 ``` python
 # Make a connection to the file
-file = open("open("people.csv" ,"r")
+file = open("people.csv" ,"r")
+
+# Loop for each line in the file
+for index in range(4):
+
+    # Read a line
+    line = file.readline()
+
+    """Additional code goes here."""
+
+
 ```
 
 #### Conditional loop
@@ -690,7 +700,7 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MDA2MDExMywtNjI0NTAyMTY3LDQyNT
+eyJoaXN0b3J5IjpbLTExODQ5MjI2MiwtNjI0NTAyMTY3LDQyNT
 Q2ODk3OSwtMjA1NDU4MzEwMSwyMTQxNDQxOTA2LDIwOTI2Mzc3
 MTcsLTE4MzM2MjE5NjMsLTk4MzAxNzk3OSw5NTkyMTgwNjIsMT
 YxMjI3MDMzMiw3Mzk0ODMyNjMsNjk1NDI1NTk5LC0xMzE0NTc3
