@@ -445,7 +445,7 @@ file.close()
 
 #### Counting lines in a file
 
-```
+``` python
 # Initialise variable
 count = 0
 
@@ -476,6 +476,7 @@ file.close()
 Declare parallel arrays that are large enough to hold the data.
 
 ``` python
+
 names = [""] * 4
 ages = [0] * 4
 heights = [0.0] * 4
@@ -721,11 +722,11 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM4MDI0NzgzLC02MjQ1MDIxNjcsNDI1ND
-Y4OTc5LC0yMDU0NTgzMTAxLDIxNDE0NDE5MDYsMjA5MjYzNzcx
-NywtMTgzMzYyMTk2MywtOTgzMDE3OTc5LDk1OTIxODA2MiwxNj
-EyMjcwMzMyLDczOTQ4MzI2Myw2OTU0MjU1OTksLTEzMTQ1Nzcz
-ODMsMTk0NDk4MjYzOCwxODQ3ODUwODUzLC05NjA5MjA3NjMsLT
-gzMjA4NjUzOSwtMzQ0ODA5MjUwLDgyNDkyMTEwOCwyMDA4NDI5
-NzAwXX0=
+eyJoaXN0b3J5IjpbLTQ3NDA3MjMwOSwtNjI0NTAyMTY3LDQyNT
+Q2ODk3OSwtMjA1NDU4MzEwMSwyMTQxNDQxOTA2LDIwOTI2Mzc3
+MTcsLTE4MzM2MjE5NjMsLTk4MzAxNzk3OSw5NTkyMTgwNjIsMT
+YxMjI3MDMzMiw3Mzk0ODMyNjMsNjk1NDI1NTk5LC0xMzE0NTc3
+MzgzLDE5NDQ5ODI2MzgsMTg0Nzg1MDg1MywtOTYwOTIwNzYzLC
+04MzIwODY1MzksLTM0NDgwOTI1MCw4MjQ5MjExMDgsMjAwODQy
+OTcwMF19
 -->
