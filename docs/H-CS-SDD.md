@@ -462,11 +462,12 @@ while line != "":
     line = file.readline()
 
     # Incrememnt count
-    count = count +
+    count = count + 1
 
 # Close the connection to the file
 file.close()
 ```
+
 
 ### Reading parallel arrays from a file
 
@@ -740,7 +741,7 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2Nzg1MzQ1MSwtNjI0NTAyMTY3LDQyNT
+eyJoaXN0b3J5IjpbLTUwMTY5OTQzNCwtNjI0NTAyMTY3LDQyNT
 Q2ODk3OSwtMjA1NDU4MzEwMSwyMTQxNDQxOTA2LDIwOTI2Mzc3
 MTcsLTE4MzM2MjE5NjMsLTk4MzAxNzk3OSw5NTkyMTgwNjIsMT
 YxMjI3MDMzMiw3Mzk0ODMyNjMsNjk1NDI1NTk5LC0xMzE0NTc3
