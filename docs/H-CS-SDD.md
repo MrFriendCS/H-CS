@@ -572,6 +572,7 @@ for index in range(len(names)):
 # Close the connection to the file
 file.close()
 ```
+`\n` = new line
 
 
 ## Standard algorithms
@@ -652,7 +653,7 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyODE4MTEyOSwtMzg1MzM1NzEsMTk3Nz
+eyJoaXN0b3J5IjpbMjEzMTUwNTQwOCwtMzg1MzM1NzEsMTk3Nz
 A4MjkwOCwtNjI0NTAyMTY3LDQyNTQ2ODk3OSwtMjA1NDU4MzEw
 MSwyMTQxNDQxOTA2LDIwOTI2Mzc3MTcsLTE4MzM2MjE5NjMsLT
 k4MzAxNzk3OSw5NTkyMTgwNjIsMTYxMjI3MDMzMiw3Mzk0ODMy
