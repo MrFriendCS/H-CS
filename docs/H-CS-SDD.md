@@ -429,7 +429,7 @@ file.close()
 # Make a connection to the file
 file = open("people.csv" ,"r")
 
-# Read from the file
+# Read first line from the file
 line = file.readline()
 
 # Loop if variable not empty
@@ -453,7 +453,7 @@ count = 0
 # Make a connection to the file
 file = open("people.csv" ,"r")
 
-# Read from the file
+# Read first line from the file
 line = file.readline()
 
 # Loop if variable not empty
@@ -652,11 +652,11 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NTMzNTcxLDE5NzcwODI5MDgsLTYyND
-UwMjE2Nyw0MjU0Njg5NzksLTIwNTQ1ODMxMDEsMjE0MTQ0MTkw
-NiwyMDkyNjM3NzE3LC0xODMzNjIxOTYzLC05ODMwMTc5NzksOT
-U5MjE4MDYyLDE2MTIyNzAzMzIsNzM5NDgzMjYzLDY5NTQyNTU5
-OSwtMTMxNDU3NzM4MywxOTQ0OTgyNjM4LDE4NDc4NTA4NTMsLT
-k2MDkyMDc2MywtODMyMDg2NTM5LC0zNDQ4MDkyNTAsODI0OTIx
-MTA4XX0=
+eyJoaXN0b3J5IjpbLTgyODE4MTEyOSwtMzg1MzM1NzEsMTk3Nz
+A4MjkwOCwtNjI0NTAyMTY3LDQyNTQ2ODk3OSwtMjA1NDU4MzEw
+MSwyMTQxNDQxOTA2LDIwOTI2Mzc3MTcsLTE4MzM2MjE5NjMsLT
+k4MzAxNzk3OSw5NTkyMTgwNjIsMTYxMjI3MDMzMiw3Mzk0ODMy
+NjMsNjk1NDI1NTk5LC0xMzE0NTc3MzgzLDE5NDQ5ODI2MzgsMT
+g0Nzg1MDg1MywtOTYwOTIwNzYzLC04MzIwODY1MzksLTM0NDgw
+OTI1MF19
 -->
