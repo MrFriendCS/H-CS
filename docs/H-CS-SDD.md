@@ -429,12 +429,12 @@ file.close()
 file = open("people.csv" ,"r")
 
 # Read from the file
-l
+line = file.readline()
 
-# Loop for each line in the file
-for index in range(4):
+# Loop if variable not 
+while line != "":
 
-    # Read a line
+    # Read next line
     line = file.readline()
 
     """Additional code goes here."""
@@ -719,11 +719,11 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMTk4Njk0OCwtNjI0NTAyMTY3LDQyNT
-Q2ODk3OSwtMjA1NDU4MzEwMSwyMTQxNDQxOTA2LDIwOTI2Mzc3
-MTcsLTE4MzM2MjE5NjMsLTk4MzAxNzk3OSw5NTkyMTgwNjIsMT
-YxMjI3MDMzMiw3Mzk0ODMyNjMsNjk1NDI1NTk5LC0xMzE0NTc3
-MzgzLDE5NDQ5ODI2MzgsMTg0Nzg1MDg1MywtOTYwOTIwNzYzLC
-04MzIwODY1MzksLTM0NDgwOTI1MCw4MjQ5MjExMDgsMjAwODQy
-OTcwMF19
+eyJoaXN0b3J5IjpbLTIxMTY3MDk0MDUsLTYyNDUwMjE2Nyw0Mj
+U0Njg5NzksLTIwNTQ1ODMxMDEsMjE0MTQ0MTkwNiwyMDkyNjM3
+NzE3LC0xODMzNjIxOTYzLC05ODMwMTc5NzksOTU5MjE4MDYyLD
+E2MTIyNzAzMzIsNzM5NDgzMjYzLDY5NTQyNTU5OSwtMTMxNDU3
+NzM4MywxOTQ0OTgyNjM4LDE4NDc4NTA4NTMsLTk2MDkyMDc2My
+wtODMyMDg2NTM5LC0zNDQ4MDkyNTAsODI0OTIxMTA4LDIwMDg0
+Mjk3MDBdfQ==
 -->
