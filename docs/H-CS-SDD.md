@@ -406,6 +406,10 @@ If the number of lines to be read from a file is known then a fixed loop can be 
 
 #### Fixed loop
 
+``` python
+# Make a connection to the file
+file = open("open("people.csv" ,"r")
+```
 
 #### Conditional loop
 
@@ -437,7 +441,7 @@ index = 0
 Open the file that holds the data, in read only mode.
 
 ``` python
-file = open("people.csv" ,"r" )
+file = open("people.csv" ,"r")
 ```
 
 Read the first line of the file.
@@ -686,11 +690,11 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODYxNDk2NDQsLTYyNDUwMjE2Nyw0Mj
-U0Njg5NzksLTIwNTQ1ODMxMDEsMjE0MTQ0MTkwNiwyMDkyNjM3
-NzE3LC0xODMzNjIxOTYzLC05ODMwMTc5NzksOTU5MjE4MDYyLD
-E2MTIyNzAzMzIsNzM5NDgzMjYzLDY5NTQyNTU5OSwtMTMxNDU3
-NzM4MywxOTQ0OTgyNjM4LDE4NDc4NTA4NTMsLTk2MDkyMDc2My
-wtODMyMDg2NTM5LC0zNDQ4MDkyNTAsODI0OTIxMTA4LDIwMDg0
-Mjk3MDBdfQ==
+eyJoaXN0b3J5IjpbLTc3MDA2MDExMywtNjI0NTAyMTY3LDQyNT
+Q2ODk3OSwtMjA1NDU4MzEwMSwyMTQxNDQxOTA2LDIwOTI2Mzc3
+MTcsLTE4MzM2MjE5NjMsLTk4MzAxNzk3OSw5NTkyMTgwNjIsMT
+YxMjI3MDMzMiw3Mzk0ODMyNjMsNjk1NDI1NTk5LC0xMzE0NTc3
+MzgzLDE5NDQ5ODI2MzgsMTg0Nzg1MDg1MywtOTYwOTIwNzYzLC
+04MzIwODY1MzksLTM0NDgwOTI1MCw4MjQ5MjExMDgsMjAwODQy
+OTcwMF19
 -->
