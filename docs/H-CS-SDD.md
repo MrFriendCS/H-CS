@@ -504,7 +504,7 @@ for index in range(4):
     ages[index] = int(data[1].strip())
     heights[index] = float(data[2].strip()
 
-# Close the connection
+# Close the connection to the file
 file.close()
 ```
 
@@ -542,7 +542,7 @@ for index in range(4):
     people[index].age = int(data[1].strip())
     people[index].height = float(data[2].strip())
 
-# Close the connection
+# Close the connection to the file
 file.close()
 ```
 
@@ -563,14 +563,13 @@ file = open("newPeople.csv", "w")
 # Loop for each value
 for index in range(len(names)):
 
+    # Cast non-string to string
+    
     file.write(names[index] + ",")
     file.write(str(ages[index]) + ",")
     file.write(str(heights[index]) + "\n")
-```
 
-Close the file.
-
-``` python
+# Close the connection to the file
 file.close()
 ```
 
@@ -653,7 +652,7 @@ print("Found " + str(count) + " occurence(s)")
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjU0MDE1NjIsLTYyNDUwMjE2Nyw0Mj
+eyJoaXN0b3J5IjpbLTE5NjMyMTc3MzAsLTYyNDUwMjE2Nyw0Mj
 U0Njg5NzksLTIwNTQ1ODMxMDEsMjE0MTQ0MTkwNiwyMDkyNjM3
 NzE3LC0xODMzNjIxOTYzLC05ODMwMTc5NzksOTU5MjE4MDYyLD
 E2MTIyNzAzMzIsNzM5NDgzMjYzLDY5NTQyNTU5OSwtMTMxNDU3
