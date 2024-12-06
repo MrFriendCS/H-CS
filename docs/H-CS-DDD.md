@@ -220,8 +220,8 @@ Use the stored result.
 ``` sql
 SELECT pet.name, vaccine.name, vaxDate, cost
     FROM oldest, pet, vaccination, vaccine
-    WHERE pet.pet_id = vaccination.pet_id
-        AND vaccination.vax_id = vaccine.vax_id
+    WHERE pet.petID = vaccination.petID
+        AND vaccination.vaxID = vaccine.vaxID
         AND oldest.dob = pet.dob;
 ```
 
@@ -230,10 +230,10 @@ SELECT pet.name, vaccine.name, vaxDate, cost
 **Note** Using subclauses is beyond the scope of the Higher course and will not be assessed.
 
 ``` sql
-SELECT pet.name, vaccine.name, vax_date, cost
+SELECT pet.name, vaccine.name, vaxDate, cost
     FROM pet, vaccination, vaccine
-    WHERE pet.pet_id = vaccination.pet_id
-        AND vaccination.vax_id = vaccine.vax_id
+    WHERE pet.petID = vaccination.petID
+        AND vaccination.vaxID = vaccine.vaxID
         AND pet.dob = 
             (SELECT MIN(doB)
                 FROM pet);
@@ -244,24 +244,24 @@ SELECT pet.name, vaccine.name, vax_date, cost
 ``` sql
 SELECT species, COUNT(*) as jags
     FROM pet, vaccination
-    WHERE pet.pet_id = vaccination.vax_id
-        AND vax_date >= "2020-01-01"
-        AND vax_date <= "2020-12-31"
+    WHERE pet.petID = vaccination.vaxID
+        AND vaxDate >= "2020-01-01"
+        AND vaxDate <= "2020-12-31"
     GROUP BY species
     ORDER BY jags DESC;
 ```
 
 ``` sql
-SELECT pet.pet_id, pet.name, species, SUM(cost * 1.2) as [inc VAT]
+SELECT pet.petID, pet.name, species, SUM(cost * 1.2) as [inc VAT]
     FROM pet, vaccination, vaccine
-    WHERE pet.pet_id = vaccination.vax_id
-        AND vaccination.vax_id = vaccine.vax_id
-        AND paid = "False"
-    GROUP BY pet.pet_id
+    WHERE pet.petID = vaccination.vaxID
+        AND vaccination.vaxID = vaccine.vaxID
+        AND paid = FALSE
+    GROUP BY pet.petID
     ORDER BY [inc VAT] DESC;
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcwNTc5MjcyLDkzMzk0NzMwMCwtMTk1Mj
+eyJoaXN0b3J5IjpbNzU5NjkwNDg1LDkzMzk0NzMwMCwtMTk1Mj
 c1NjI1MSwxNzkzMzA3OTIyLDIxMTEyNzA1NDldfQ==
 -->
