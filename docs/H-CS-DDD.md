@@ -12,8 +12,8 @@ The example [database](H-CS-Database.db) contains the tables and records that th
 
 Four records from each table used in the examples are shown below.
 
-#### Table: pet
 
+#### Table: pet
 
 | petID | name     | species | dob |
 | ----- | ----     | ------- | --- |
@@ -22,29 +22,29 @@ Four records from each table used in the examples are shown below.
 | 3	    | Bo       | Rabbit  | 2011-10-13 |
 | 4     | Joscelin | Gerbil  | 2022-02-19 |
 
-####  Table: Vaccination
 
+####  Table: Vaccination
 
 | petID | vaxID | vaxDate    | reaction | paid |
 | ----- | ----- | -------    | -------- | ---- |
-| 2     | 4     | 2021-11-06 | FALSE    | False |
-| 20    | 9     | 2021-09-05 | False    | False |
-| 19    | 2     | 2021-07-06 | False    | True |
-| 9     | 8     | 2021-03-05 | False    | False |
+| 2     | 4     | 2021-11-06 | FALSE    | FALSE |
+| 20    | 9     | 2021-09-05 | FALSE    | FALSE |
+| 19    | 2     | 2021-07-06 | FALSE    | FALSE |
+| 9     | 8     | 2021-03-05 | FALSE    | FALSE |
+
 
 #### Table: vaccine
 
-
-| vax_id | name                   | cost |
-| ------ | ----                   | ---- |
-| 1      | Canine hepatitis       | 27.55 |
-| 2      | Cat Flu                | 19.30 |
-| 3      | Distemper              | 34.75 |
-| 4      | Feline Leukaemia Virus | 25.35 |
+| vaxID | name                   | cost |
+| ----- | ----                   | ---- |
+| 1     | Canine hepatitis       | 27.55 |
+| 2     | Cat Flu                | 19.30 |
+| 3     | Distemper              | 34.75 |
+| 4     | Feline Leukaemia Virus | 25.35 |
 
 #### ER Diagram
 
-![H DDD Enitiy Relationship Diagram](H-CS-DDD.png "ER Diagram")
+![H DDD Entity Relationship Diagram](H-CS-DDD.png "ER Diagram")
 
 ## Wildcards
 
@@ -59,14 +59,14 @@ Zero, one, or more characters, after the first character.
 
 ``` sql
 SELECT *
-    FROM pet
+    FROM Pet
     WHERE name LIKE "G%";
 ```
 Zero, one, or more characters, before the last character.
 
 ``` sql
 SELECT *
-    FROM pet
+    FROM Pet
     WHERE name LIKE "%n";
 ```
 
@@ -74,7 +74,7 @@ Zero, one, or more characters in the middle.
 
 ``` sql
 SELECT *
-    FROM pet
+    FROM Pet
     WHERE species LIKE "R%t";
 ```
 
@@ -82,7 +82,7 @@ A single character.
 
 ``` sql
 SELECT *
-    FROM pet
+    FROM Pet
     WHERE species LIKE "_at";
 ```
 
@@ -262,6 +262,6 @@ SELECT pet.pet_id, pet.name, species, SUM(cost * 1.2) as [inc VAT]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQwMTkwNTMyLDkzMzk0NzMwMCwtMTk1Mj
-c1NjI1MSwxNzkzMzA3OTIyLDIxMTEyNzA1NDldfQ==
+eyJoaXN0b3J5IjpbLTExMTQzODkzMzAsOTMzOTQ3MzAwLC0xOT
+UyNzU2MjUxLDE3OTMzMDc5MjIsMjExMTI3MDU0OV19
 -->
