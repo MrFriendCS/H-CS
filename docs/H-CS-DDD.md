@@ -15,22 +15,22 @@ Four records from each table used in the examples are shown below.
 #### Table: pet
 
 
-| pet_id | name     | species | dob |
-| ------ | ----     | ------- | --- |
-| 1      | Hans     | Cat     | 2015-09-22 |
-| 2      | Minnnie  | Gerbil  | 2021-05-24 |
-| 3	     | Bo       | Rabbit  | 2011-10-13 |
-| 4      | Joscelin | Gerbil  | 2022-02-19 |
+| petID | name     | species | dob |
+| ----- | ----     | ------- | --- |
+| 1     | Hans     | Cat     | 2015-09-22 |
+| 2     | Minnnie  | Gerbil  | 2021-05-24 |
+| 3	    | Bo       | Rabbit  | 2011-10-13 |
+| 4     | Joscelin | Gerbil  | 2022-02-19 |
 
-####  Table: vaccination
+####  Table: Vaccination
 
 
-| pet_id | vax_id | vax_date   | reaction | paid |
-| ------ | ------ | --------   | -------- | ---- |
-| 2      | 4      | 2021-11-06 | False    | False |
-| 20     | 9      | 2021-09-05 | False    | False |
-| 19     | 2      | 2021-07-06 | False    | True |
-| 9      | 8      | 2021-03-05 | False    | False |
+| petID | vaxID | vaxDate    | reaction | paid |
+| ----- | ----- | -------    | -------- | ---- |
+| 2     | 4     | 2021-11-06 | FALSE    | False |
+| 20    | 9     | 2021-09-05 | False    | False |
+| 19    | 2     | 2021-07-06 | False    | True |
+| 9     | 8     | 2021-03-05 | False    | False |
 
 #### Table: vaccine
 
@@ -262,6 +262,6 @@ SELECT pet.pet_id, pet.name, species, SUM(cost * 1.2) as [inc VAT]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMzOTQ3MzAwLC0xOTUyNzU2MjUxLDE3OT
-MzMDc5MjIsMjExMTI3MDU0OV19
+eyJoaXN0b3J5IjpbNDQwMTkwNTMyLDkzMzk0NzMwMCwtMTk1Mj
+c1NjI1MSwxNzkzMzA3OTIyLDIxMTEyNzA1NDldfQ==
 -->
