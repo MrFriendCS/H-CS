@@ -92,14 +92,14 @@ To display search results with a different column heading instead of the field n
 
 ``` sql
 SELECT name AS Jag, cost
-    FROM vaccine;
+    FROM Vaccine;
 ```
 
 The alias can be used within the statement.
 
 ``` sql
 SELECT name AS Jag, cost
-    FROM vaccine
+    FROM Vaccine
     WHERE Jag LIKE "F%"
     ORDER BY Jag DESC;
 ```
@@ -107,8 +107,8 @@ SELECT name AS Jag, cost
 Aliases are not restricted to single words.  Due to the space, square brackets are used.
 
 ``` sql
-SELECT pet_id, name, species, dob AS [Date of Birth]
-    FROM pet
+SELECT petID, name, species, dob AS [Date of Birth]
+    FROM Pet
     ORDER BY [Date of Birth] ASC;
 ```
 
@@ -116,7 +116,7 @@ SELECT pet_id, name, species, dob AS [Date of Birth]
 
 ``` sql
 SELECT name, cost, cost * 1.2 AS [inc VAT]
-    FROM vaccine
+    FROM Vaccine
     ORDER BY name ASC;
 ```
 
@@ -132,22 +132,22 @@ Find the `dob` of the oldest and youngest pet.
 
 ``` sql
 SELECT MIN(dob), MAX(dob)
-    FROM pet;
+    FROM Pet;
 ```
 
 ### Average
 
 ``` sql
 SELECT AVG(cost)
-    FROM vaccine;
+    FROM Vaccine;
 ```
 
 ### Sum
 
 ``` sql
 SELECT SUM(cost)
-    FROM vaccination, vaccine
-    WHERE vaccination.vax_id = vaccine.vax_id
+    FROM Vaccination, Vaccine
+    WHERE vaccination.vaxID = vaccine.vaxID
         AND pet_id = 14;
 ```
 
@@ -157,7 +157,7 @@ Count the number of records in a table that meet the condition.
 
 ``` sql
 SELECT COUNT(*)
-    FROM pet
+    FROM Pet
     WHERE species = "Rabbit";
 ```
 
@@ -169,14 +169,14 @@ The following example will return the `species` field from every record.  Values
 
 ``` sql
 SELECT species
-    FROM pet;
+    FROM Pet;
 ```
 
 The following example will group together `species` field from every record.  Values will not be repeated, i.e. one row for each group.
 
 ``` sql
 SELECT species
-    FROM pet
+    FROM Pet
     GROUP BY species;
 ```
 
@@ -184,7 +184,7 @@ SELECT species
 
 ``` sql
 SELECT species, MIN(dob), MAX(dob)
-    FROM pet
+    FROM Pet
     GROUP BY species;
 ```
 
@@ -194,7 +194,7 @@ SELECT species, MIN(dob), MAX(dob)
 
 ``` sql
 SELECT species, COUNT(species)
-    FROM pet
+    FROM Pet
     GROUP BY species
     ORDER BY COUNT(species) DESC;
 ```
@@ -218,7 +218,7 @@ CREATE TEMP VIEW oldest (dob) AS
 Use the stored result.
 
 ``` sql
-SELECT pet.name, vaccine.name, vax_date, cost
+SELECT pet.name, vaccine.name, vaxDate, cost
     FROM oldest, pet, vaccination, vaccine
     WHERE pet.pet_id = vaccination.pet_id
         AND vaccination.vax_id = vaccine.vax_id
@@ -262,6 +262,6 @@ SELECT pet.pet_id, pet.name, species, SUM(cost * 1.2) as [inc VAT]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTQzODkzMzAsOTMzOTQ3MzAwLC0xOT
-UyNzU2MjUxLDE3OTMzMDc5MjIsMjExMTI3MDU0OV19
+eyJoaXN0b3J5IjpbNzcwNTc5MjcyLDkzMzk0NzMwMCwtMTk1Mj
+c1NjI1MSwxNzkzMzA3OTIyLDIxMTEyNzA1NDldfQ==
 -->
