@@ -97,7 +97,7 @@ SELECT name AS Jag, cost
     FROM Vaccine;
 ```
 
-The alias can be used within the statement.
+The alias can be used within the `ORDER BY` clause.
 
 ``` sql
 SELECT name AS Jag, cost
@@ -122,6 +122,7 @@ SELECT name, cost, cost * 1.2 AS [inc VAT]
     FROM Vaccine
     ORDER BY name ASC;
 ```
+
 
 ## Aggregate functions
 
@@ -164,6 +165,7 @@ SELECT COUNT(*)
     WHERE species = "Rabbit";
 ```
 
+
 ## GROUP BY
 
 `GROUP BY` places results of a query into logical groups and removes duplicates.  Aggregate functions can be used with each group.
@@ -191,6 +193,7 @@ SELECT species, MIN(dob), MAX(dob)
     GROUP BY species;
 ```
 
+
 ## ORDER BY
 
 `ORDER BY`, if used, must follow `GROUP BY`.
@@ -201,6 +204,7 @@ SELECT species, COUNT(species)
     GROUP BY species
     ORDER BY COUNT(species) DESC;
 ```
+
 
 ## WHERE
 
@@ -242,6 +246,7 @@ SELECT pet.name, vaccine.name, vaxDate, cost
                 FROM pet);
 ```
 
+
 ## Examples
 
 ``` sql
@@ -265,7 +270,7 @@ SELECT pet.petID, pet.name, species, SUM(cost * 1.2) as [inc VAT]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIyNTQxNjUwLDc1OTY5MDQ4NSw5MzM5ND
-czMDAsLTE5NTI3NTYyNTEsMTc5MzMwNzkyMiwyMTExMjcwNTQ5
-XX0=
+eyJoaXN0b3J5IjpbLTEwMjI5NDgwMzMsNzU5NjkwNDg1LDkzMz
+k0NzMwMCwtMTk1Mjc1NjI1MSwxNzkzMzA3OTIyLDIxMTEyNzA1
+NDldfQ==
 -->
