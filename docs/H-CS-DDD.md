@@ -2,7 +2,7 @@
 
 ## Notes
 
-All the code examples use SQLite.  They will work with [Replit](https://replit.com/) and [DB Browser for SQLite](https://sqlitebrowser.org/).
+All the code examples use SQLite.  They will work with [DB Browser for SQLite](https://sqlitebrowser.org/).
 
 These notes are focused on Higher Computing Science so some terms are used differently.
 
@@ -13,7 +13,7 @@ The example [database](H-CS-Database.db) contains the tables and records that th
 Four records from each table used in the examples are shown below.
 
 
-#### Table: pet
+#### Table: Pet
 
 | petID | name     | species | dob |
 | ----- | ----     | ------- | --- |
@@ -33,7 +33,7 @@ Four records from each table used in the examples are shown below.
 | 9     | 8     | 2021-03-05 | FALSE    | FALSE |
 
 
-#### Table: vaccine
+#### Table: Vaccine
 
 | vaxID | name                   | cost |
 | ----- | ----                   | ---- |
@@ -262,6 +262,7 @@ SELECT pet.petID, pet.name, species, SUM(cost * 1.2) as [inc VAT]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU5NjkwNDg1LDkzMzk0NzMwMCwtMTk1Mj
-c1NjI1MSwxNzkzMzA3OTIyLDIxMTEyNzA1NDldfQ==
+eyJoaXN0b3J5IjpbMTMyMjIxOTE0NCw3NTk2OTA0ODUsOTMzOT
+Q3MzAwLC0xOTUyNzU2MjUxLDE3OTMzMDc5MjIsMjExMTI3MDU0
+OV19
 -->
