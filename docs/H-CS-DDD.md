@@ -46,6 +46,7 @@ Four records from each table used in the examples are shown below.
 
 ![H DDD Entity Relationship Diagram](H-CS-DDD.png "ER Diagram")
 
+
 ## Wildcards
 
 Wildcards use the `LIKE` keyword, and are used with `WHERE`.  There are two wildcards:
@@ -86,6 +87,7 @@ SELECT *
     WHERE species LIKE "_at";
 ```
 
+
 ## Alias
 
 To display search results with a different column heading instead of the field name the `AS` keyword is used.
@@ -111,6 +113,7 @@ SELECT petID, name, species, dob AS [Date of Birth]
     FROM Pet
     ORDER BY [Date of Birth] ASC;
 ```
+
 
 ## Computed values
 
@@ -262,7 +265,7 @@ SELECT pet.petID, pet.name, species, SUM(cost * 1.2) as [inc VAT]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMjIxOTE0NCw3NTk2OTA0ODUsOTMzOT
-Q3MzAwLC0xOTUyNzU2MjUxLDE3OTMzMDc5MjIsMjExMTI3MDU0
-OV19
+eyJoaXN0b3J5IjpbODIyNTQxNjUwLDc1OTY5MDQ4NSw5MzM5ND
+czMDAsLTE5NTI3NTYyNTEsMTc5MzMwNzkyMiwyMTExMjcwNTQ5
+XX0=
 -->
