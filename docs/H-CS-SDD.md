@@ -505,7 +505,7 @@ for index in range(4):
     # 3. Assign to data structures
     names[index] = data[0].strip()
     ages[index] = int(data[1].strip())
-    heights[index] = float(data[2].strip()
+    heights[index] = float(data[2].strip())
 
 # Close the connection to the file
 file.close()
