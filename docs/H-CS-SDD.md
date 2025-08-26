@@ -442,10 +442,10 @@ line = file.readline()
 # Loop if variable not empty
 while line != "":
 
+    """Additional code goes here."""
+
     # Read next line
     line = file.readline()
-
-    """Additional code goes here."""
 
 # Close the connection to the file
 file.close()
