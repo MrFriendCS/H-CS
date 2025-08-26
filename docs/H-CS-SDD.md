@@ -13,8 +13,8 @@ When a sub-routine is defined it can have zero, one, or more parameters.  These 
 
 ``` python
 def subroutineName(formalParameter1, formalParameter2, ...):
-	"""docstring"""
-	
+    """docstring"""
+    
     <sub-routine code>
 ```
 
@@ -100,13 +100,16 @@ print(myData())
 # Assign to a tuple
 myTuple = myData()
 
-# Display values
+# Display the tuple
+print(myTuple)
+
+# Display individual values
 print(myTuple[0])
 print(myTuple[1])
 ```
 
 ``` python
-# Assign to variables
+# Assign directly to variables
 age, name = myData()
 
 # Display values
@@ -143,6 +146,8 @@ print(myCharacter)
 
 This removes the decimal part of the value.  It does not round.
 
+*Note*: 13 &divide; 5 = 2.6
+
 ``` python
 myFloat = 13 / 5
 
@@ -156,7 +161,7 @@ print(myInt)
 
 The modulus is the remainder when doing division.
 
-13 &divide; 5 = 2 remainder 3
+*Note*: 13 &divide; 5 = 2 remainder 3
 
 ``` python
 myModulus = 13 % 5
