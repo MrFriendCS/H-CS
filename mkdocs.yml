@@ -1,6 +1,36 @@
 site_name: Higher CS
 
 theme:
-  name: readthedocs
+    name: readthedocs
 
 navigation_depth: 4
+
+nav:
+    - Home: index.md
+    - SDD:
+        - Software: sdd/H-CS-SDD.md
+        - Sub-routines: sdd/H-CS-SDD-Sub-routines.md
+        - Predefined funtions: sdd/H-CS-SDD-Predefined.md
+        - Substrings: sdd/H-CS-SDD-Substrings.md
+        - Parallel arrays: sdd/H-CS-SDD-Parallel.md
+        - Records: sdd/H-CS-SDD-Records.md
+        - File handling: sdd/H-CS-SDD-Files.md
+        - Standard algorithms: sdd/H-CS-SDD-Standard-Algorithms.md
+    - DDD:
+        - Databases: ddd/H-CS-DDD.md
+        - Display results: ddd/H-CS-DDD-Select.md
+        - Filter results: ddd/H-CS-DDD-Where.md
+        - Sort results: ddd/H-CS-DDD-Order.md
+        - Joining tables: ddd/H-CS-DDD-Equi-join.md
+        - Add data: ddd/H-CS-DDD-Insert.md
+        - Modify data: ddd/H-CS-DDD-Update.md
+        - Remove data: ddd/H-CS-DDD-Delete.md
+        - Create table: ddd/H-CS-DDD-Create-Table.md
+        - Modify table: ddd/H-CS-DDD-Modify-Table.md
+        - Examples: ddd/H-CS-DDD-Examples.md
+    - WDD:
+        - Web: wdd/H-CS-WDD.md
+        - HTML: wdd/H-CS-WDD-HTML.md
+        - CSS: wdd/H-CS-WDD-CSS.md
+        - JS: wdd/H-CS-WDD-JS.md
+        
