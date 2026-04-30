@@ -22,7 +22,7 @@ nav:
         - Standard algorithms: sdd/H-CS-SDD-Standard-Algorithms.md
     - DDD:
         - Databases: ddd/H-CS-DDD.md
-        - Wildcards: ddd/H-CS-DDD-Equi-join.md
+        - Wildcards: ddd/H-CS-DDD-Wildcards.md
         - Aliases: ddd/H-CS-DDD-Alias.md
         - Computed values: ddd/H-CS-DDD-Computed.md
         - Aggregate functions: ddd/H-CS-DDD-Aggregate.md
