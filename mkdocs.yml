@@ -9,8 +9,8 @@ nav:
     - Home: index.md
     - SDD:
         - Software: sdd/H-CS-SDD.md
-        - Sub-routines: sdd/H-CS-SDD-Procedures.md
-        - Sub-routines: sdd/H-CS-SDD-Functions.md
+        - Procedures: sdd/H-CS-SDD-Procedures.md
+        - Functions: sdd/H-CS-SDD-Functions.md
         - Predefined funtions: sdd/H-CS-SDD-Predefined.md
         - Substrings: sdd/H-CS-SDD-Substrings.md
         - Parallel arrays: sdd/H-CS-SDD-Parallel.md

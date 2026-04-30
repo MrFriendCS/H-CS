@@ -54,7 +54,7 @@ pickRandom()
 
 ``` python
 def square(number):
-    """Displays the square of number."""
+    """Displays the square of a number."""
     
     # Intialise local variable
     squared = 0
@@ -62,6 +62,7 @@ def square(number):
     # Calculate result
     squared = number ** 2
     
+    # Display the result
     print("The square of " + str(number) + " is " + str(squared))
 ```
 
@@ -75,16 +76,17 @@ square(2)
 ## Example - Multiple Formal Parameters
 
 ``` python
-def powerOf(base, index):
+def powerOf(number, power):
     """Displays a number raised to a power."""
     
     # Intialise local variable
     result = 0
     
     # Calculate result
-    result = base ** index
+    result = number ** power
     
-    print(str(base) + " raised to the power of " + str(index) + " is " + str(result))
+    # Display the result
+    print(str(number) + " raised to the power of " + str(power) + " is " + str(result))
 ```
 
 This procedure can be called from the main program, or from another sub-routine.
