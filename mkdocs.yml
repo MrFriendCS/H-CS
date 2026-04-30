@@ -3,7 +3,7 @@ site_name: Higher CS
 theme:
     name: readthedocs
 
-navigation_depth: 4
+navigation_depth: 5
 
 nav:
     - Home: index.md
@@ -15,7 +15,10 @@ nav:
         - Substrings: sdd/H-CS-SDD-Substrings.md
         - Parallel arrays: sdd/H-CS-SDD-Parallel.md
         - Records: sdd/H-CS-SDD-Records.md
-        - File handling: sdd/H-CS-SDD-Files.md
+        - Files:
+            - File handling: sdd/H-CS-SDD-Files.md
+            - Reading: sdd/H-CS-SDD-Reading.md
+            - Writing: sdd/H-CS-SDD-Writing.md
         - Standard algorithms: sdd/H-CS-SDD-Standard-Algorithms.md
     - DDD:
         - Databases: ddd/H-CS-DDD.md
