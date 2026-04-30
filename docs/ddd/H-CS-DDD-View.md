@@ -10,19 +10,19 @@ The view can then be queried like a table.
 This will create a temporary view that will be deleted when the database is closed.
 
 ``` sql
-CREATE TEMP VIEW oldest (dob) AS
+CREATE TEMP VIEW Oldest (dob) AS
     SELECT MIN(doB)
-    FROM pet;
+    FROM Pet;
 ```
 
 Use the stored result.
 
 ``` sql
-SELECT pet.name, vaccine.name, vaxDate, cost
-    FROM oldest, pet, vaccination, vaccine
-    WHERE pet.petID = vaccination.petID
-        AND vaccination.vaxID = vaccine.vaxID
-        AND oldest.dob = pet.dob;
+SELECT Pet.name, Vaccine.name, vaxDate, cost
+    FROM Oldest, Pet, Vaccination, Vaccine
+    WHERE Pet.petID = Vaccination.petID
+        AND Vaccination.vaxID = Vaccine.vaxID
+        AND Oldest.dob = Pet.dob;
 ```
 
 ## Subclause (Single query)
@@ -30,11 +30,11 @@ SELECT pet.name, vaccine.name, vaxDate, cost
 **Note** Using subclauses is beyond the scope of the Higher course and will not be assessed.
 
 ``` sql
-SELECT pet.name, vaccine.name, vaxDate, cost
-    FROM pet, vaccination, vaccine
-    WHERE pet.petID = vaccination.petID
-        AND vaccination.vaxID = vaccine.vaxID
-        AND pet.dob = 
+SELECT Pet.name, Vaccine.name, vaxDate, cost
+    FROM Pet, Vaccination, Vaccine
+    WHERE Pet.petID = Vaccination.petID
+        AND Vaccination.vaxID = Vaccine.vaxID
+        AND Pet.dob = 
             (SELECT MIN(doB)
-                FROM pet);
+                FROM Pet);
 ```

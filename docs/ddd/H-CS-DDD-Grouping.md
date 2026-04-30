@@ -1,15 +1,18 @@
 # GROUP BY
 
-`GROUP BY` places results of a query into logical groups and removes duplicates.  Aggregate functions can be used with each group.
+`GROUP BY` places results of a query into logical groups and removes duplicates.
+Aggregate functions can be used with each group.
 
-The following example will return the `species` field from every record.  Values will be repeated if they are repeated in the table.
+The following example will return the `species` field from every record.
+Values will be repeated if they are repeated in the table.
 
 ``` sql
 SELECT species
     FROM Pet;
 ```
 
-The following example will group together `species` field from every record.  Values will not be repeated, i.e. one row for each group.
+The following example will group together `species` field from every record.
+Values will not be repeated, i.e. one row for each group.
 
 ``` sql
 SELECT species

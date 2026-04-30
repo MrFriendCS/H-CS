@@ -1,4 +1,4 @@
-# Aggregate functions
+# Aggregate Functions
 
 Aggregate functions can be used with the `GROUP BY` clause.
 
