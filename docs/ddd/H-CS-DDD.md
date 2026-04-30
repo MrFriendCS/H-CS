@@ -268,9 +268,3 @@ SELECT pet.petID, pet.name, species, SUM(cost * 1.2) as [inc VAT]
     GROUP BY pet.petID
     ORDER BY [inc VAT] DESC;
 ```
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjI5NDgwMzMsNzU5NjkwNDg1LDkzMz
-k0NzMwMCwtMTk1Mjc1NjI1MSwxNzkzMzA3OTIyLDIxMTEyNzA1
-NDldfQ==
--->

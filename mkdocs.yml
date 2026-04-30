@@ -22,15 +22,12 @@ nav:
         - Standard algorithms: sdd/H-CS-SDD-Standard-Algorithms.md
     - DDD:
         - Databases: ddd/H-CS-DDD.md
-        - Display results: ddd/H-CS-DDD-Select.md
-        - Filter results: ddd/H-CS-DDD-Where.md
-        - Sort results: ddd/H-CS-DDD-Order.md
-        - Joining tables: ddd/H-CS-DDD-Equi-join.md
-        - Add data: ddd/H-CS-DDD-Insert.md
-        - Modify data: ddd/H-CS-DDD-Update.md
-        - Remove data: ddd/H-CS-DDD-Delete.md
-        - Create table: ddd/H-CS-DDD-Create-Table.md
-        - Modify table: ddd/H-CS-DDD-Modify-Table.md
+        - Wildcards: ddd/H-CS-DDD-Equi-join.md
+        - Aliases: ddd/H-CS-DDD-Alias.md
+        - Computed values: ddd/H-CS-DDD-Computed.md
+        - Aggregate functions: ddd/H-CS-DDD-Aggregate.md
+        - Group By: ddd/H-CS-DDD-Grouping.md
+        - Views: ddd/H-CS-DDD-View.md
         - Examples: ddd/H-CS-DDD-Examples.md
 
         
