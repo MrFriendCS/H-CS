@@ -28,7 +28,7 @@ functionResult = functionName(actualParameter1, actualParameter2, ...)
 ```
 
 
-## Example - No Formal Parameters
+## Example - No formal parameters
 
 ``` python
 def pickRandom():
@@ -56,7 +56,7 @@ print("Random number: " + str(myNumber))
 ```
 
 
-## Example - One Formal Parameter
+## Example - One formal parameter
 
 ``` python
 def square(number):
@@ -81,7 +81,7 @@ print("Result: " + str(result))
 ```
 
 
-## Example - Multiple Formal Parameters
+## Example - Multiple formal parameters
 
 ``` python
 def powerOf(number, power):
@@ -118,10 +118,6 @@ def myData():
     return 21, "Tom"
 ```
 
-``` python
-# Display returned tuple
-print(myData())
-```
 
 ``` python
 # Assign to a tuple
@@ -140,6 +136,5 @@ print(myTuple[1])
 age, name = myData()
 
 # Display values
-print(age)
-print(name)
+print(name + " is " + str(age) + " years old.")
 ```

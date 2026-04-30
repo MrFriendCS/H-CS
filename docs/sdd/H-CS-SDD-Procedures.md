@@ -24,7 +24,7 @@ procedureName(actualParameter1, actualParameter2, ...)
 ```
 
 
-## Example - No Formal Parameters
+## Example - No formal parameters
 
 ``` python
 def pickRandom():
@@ -50,7 +50,7 @@ pickRandom()
 ```
 
 
-## Example - One Formal Parameter
+## Example - One formal parameter
 
 ``` python
 def square(number):
@@ -73,7 +73,7 @@ square(2)
 ```
 
 
-## Example - Multiple Formal Parameters
+## Example - Multiple formal parameters
 
 ``` python
 def powerOf(number, power):
