@@ -3,7 +3,7 @@ site_name: Higher CS
 theme:
     name: readthedocs
 
-navigation_depth: 5
+navigation_depth: 4
 
 nav:
     - Home: index.md
