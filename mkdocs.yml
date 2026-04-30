@@ -9,7 +9,8 @@ nav:
     - Home: index.md
     - SDD:
         - Software: sdd/H-CS-SDD.md
-        - Sub-routines: sdd/H-CS-SDD-Sub-routines.md
+        - Sub-routines: sdd/H-CS-SDD-Procedures.md
+        - Sub-routines: sdd/H-CS-SDD-Functions.md
         - Predefined funtions: sdd/H-CS-SDD-Predefined.md
         - Substrings: sdd/H-CS-SDD-Substrings.md
         - Parallel arrays: sdd/H-CS-SDD-Parallel.md
@@ -28,9 +29,5 @@ nav:
         - Create table: ddd/H-CS-DDD-Create-Table.md
         - Modify table: ddd/H-CS-DDD-Modify-Table.md
         - Examples: ddd/H-CS-DDD-Examples.md
-    - WDD:
-        - Web: wdd/H-CS-WDD.md
-        - HTML: wdd/H-CS-WDD-HTML.md
-        - CSS: wdd/H-CS-WDD-CSS.md
-        - JS: wdd/H-CS-WDD-JS.md
+
         
