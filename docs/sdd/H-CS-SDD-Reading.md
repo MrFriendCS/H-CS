@@ -1,4 +1,4 @@
-# Reading from a file
+# Reading from a File
 
 If the number of lines to be read from a file is known then a fixed loop can be used, otherwise a conditional loop can be used.  Alternatively, the unknown number of lines can be counted, and then a fixed loop used.
 
@@ -101,7 +101,7 @@ for index in range(4):
 
     # 1. Remove non-printing characters
     # 2. Cast as appropriate
-    # 3. Assign to data structures
+    # 3. Assign to data structure
     names[index] = data[0].strip()
     ages[index] = int(data[1].strip())
     heights[index] = float(data[2].strip())
