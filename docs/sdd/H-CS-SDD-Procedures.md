@@ -1,42 +1,99 @@
-# Type Hinting
+# Procedures
 
-Type hinting is used to show what data type or data structure is passed to a subprogram or returned from a function.
+A procedure is a type of sub-routine that ***does not*** return a value.
+It must be defined before it can be used.
+
+When a procedure is defined it can have zero, one, or more parameters.
+These are known as formal parameters.
+The formal parameters will 'catch' values that are passed to the procedure when it is 'called'.
 
 
-| SQA       | Python Data Type |
-| ---       | ---------------- |
-| Character | str |
-| String    | str |
-| Integer   | int |
-| Real      | float |
-| Boolean   | bool |
-| Array     | list |
-
+## Example - General
 
 ``` python
-def myFunction() -> str:
-    """Example of returning a single value."""
+def procedureName(formalParameter1: dataType, formalParameter2: dataType, ...) -> None:
+    """docstring"""
     
-    return "Hello"
+    <procedure code>
 ```
 
-``` python
-def myFunction() -> tuple[int, str]:
-    """Example of returning multiple values."""
-    
-    return 7, "Hello"
-```
+A procedure can be called from the main program, or from another sub-routine.
+The procedure call can pass zero, one, or more actual parameters to the procedure.
 
 ``` python
-def myFunction() -> list[int]:
-    """Example of returning an array of integers."""
-    
-    return [1, 2, 4, 9, 16, 25]
+procedureName(actualParameter1, actualParameter2, ...)
 ```
 
+
+## Example - No formal parameters
+
 ``` python
-def myFunction() -> tuple[list[int], list[str]]:
-    """Example of returning multiple arrays."""
+def pickRandom() -> None:
+    """Displays a random number from 1 to 10."""
     
-    return [65, 66, 67], ["A", "B", "C"]
+    # Get extra code
+    import random
+    
+    # Intialise local variable
+    randomNumber = 0
+    
+    # Pick random number
+    randomNumber = random.randint(1, 10)
+    
+    # Display random number
+    print("Random number: " + str(randomNumber))
+```
+
+This procedure can be called from the main program, or from another sub-routine.
+
+``` python
+pickRandom()
+```
+
+
+## Example - One formal parameter
+
+
+
+``` python
+def square(number: int) -> None:
+    """Displays the square of a number."""
+    
+    # Intialise local variable
+    squared = 0
+    
+    # Calculate result
+    squared = number ** 2
+    
+    # Display the result
+    print("The square of " + str(number) + " is " + str(squared))
+```
+
+This procedure can be called from the main program, or from another sub-routine.
+
+``` python
+square(2)
+```
+
+
+## Example - Multiple formal parameters
+
+``` python
+def powerOf(number: int, power: int) -> None:
+    """Displays a number raised to a power."""
+    
+    # Intialise local variable
+    result = 0
+    
+    # Calculate result
+    result = number ** power
+    
+    # Display the result
+    print(str(number) + " raised to the power of " + str(power) + " is " + str(result))
+```
+
+This procedure can be called from the main program, or from another sub-routine.
+
+``` python
+powerOf(5, 3)
 ```
