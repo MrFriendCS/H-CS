@@ -31,7 +31,7 @@ functionResult = functionName(actualParameter1, actualParameter2, ...)
 ## Example - No formal parameters
 
 ``` python
-def pickRandom():
+def pickRandom() -> int:
     """Picks a random number from 1 to 10."""
     
     # Get extra code
@@ -59,7 +59,7 @@ print("Random number: " + str(myNumber))
 ## Example - One formal parameter
 
 ``` python
-def square(number):
+def square(number: int) -> int:
     """Calculates the square of a number."""
     
     # Intialise local variable
@@ -84,7 +84,7 @@ print("Result: " + str(result))
 ## Example - Multiple formal parameters
 
 ``` python
-def powerOf(number, power):
+def powerOf(number: int, power: int) -> int:
     """Calculates a number raised to a power."""
     
     # Intialise local variable
@@ -111,7 +111,7 @@ print("Result: " + str(result))
 Functions can return a tuple [term not part of Higher] that contains multiple values, similar to an array.  These values can be assigned to individual variables when returned.
 
 ``` python
-def myData():
+def myData() -> tuple:
     """Return an integer and a string."""
     
     # Return a tuple

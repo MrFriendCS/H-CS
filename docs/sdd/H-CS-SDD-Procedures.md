@@ -52,8 +52,10 @@ pickRandom()
 
 ## Example - One formal parameter
 
+
+
 ``` python
-def square(number):
+def square(number: int):
     """Displays the square of a number."""
     
     # Intialise local variable
@@ -76,7 +78,7 @@ square(2)
 ## Example - Multiple formal parameters
 
 ``` python
-def powerOf(number, power):
+def powerOf(number: int, power: int):
     """Displays a number raised to a power."""
     
     # Intialise local variable
