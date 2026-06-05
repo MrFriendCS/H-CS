@@ -13,7 +13,7 @@ The returned value is normally assigned to a variable, or it can be used in anot
 ## Example - General
 
 ``` python
-def functionName(formalParameter1, formalParameter2, ...):
+def functionName(formalParameter1: dataType, formalParameter2: dataType, ...) -> returnDataType:
     """docstring"""
     
     <function code>
@@ -22,6 +22,7 @@ def functionName(formalParameter1, formalParameter2, ...):
 ```
 
 A function can be called from the main program, or from another sub-routine.
+The function call can pass zero, one, or more actual parameters to the function.
 
 ``` python
 functionResult = functionName(actualParameter1, actualParameter2, ...)
