@@ -9,7 +9,7 @@ File are opened in read mode (`r`).
 
 ``` python
 # Make a connection to the file
-file = open("people.csv" ,"r")
+file = open("people.csv" ,"r", encoding="UTF-8")
 
 # Loop for each line in the file
 for index in range(4):

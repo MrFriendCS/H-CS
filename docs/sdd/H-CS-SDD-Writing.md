@@ -10,7 +10,7 @@ If the file exists it will be overwritten, otherwise it will be created.
 
 ``` python
 # Make a connection to the file
-file = open("newPeople.csv", "w")
+file = open("newPeople.csv", "w", encoding="UTF-8")
 
 # Loop for each value
 for index in range(len(names)):
