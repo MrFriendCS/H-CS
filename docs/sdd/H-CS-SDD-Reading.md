@@ -9,7 +9,7 @@ File are opened in read mode (`r`).
 
 ``` python
 # Make a connection to the file
-file = open("people.csv" ,"r", encoding="UTF-8")
+file = open("people.csv" ,"r", encoding="utf-8")
 
 # Loop for each line in the file
 for index in range(4):
@@ -27,7 +27,7 @@ file.close()
 
 ``` python
 # Make a connection to the file
-file = open("people.csv" ,"r")
+file = open("people.csv" ,"r", encoding="utf-8")
 
 # Read first line from the file
 line = file.readline()
@@ -52,7 +52,7 @@ file.close()
 count = 0
 
 # Make a connection to the file
-file = open("people.csv" ,"r")
+file = open("people.csv" ,"r", encoding="utf-8")
 
 # Read first line from the file
 line = file.readline()
@@ -88,7 +88,7 @@ data = [""] * 3
 line = ""
 
 # Make a connection to the file
-file = open("people.csv" ,"r")
+file = open("people.csv" ,"r", encoding="utf-8")
 
 # Loop for each line in the file
 for index in range(4):
@@ -126,7 +126,7 @@ data = [""] * 3
 line = ""
 
 # Make a connection to the file
-file = open("people.csv" ,"r" )
+file = open("people.csv" ,"r", encoding="utf-8")
 
 # Loop for each line in the file
 for index in range(4):
