@@ -112,7 +112,7 @@ print("Result: " + str(result))
 Functions can return a tuple [term not part of Higher] that contains multiple values, similar to an array.  These values can be assigned to individual variables when returned.
 
 ``` python
-def myData() -> tuple:
+def myData() -> tuple[int, str]:
     """Return an integer and a string."""
     
     # Return a tuple
