@@ -1,7 +1,7 @@
 # main()
 
 A sub-program called `main()` is used as a specific entry point to the program, and to allow procedures and functions to be tested individually.
-All the code that calls the sub-programs goes inside `main()
+All the code that calls the sub-programs goes inside `main()`.
 
 
 ## main() 
@@ -14,7 +14,7 @@ def main() -> None:
 ```
 
 
-# Calling main()
+## Calling main()
 
 The following code is added at the end of the program.
 It only calls `main()` if the code is run directly.
