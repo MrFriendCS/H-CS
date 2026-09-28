@@ -8,6 +8,9 @@ File are opened in read mode (`r`).
 ## Fixed loop
 
 ``` python
+# Initialise variable
+line: str = ""
+
 # Make a connection to the file
 file = open("people.csv" ,"r", encoding="utf-8")
 
@@ -18,10 +21,29 @@ for index in range(4):
     line = file.readline()
 
     """Additional code goes here."""
+    print(line)
 
 # Close the connection to the file
 file.close()
 ```
+
+
+## For each loop
+
+``` python
+# Make a connection to the file
+file = open("people.csv" ,"r", encoding="utf-8")
+
+# Loop for each line in the file
+for line in file:
+
+    """Additional code goes here."""
+    primt(line)
+
+# Close the connection to the file
+file.close()
+```
+
 
 ## Conditional loop
 
@@ -36,6 +58,7 @@ line = file.readline()
 while line != "":
 
     """Additional code goes here."""
+    print(line)
 
     # Read next line
     line = file.readline()
@@ -48,8 +71,9 @@ file.close()
 ## Counting lines in a file
 
 ``` python
-# Initialise variable
-count = 0
+# Initialise variables
+line: str = ""
+count: int = 0
 
 # Make a connection to the file
 file = open("people.csv" ,"r", encoding="utf-8")
@@ -79,13 +103,13 @@ Declare parallel arrays that are large enough to hold the data.
 
 ``` python
 # Initialise data structures
-names = [""] * 4
-ages = [0] * 4
-heights = [0.0] * 4
+names: list[str] = ["" for index in range (4)]
+ages: list[int] = [0 for index in range (4)]
+heights: list[float] = [0.0 for index in range (4)]
+data: list[str] = ["" for index in range (3)]
 
-# Initialise variables
-data = [""] * 3
-line = ""
+# Initialise variable
+line: str = ""
 
 # Make a connection to the file
 file = open("people.csv" ,"r", encoding="utf-8")
@@ -118,12 +142,12 @@ file.close()
 Declare an array of records large enough to hold the data.
 
 ``` python
-# Initialise data structure
+# Initialise data structures
 people = [Person() for index in range(4)]
+data: list[str] = ["" for index in range (3)]
 
-# Initialise variables
-data = [""] * 3
-line = ""
+# Initialise variable
+line: str = ""
 
 # Make a connection to the file
 file = open("people.csv" ,"r", encoding="utf-8")
