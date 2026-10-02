@@ -4,7 +4,7 @@
 
 ## Linear search - array
 
-Finds the first occurrence and then ___stops___ searching.
+Finds the first occurrence and then ***stops*** searching.
 
 ``` python
 names = ["Alan", "Beth", "Carl", "Dina"]
@@ -32,8 +32,8 @@ else:
 
 ## Find minimum (or maximum) - array
 
-Assign the value in the ___first___ element as the minimum, or maximum.
-Loops from the ___second___ element to the end of the array.
+Assign the value in the ***first*** element as the minimum, or maximum.
+Loops from the ***second*** element to the end of the array.
 
 ``` python
 heights = [1.78, 1.63, 1.89, 1.59]

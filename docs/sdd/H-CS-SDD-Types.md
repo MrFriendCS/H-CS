@@ -33,7 +33,7 @@ def myFunction() -> list[int]:
 
 ## Multiple Data Types / Data Structures
 
-When multiple values are returned, they are returned as a __tuple__.
+When multiple values are returned, they are returned as a **tuple**.
 
 A tuple can be thought of as similar to an array.
 Tuples are not part of Higher CS, but are used when working with Python.
