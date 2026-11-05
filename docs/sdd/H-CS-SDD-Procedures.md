@@ -35,7 +35,7 @@ def pickRandom() -> None:
     import random
     
     # Intialise local variable
-    randomNumber = 0
+    randomNumber: int = 0
     
     # Pick random number
     randomNumber = random.randint(1, 10)
@@ -60,7 +60,7 @@ def square(number: int) -> None:
     """Displays the square of a number."""
     
     # Intialise local variable
-    squared = 0
+    squared: int = 0
     
     # Calculate result
     squared = number ** 2
@@ -83,7 +83,7 @@ def powerOf(number: int, power: int) -> None:
     """Displays a number raised to a power."""
     
     # Intialise local variable
-    result = 0
+    result: int = 0
     
     # Calculate result
     result = number ** power

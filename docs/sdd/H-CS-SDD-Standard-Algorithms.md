@@ -7,9 +7,9 @@
 Finds the first occurrence and then ***stops*** searching.
 
 ``` python
-names = ["Alan", "Beth", "Carl", "Dina"]
-found = False
-index = 0
+names: list[str] = ["Alan", "Beth", "Carl", "Dina"]
+found: bool = False
+index: int = 0
 
 # Repeat for each value, or until target value found
 while not found and index < len(names):
@@ -36,10 +36,10 @@ Assign the value in the ***first*** element as the minimum, or maximum.
 Loops from the ***second*** element to the end of the array.
 
 ``` python
-heights = [1.78, 1.63, 1.89, 1.59]
+heights: list[float] = [1.78, 1.63, 1.89, 1.59]
 
 # Assign first element as minimum
-minimum = heights[0]
+minimum: int = heights[0]
 
 # Repeat for remaining values
 for index in range(1, len(heights)):
@@ -60,8 +60,8 @@ print("Minimum: " + str(minimum))
 Counts all occurrences.
 
 ``` python
-names = ["Alan", "Beth", "Carl", "Dina"]
-count = 0
+names: list[str] = ["Alan", "Beth", "Carl", "Dina"]
+count: int = 0
 
 # Repeat for each value
 for index in range(len(names)):

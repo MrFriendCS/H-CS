@@ -19,9 +19,9 @@ class Person:
 Individual records can be created, either with default values, or with specified values.
 
 ``` python
-person1 = Person()
+person1: Person = Person()
 
-person2 = Person("Beth", 23, 1.63)
+person2: Person = Person("Beth", 23, 1.63)
 ```
 
 Attribute values can be accessed using the form:
