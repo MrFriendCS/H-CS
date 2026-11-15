@@ -2,13 +2,16 @@
 
 ## Notes
 
-All the code examples use SQLite.  They will work with [DB Browser for SQLite](https://sqlitebrowser.org/).
+All the code examples use SQLite.
+They will work with [DB Browser for SQLite](https://sqlitebrowser.org/).
 
 These notes are focused on Higher Computing Science so some terms are used differently.
 
+
 ### Example Data
 
-The example [database](H-CS-Database.db) contains the tables and records that the SQL examples will work with.  The file can be opened with [DB Browser for SQLite](https://sqlitebrowser.org/).
+The example [database](H-CS-Database.db) contains the tables and records that the SQL examples will work with.
+The file can be opened with [DB Browser for SQLite](https://sqlitebrowser.org/).
 
 Four records from each table used in the examples are shown below.
 
@@ -17,10 +20,10 @@ Four records from each table used in the examples are shown below.
 
 | petID | name     | species | dob |
 | ----- | ----     | ------- | --- |
-| 1     | Hans     | Cat     | 2015-09-22 |
-| 2     | Minnnie  | Gerbil  | 2021-05-24 |
-| 3	    | Bo       | Rabbit  | 2011-10-13 |
-| 4     | Joscelin | Gerbil  | 2022-02-19 |
+| 1     | Hans     | Cat     | 2018-09-21 |
+| 2     | Minnnie  | Gerbil  | 2024-05-22 |
+| 3	    | Bo       | Rabbit  | 2014-10-12 |
+| 4     | Joscelin | Gerbil  | 2025-02-18 |
 
 
 ####  Table: Vaccination

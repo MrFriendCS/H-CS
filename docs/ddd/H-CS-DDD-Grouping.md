@@ -1,6 +1,6 @@
 # GROUP BY
 
-`GROUP BY` places results of a query into logical groups and removes duplicates.
+`GROUP BY` groups rows that have the same value together, and removes duplicates.
 Aggregate functions can be used with each group.
 
 The following example will return the `species` field from every record.

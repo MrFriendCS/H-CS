@@ -3,7 +3,7 @@
 ``` sql
 SELECT species, COUNT(*) AS Jags
     FROM Pet, Vaccination
-    WHERE Pet.petID = Vaccination.vaxID
+    WHERE Pet.petID = Vaccination.petID
         AND vaxDate >= "2020-01-01"
         AND vaxDate <= "2020-12-31"
     GROUP BY species
@@ -11,9 +11,10 @@ SELECT species, COUNT(*) AS Jags
 ```
 
 ``` sql
-SELECT Pet.petID, Pet.name, species, SUM(cost * 1.2) AS [inc VAT]
+SELECT Pet.petID, Pet.name, species,
+       ROUND(SUM(cost * 1.2)) AS [inc VAT]
     FROM Pet, Vaccination, Vaccine
-    WHERE Pet.petID = Vaccination.vaxID
+    WHERE Pet.petID = Vaccination.petID
         AND Vaccination.vaxID = Vaccine.vaxID
         AND paid = FALSE
     GROUP BY Pet.petID

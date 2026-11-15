@@ -21,8 +21,8 @@ Use the stored result.
 SELECT Pet.name, Vaccine.name, vaxDate, cost
     FROM Oldest, Pet, Vaccination, Vaccine
     WHERE Pet.petID = Vaccination.petID
-        AND Vaccination.vaxID = Vaccine.vaxID
-        AND Oldest.dob = Pet.dob;
+      AND Vaccination.vaxID = Vaccine.vaxID
+      AND Oldest.dob = Pet.dob;
 ```
 
 ## Subclause (Single query)
@@ -33,8 +33,8 @@ SELECT Pet.name, Vaccine.name, vaxDate, cost
 SELECT Pet.name, Vaccine.name, vaxDate, cost
     FROM Pet, Vaccination, Vaccine
     WHERE Pet.petID = Vaccination.petID
-        AND Vaccination.vaxID = Vaccine.vaxID
-        AND Pet.dob = 
-            (SELECT MIN(doB)
+      AND Vaccination.vaxID = Vaccine.vaxID
+      AND Pet.dob = (
+            SELECT MIN(doB)
                 FROM Pet);
 ```

@@ -1,6 +1,9 @@
-# Predefine Functions
+# Predefined Functions
+
 
 ## Character to ASCII
+
+Converts a character to an integer.
 
 ``` python
 myCharacter = "A"
@@ -13,6 +16,8 @@ print(myASCII)
 
 ## ASCII to character
 
+Converts an integer to a character.
+
 ``` python
 myASCII = 97
 
@@ -24,7 +29,8 @@ print(myCharacter)
 
 ## Floating-point numbers to integers
 
-This removes the decimal part of the value.  It does not round.
+This removes the decimal part of the value.
+It does not round.
 
 *Note*: 13 &divide; 5 = 2.6
 

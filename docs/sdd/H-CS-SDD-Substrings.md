@@ -1,8 +1,12 @@
 # Substrings
 
-Python does not have pre-defined functions for creating substrings.  Strings can be treated as an array of characters.  Python starts counting from zero.
+Python does not have pre-defined functions for creating substrings such as `left()`, `right()`, and `mid()`.
+Strings can be treated as an array of characters.
+Python starts counting from zero.
+
 
 ### Index values
+
 
 #### Positive index
 
@@ -11,6 +15,7 @@ Positive index values, with `0` being the first element.
 Index: 0  1  2  3  4  5  6  7  8  9  10
 Value: H  e  l  l  o     W  o  r  l  d
 ```
+
 
 #### Negative index
 

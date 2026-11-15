@@ -38,7 +38,7 @@ file = open("people.csv" ,"r", encoding="utf-8")
 for line in file:
 
     """Additional code goes here."""
-    primt(line)
+    print(line)
 
 # Close the connection to the file
 file.close()
@@ -84,11 +84,11 @@ line = file.readline()
 # Loop if variable not empty
 while line != "":
 
-    # Read next line
-    line = file.readline()
-
     # Incrememnt count
     count = count + 1
+
+    # Read next line
+    line = file.readline()
 
 # Close the connection to the file
 file.close()
@@ -97,7 +97,7 @@ file.close()
 
 ## Reading parallel arrays from a file
 
-**Note:** An assumption is that the maximum array size is known, and the file contains that number of rows or fewer.
+**Note:** An assumption is that the maximum array size is known, and the file contains that number of rows.
 
 Declare parallel arrays that are large enough to hold the data.
 
@@ -137,7 +137,7 @@ file.close()
 
 ## Reading an array of records from a file
 
-**Note:** An assumption is that the maximum array size is known, and the file contains that number of rows or fewer.
+**Note:** An assumption is that the maximum array size is known, and the file contains that number of rows.
 
 Declare an array of records large enough to hold the data.
 

@@ -63,7 +63,7 @@ print("Random number: " + str(myNumber))
 def square(number: int) -> int:
     """Calculates the square of a number."""
     
-    # Intialise local variable
+    # Initialise local variable
     squared: int = 0
     
     # Calculate result
@@ -88,7 +88,7 @@ print("Result: " + str(result))
 def powerOf(number: int, power: int) -> int:
     """Calculates a number raised to a power."""
     
-    # Intialise local variable
+    # Initialise local variable
     result: int = 0
     
     # Calculate result

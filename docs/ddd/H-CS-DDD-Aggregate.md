@@ -26,7 +26,7 @@ SELECT AVG(cost)
 SELECT SUM(cost)
     FROM Vaccination, Vaccine
     WHERE vaccination.vaxID = vaccine.vaxID
-        AND pet_id = 14;
+        AND petID = 14;
 ```
 
 ## Count

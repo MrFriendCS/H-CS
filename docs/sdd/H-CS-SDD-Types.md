@@ -19,7 +19,7 @@ Type hinting is used to show what data type or data structure is passed to a sub
 def myFunction() -> str:
     """Example of returning a single value."""
     
-    "Hello"
+    return "Hello"
 ```
 
 

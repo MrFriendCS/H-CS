@@ -39,7 +39,7 @@ Loops from the ***second*** element to the end of the array.
 heights: list[float] = [1.78, 1.63, 1.89, 1.59]
 
 # Assign first element as minimum
-minimum: int = heights[0]
+minimum: float = heights[0]
 
 # Repeat for remaining values
 for index in range(1, len(heights)):
@@ -73,5 +73,5 @@ for index in range(len(names)):
         count = count + 1
 
 # Display result
-print("Found " + str(count) + " occurence(s)")
+print("Found " + str(count) + " occurrence(s)")
 ```
