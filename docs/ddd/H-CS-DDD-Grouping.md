@@ -23,7 +23,9 @@ SELECT species
 **Note:** If fields and aggregate functions are both displayed then the fields must be in the `GROUP BY` clause, otherwise the result is meaningless.
 
 ``` sql
-SELECT species, MIN(dob), MAX(dob)
+SELECT species,
+       MIN(dob),
+       MAX(dob)
     FROM Pet
     GROUP BY species;
 ```
@@ -34,7 +36,8 @@ SELECT species, MIN(dob), MAX(dob)
 `ORDER BY`, if used, must follow `GROUP BY`.
 
 ``` sql
-SELECT species, COUNT(species)
+SELECT species,
+       COUNT(species)
     FROM Pet
     GROUP BY species
     ORDER BY COUNT(species) DESC;

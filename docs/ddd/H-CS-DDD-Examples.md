@@ -1,7 +1,8 @@
 # Examples
 
 ``` sql
-SELECT species, COUNT(*) AS Jags
+SELECT species,
+       COUNT(*) AS Jags
     FROM Pet, Vaccination
     WHERE Pet.petID = Vaccination.petID
         AND vaxDate >= "2020-01-01"
@@ -11,9 +12,13 @@ SELECT species, COUNT(*) AS Jags
 ```
 
 ``` sql
-SELECT Pet.petID, Pet.name, species,
+SELECT Pet.petID,
+       Pet.name,
+       species,
        ROUND(SUM(cost * 1.2)) AS [inc VAT]
-    FROM Pet, Vaccination, Vaccine
+    FROM Pet,
+         Vaccination,
+         Vaccine
     WHERE Pet.petID = Vaccination.petID
         AND Vaccination.vaxID = Vaccine.vaxID
         AND paid = FALSE

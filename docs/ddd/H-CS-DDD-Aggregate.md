@@ -9,7 +9,8 @@ The `MIN` keyword is used to find the minimum value in a field, and `MAX` is use
 Find the `dob` of the oldest and youngest pet.
 
 ``` sql
-SELECT MIN(dob), MAX(dob)
+SELECT MIN(dob),
+       MAX(dob)
     FROM Pet;
 ```
 
@@ -24,7 +25,8 @@ SELECT AVG(cost)
 
 ``` sql
 SELECT SUM(cost)
-    FROM Vaccination, Vaccine
+    FROM Vaccination,
+         Vaccine
     WHERE vaccination.vaxID = vaccine.vaxID
         AND petID = 14;
 ```

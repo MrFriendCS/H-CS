@@ -18,8 +18,14 @@ CREATE TEMP VIEW Oldest (dob) AS
 Use the stored result.
 
 ``` sql
-SELECT Pet.name, Vaccine.name, vaxDate, cost
-    FROM Oldest, Pet, Vaccination, Vaccine
+SELECT Pet.name,
+       Vaccine.name,
+       vaxDate,
+       cost
+    FROM Oldest,
+         Pet,
+         Vaccination,
+         Vaccine
     WHERE Pet.petID = Vaccination.petID
       AND Vaccination.vaxID = Vaccine.vaxID
       AND Oldest.dob = Pet.dob;
@@ -30,8 +36,13 @@ SELECT Pet.name, Vaccine.name, vaxDate, cost
 **Note** Using subclauses is beyond the scope of the Higher course and will not be assessed.
 
 ``` sql
-SELECT Pet.name, Vaccine.name, vaxDate, cost
-    FROM Pet, Vaccination, Vaccine
+SELECT Pet.name,
+       Vaccine.name,
+       vaxDate,
+       cost
+    FROM Pet,
+         Vaccination,
+         Vaccine
     WHERE Pet.petID = Vaccination.petID
       AND Vaccination.vaxID = Vaccine.vaxID
       AND Pet.dob = (
