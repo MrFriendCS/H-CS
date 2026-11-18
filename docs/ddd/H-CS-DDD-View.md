@@ -10,9 +10,9 @@ The view can then be queried like a table.
 This will create a temporary view that will be deleted when the database is closed.
 
 ``` sql
-CREATE TEMP VIEW Oldest (dob) AS
-    SELECT MIN(doB)
-    FROM Pet;
+CREATE TEMP VIEW YoungPet AS
+    SELECT MIN(doB) AS dob
+        FROM Pet;
 ```
 
 Use the stored result.
@@ -22,13 +22,13 @@ SELECT Pet.name,
        Vaccine.name,
        vaxDate,
        cost
-    FROM Oldest,
+    FROM YoungPet,
          Pet,
          Vaccination,
          Vaccine
     WHERE Pet.petID = Vaccination.petID
       AND Vaccination.vaxID = Vaccine.vaxID
-      AND Oldest.dob = Pet.dob;
+      AND YoungPet.dob = Pet.dob;
 ```
 
 ## Subclause (Single query)

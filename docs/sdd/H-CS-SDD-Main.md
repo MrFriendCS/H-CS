@@ -21,8 +21,8 @@ It only calls `main()` if the code is run directly.
 It does not call `main()` if the code is imported by another program.
 
 ``` python
-# Run program
 if __name__ == "__main__":
 
+    # Run program
     main()   
 ```
